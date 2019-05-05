@@ -1,0 +1,308 @@
+:root {
+  --margin: 60px;
+  --primary-color: #FF5252;
+}
+
+body {
+	background: #222;
+}
+
+#records {
+	position: absolute;
+	padding: var(--margin);
+	top: var(--margin);
+	left: 50%;
+	bottom: var(--margin);
+	right: var(--margin);
+	background: #fafafa;
+}
+
+#map {
+	position: fixed !important;
+  left: 340px; 
+  right: 0;
+  bottom: 0px; 
+  top: 0;
+	.gm-style > div > a > div > img { display: none; }
+	.gm-style .gmnoprint { display: none; }
+}
+
+
+.row {
+	margin-left: -8px;
+	margin-right: -8px;
+}
+
+
+#timeline .year {
+  background: #222;
+}
+#timeline .days, .yr {
+  color: var(--primary-color);
+}
+#timeline .subtitle, 
+#timeline .entry .border {
+  border-bottom-color: var(--primary-color);
+}
+
+#timeline .stuck { 
+  position: fixed !important; 
+}
+
+.year {
+  position: absolute;
+  left: 0; right: 0;
+  z-index: -1;
+  color: #333;
+}
+
+.year .info {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 60px;
+  left: 50%;
+  width: 420px;
+  margin-top: 70px;
+  margin-bottom: 80px;
+}
+.year .row .entry { 
+  padding-left: 8px !important; 
+  padding-right: 8px !important; 
+}
+
+.year .row .entry {
+  line-height: 26px;
+  white-space: nowrap;
+  color: white;
+}
+
+.year .row .entry	> div {
+  display: table-cell;
+  vertical-align: bottom;
+}
+.year .row .entry	> div.border { 
+  height: 1px; 
+  border-bottom-style: solid; 
+  border-bottom-width: 1px; 
+  width: 100%; 
+  display: block; 
+  margin-bottom: 0; 
+}
+
+.year .yr {
+  font-size: 64px; 
+  line-height: 64px;
+  text-indent: -4px;
+}
+.year .subtitle {
+  font-size: 14px;
+  color: #fff;
+  margin-bottom: 6px;
+  margin-right: 8px;
+  line-height: 24px;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  padding-bottom: 2px;
+}
+
+
+.med {
+  margin-top: 8px;
+}
+
+.entry {
+	float: none;
+	vertical-align: bottom;
+	display: inline-block;
+	padding-top: 10px;
+  font-size: 13px;
+}
+
+#canvas {
+	margin: 80px auto;
+	width: 50%;
+  position: relative;
+}
+#canvas	.month { display: none; }
+#canvas	.year,
+#canvas	.month {
+  position: absolute;
+  left: 0;
+  padding-left: 16px;
+  z-index: 10000;
+}
+#canvas	.year {
+  z-index: -1;
+  right: 0;
+  > div { position: absolute; bottom: 0; left: 0; padding-left: 24px; padding-bottom:8px; }
+}
+#canvas	.line { 
+  position: absolute; 
+  pointer-events: none; 
+  background: #000; 
+}
+
+#canvas	.line.h { height: 2px; }
+#canvas	.line.v { 
+  width: 2px; 
+  margin-left: -1px; 
+}
+#canvas	.line.v.selected {
+  width: 24px; 
+  margin-left: -12px;
+  border-top: 1px solid #333;
+  border-bottom: 1px solid #333;
+  box-sizing: content-box;
+  z-index: 100;
+}
+
+
+#canvas .city:hover { z-index: 10000; }
+#canvas	.city {
+  pointer-events: none;
+  opacity: 0;
+  width: 24px; position: fixed; top: 0; bottom:0; margin-left: -12px;
+}
+#canvas	.city	.title {
+  margin: 4px 32px;
+  width: 200px;
+}
+#canvas	.city	.title.selected,
+#canvas	.city	.title.highlight {
+  opacity: 1;
+}
+
+
+@media (max-width: 600px) {
+	#timeline .year .info {
+		left: 50%;
+    width: auto;
+	}
+	#canvas {
+		-webkit-transform: translate3d(-16.666%, 0, 0);
+		width: 66.666%;
+	}
+	.hide-for-mobile { display: none; }
+}
+
+.dot {
+	font-weight: bold;
+	position: absolute;
+	width: 24px;
+	height: 24px;
+	margin: -12px;
+	z-index: 10000;
+}
+.dot.selected:before {
+  background: none;
+}
+.dot:before {
+  position: absolute;
+  background: var(--primary-color);
+  content: '';
+  display: block;
+  width: 4px;
+  height: 4px;
+  border-radius: 2px;
+  left: 50%;
+  top: 50%;
+  margin: -2px;
+}
+.dot.present:before { 
+  background: var(--primary-color);
+  border: 2px solid var(--primary-color);
+  box-sizing: border-box; 
+}
+.dot .time {
+  position: absolute;
+  margin-left:-40px;
+  color: white;
+  display: none;
+}
+.dot.present > div {
+  display: none;
+  font-size: 11px;
+}
+.dot .place {
+  -webkit-transform: rotate(30deg);
+  width: 240px;
+  position: absolute;
+  margin: 62px 8px;
+  font-size: 12px;
+  color: #fff;
+}
+.dot[city="Kyoto"].left > div {
+  right: auto; text-align: left; margin: 32px 14px;
+}
+.dot.left > div {
+  right: 0;
+  text-align: right;
+  margin: -30px 14px;
+}
+
+#info {
+	position: absolute;
+	right:@margin;
+	bottom: @margin;
+	left: @margin;
+	z-index: 100;
+}
+#info .item {
+  width: 280px;
+  display: inline-block;
+  vertical-align: top;
+  margin: 0 0px 0 0;
+}
+#info .result { 
+  font-size: 32px; 
+  background: rgba(252,224,22,0.4); 
+  font-weight: 300; 
+  line-height: 46px; 
+  height: 32px; 
+  display: inline-block; 
+}
+#info .title { 
+  margin: 20px 0 0px 0; 
+  text-transform: uppercase; 
+  font-weight: 500; 
+}
+
+
+hr.dash {
+	border: none;
+  color: #333;
+  background-color: #fff;
+  height: 20px;
+  width:100%;
+	margin: 10px 0;
+	overflow: hidden;
+	position: relative;
+}
+hr.dash:after {
+  position: absolute;
+  top: 0; 
+  left: 0;
+  right: 0;
+  content:"-----------------------------------------------------------";
+  letter-spacing: 4px; /* Use letter-spacing to increase space between dots*/
+  line-height: 20px;
+}
+
+
+#markers {
+	position: absolute;
+	left: var(--margin);
+	right: var(--margin);
+	bottom: var(--margin);
+}
+
+#markers .marker {
+  color: white;
+  display: inline-block;
+  width: 160px;
+  margin: 4px;
+  padding: 10px 10px 0 0;
+  text-transform: uppercase;
+  font-weight: 500;
+  line-height: 13px;
+}
