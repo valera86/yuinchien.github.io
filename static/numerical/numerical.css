@@ -1,0 +1,213 @@
+.glyph {
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(8, 1fr);
+  display: grid;
+  position: relative;
+}
+.rounded-all {
+  border-radius: 20vw;
+}
+.rounded-bottom-left {
+  border-bottom-left-radius: 20vw;
+}
+.rounded-bottom-left-sm {
+  border-bottom-left-radius: 4vw;
+}
+.rounded-bottom-right {
+  border-bottom-right-radius: 20vw;
+}
+.rounded-top-left {
+  border-top-left-radius: 20vw;
+}
+.rounded-top-right {
+  border-top-right-radius: 20vw;
+}
+.rect {
+  width: 100%;
+  height: 100%;
+}
+.circle {
+  border-radius: 20vw;
+  width: 100%;
+  height: 100%;
+}
+.one .rect {
+  grid-column-start: 3;
+  grid-column-end: -3;
+  grid-row-start: 2;
+  grid-row-end: -2;
+}
+.two .circle {
+  grid-column-start: 2;
+  grid-column-end: -2;
+  grid-row-start: 2;
+  grid-row-end: 6;
+  align-self: center;
+  justify-self: center;
+  z-index: 1;
+}
+.two .rect {
+  grid-column-start: 2;
+  grid-column-end: -2;
+  grid-row-start: 6;
+  grid-row-end: -2;
+}
+.three .rect {
+  grid-column-start: 2;
+  grid-column-end: -2;
+  grid-row-start: 2;
+  grid-row-end: 5;
+  -webkit-clip-path: polygon(0 0, 100% 0%, 50% 100%);
+}
+.three .circle {
+  position: relative;
+  grid-column-start: 2;
+  grid-column-end: -2;
+  grid-row-start: 4;
+  grid-row-end: -2;
+}
+.four .rect:first-child {
+  grid-column-start: 2;
+  grid-column-end: 6;
+  grid-row-start: 2;
+  grid-row-end: 6;
+  z-index: 2;
+  -webkit-clip-path: polygon(0 0, 100% 100%, 0% 100%);
+  border-bottom-left-radius: 50%;
+}
+.four .rect:last-child {
+  grid-column-start: 4;
+  grid-column-end: -2;
+  grid-row-start: 2;
+  grid-row-end: -2;
+}
+
+.five .rect {
+  grid-column-start: 2;
+  grid-column-end: -2;
+  grid-row-start: 2;
+  grid-row-end: 4;
+  -webkit-clip-path: none;
+}
+.five .circle {
+  grid-column-start: 2;
+  grid-column-end: -2;
+  grid-row-start: 4;
+  grid-row-end: 8;
+  align-self: center;
+  justify-self: center;
+  z-index: 1;
+}
+.six .rect {
+  grid-column-start: 2;
+  grid-column-end: 4;
+  grid-row-start: 2;
+  grid-row-end: 6;
+}
+.six .circle {
+  grid-column-start: 2;
+  grid-column-end: -2;
+  grid-row-start: 4;
+  grid-row-end: -2;
+}
+.seven .rect:first-child {
+  grid-column-start: 2;
+  grid-column-end: 6;
+  grid-row-start: 2;
+  grid-row-end: 4;
+  z-index: 1;
+}
+.seven .rect:last-child {
+  grid-column-start: 4;
+  grid-column-end: 6;
+  grid-row-start: 2;
+  grid-row-end: -2;
+}
+.eight .circle.top {
+  grid-column-start: 3;
+  grid-column-end: 5;
+  grid-row-start: 2;
+  grid-row-end: 4;
+  align-self: end;
+  justify-self: center;
+  z-index: 10;
+}
+.eight .circle:last-child {
+  grid-column-start: 2;
+  grid-column-end: -2;
+  grid-row-start: 4;
+  grid-row-end: -2;
+  align-self: center;
+  justify-self: center;
+  position: relative;
+}
+.nine .circle {
+  grid-column-start: 2;
+  grid-column-end: -2;
+  grid-row-start: 2;
+  grid-row-end: -4;
+  align-self: center;
+  justify-self: center;
+  position: relative;
+}
+.nine .rect {
+  grid-column-start: 4;
+  grid-column-end: 6;
+  grid-row-start: 4;
+  grid-row-end: -2;
+  clip-path: none;
+}
+.zero .circle {
+  grid-column-start: 2;
+  grid-column-end: -2;
+  grid-row-start: 3;
+  grid-row-end: -3;
+  -webkit-transform: scale(1.15);
+  align-self: center;
+  justify-self: center;
+}
+.dot .rect {
+  grid-column-start: 3;
+  grid-column-end: -3;
+  grid-row-start: 6;
+  grid-row-end: -2;
+}
+.colon .rect:first-child {
+  grid-column-start: 3;
+  grid-column-end: -3;
+  grid-row-start: 2;
+  grid-row-end: 4;
+}
+.colon .rect:last-child {
+  grid-column-start: 3;
+  grid-column-end: -3;
+  grid-row-start: 6;
+  grid-row-end: -2;
+}
+.equal .rect:first-child {
+  grid-column-start: 2;
+  grid-column-end: -2;
+  grid-row-start: 3;
+  grid-row-end: 5;
+}
+.equal .rect:last-child {
+  grid-column-start: 2;
+  grid-column-end: -2;
+  grid-row-start: 5;
+  grid-row-end: 7;
+}
+.plus .rect {
+  grid-column-start: 2;
+  grid-column-end: -2;
+  grid-row-start: 3;
+  grid-row-end: -3;
+  clip-path: polygon(33.33% 0, 66.66% 0, 66.66% 33.33%, 100% 33.33%, 100% 66.66%, 66.66% 66.66%, 66.66% 100%, 33.33% 100%, 33.33% 66.66%, 0 66.66%, 0 33.33%, 33.33% 33.33%);
+  -webkit-transform: scale(1.2);
+}
+.minus .rect {
+  grid-column-start: 2;
+  grid-column-end: -2;
+  grid-row-start: 4;
+  grid-row-end: 6;
+  background: linear-gradient(-45deg, #000 0%, #fff 100%);
+}

@@ -1,3 +1,21 @@
+:root {
+  --margin-large: 32px;
+  --margin-medium: 32px;
+  --margin-small: 20px;
+
+  --border-style: 1px solid rgba(0,0,0,0.1);
+  --transition-curve: cubic-bezier(0.4, 0.0, 0.2, 1);
+
+  --size-large: 1280px;
+  --size-medium: 880px;
+  --size-small: 640px;
+
+  --black-700: #222;
+  --black-800: #000;
+
+  --color-orange: #FF6F59;
+}
+
 @font-face {
   font-family: "Lineto Akkuratmono Regular";
   src: url("../fonts/akkuratmono/lineto-akkuratmono-regular.eot");
@@ -17,23 +35,83 @@ body {
   margin: 0;
   padding: 0;
   font-family: 'Lineto Akkuratmono Regular', monospace;
-  font-size: 20px;
-  line-height: 34px;
+  font-size: 16px;
+  line-height: 28px;
   letter-spacing: -0.02em;
-  color: #222;
+  color: var(--black-700);
   position: relative;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-.h2 {
-  font-size: 1.6em;
-  line-height: 1.48em;
+* { box-sizing: border-box; }
+
+a {
+	text-decoration: underline;
+  cursor: pointer;
+	color: var(--black-700);
+	&:hover { 
+    text-decoration-color: var(--color-orange); 
+    color: var(--color-orange); 
+  }
 }
 
-* { box-sizing: border-box; }
+input {
+  border: none; 
+  border-bottom: var(--border-style);
+  outline: none; 
+  box-shadow: none;
+  margin: 0; 
+  padding: 0;
+}
+
+.h1 {
+  font-size: 1.8em; 
+  line-height: 1.32em; 
+}
+.h2 {
+  font-size: 1.2em;
+  line-height: 1.48em; 
+}
+.h3 {
+  font-size: 1.54em; 
+  line-height: 1.6em; 
+}
+.h4 {
+  font-size: 1.2em; 
+  line-height: 1.6em; 
+}
+
+p {
+  max-width: 920px;
+  margin-top: @margin-small/2;
+  margin-bottom: @margin-small/2;
+}
+
+#projects {
+  margin-top: 40px;
+}
+.project {
+  color: #222;
+  width: 100%;
+}
+.project a {
+  -webkit-transition: .1s all;
+}
+.project:hover a {
+  color: var(--color-orange);
+}
+.project:hover .desc {
+  opacity: .6;
+}
+.project .desc {
+  opacity: .25;
+  -webkit-transition: .1s all;
+}
 
 #bio {
   text-indent: 60px;
   margin-bottom: 40px;
+  margin-top: 40px;
 }
+
