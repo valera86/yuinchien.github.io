@@ -1,10 +1,3 @@
-/*!
- * previewer.js v0.0.1
- * https://github.com/yuinchien/font
- *
- * Copyright (c) 2017 Yuin Chien
- *
- */
 const CORNERS = ['borderTopLeftRadius','borderTopRightRadius','borderBottomRightRadius','borderBottomLeftRadius'];
 const ALPHABET = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
 

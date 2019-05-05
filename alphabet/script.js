@@ -1,5 +1,3 @@
-
-
 const EXPRESSION_LIST = ['OK','XO','HI','AH','NO','OH'];
 const WEEKDAY_LIST = ['MON','TUE','WED','THU','FRI','SAT','SUN'];
 const COLOR_LIST = ['BLACK','GREEN','GREEN','WHITE','OLIVE','BROWN','CORAL','KHAKI','BEIGE','CREAM','IVORY'];

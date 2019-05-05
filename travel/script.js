@@ -165,7 +165,7 @@ function plotTimeline() {
 }
 
 function loadData() {
-	const url = 'http://spreadsheets.google.com/feeds/list/0AsipDiKXxBx4dEZlNFJmWWVjdmJ6aVdZeUJDYV9URlE/od6/public/values?alt=json';
+	const url = 'https://spreadsheets.google.com/feeds/list/0AsipDiKXxBx4dEZlNFJmWWVjdmJ6aVdZeUJDYV9URlE/od6/public/values?alt=json';
 	
 	fetch(url)
   .then(function(response) {
