@@ -11,11 +11,10 @@ export default ({ data }) => {
       <div id="hero" className="section parallax">
         <div style={{backgroundImage: `url(${post.frontmatter.cover.childImageSharp.fluid.src})`}} />
       </div>
-      <div className="section" style={{background:`white`, paddingBottom: `80px`, paddingTop: `1px`}}>
+      <div id="content" className="section">
         <h1 className="text">{post.frontmatter.title}</h1>
         <div dangerouslySetInnerHTML={{ __html: post.html }} />
       </div>
-
       <div className="section parallax">
         <div id="more-projects">
           {data.allMarkdownRemark.edges.map(({ node }) => (
