@@ -64,6 +64,7 @@ a:hover {
   color: var(--color-orange);
 }
 
+.h1,
 h1 {
   margin: 0;
   font-size: 1.8em; 
@@ -95,11 +96,11 @@ main .section {
 #content {
   background: white;
   padding-bottom: var(--margin-paragraph);
-  padding-top: var(--margin-paragraph); 
+  padding-top: calc(4 * var(--margin-paragraph));
   z-index: 100;
 }
 #hero {
-  height: 88vh;
+  height: 96vh;
 }
 #hero > div {
   background-size: cover;
