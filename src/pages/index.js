@@ -10,8 +10,8 @@ export default ({ data }) => {
       <div id="projects">
         {data.allMarkdownRemark.edges.map(({ node }) => (
           <span className="project" key={node.id}>
-            <Link to={node.fields.slug}><span class="h1">{node.frontmatter.title}</span></Link>
-            <span class="desc h1"> {node.frontmatter.description} ⁄ </span>
+            <Link to={node.fields.slug}><span className="h1">{node.frontmatter.title}</span></Link>
+            <span className="desc h1"> {node.frontmatter.description} ⁄ </span>
           </span>
         ))}
       </div>
@@ -32,7 +32,7 @@ export const query = graphql`
         title
       }
     }
-    allMarkdownRemark {
+    allMarkdownRemark(sort: { order: DESC, fields: [frontmatter___date] }) {
       totalCount
       edges {
         node {

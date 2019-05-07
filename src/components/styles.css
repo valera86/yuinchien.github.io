@@ -14,6 +14,12 @@
   --black-800: #000;
 
   --color-orange: #FF6F59;
+
+  --margin-footer: 40px 0 20px 0;
+  --margin-paragraph: 20px;
+
+  --font-size: 20px;
+  --line-height: 34px;
 }
 
 @font-face {
@@ -35,13 +41,14 @@ body {
   margin: 0;
   padding: 0;
   font-family: 'Lineto Akkuratmono Regular', monospace;
-  font-size: 16px;
-  line-height: 28px;
+  font-size: var(--font-size);
+  line-height: var(--line-height);
   letter-spacing: -0.02em;
   color: var(--black-700);
   position: relative;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: #f5f5f5;
 }
 
 * { box-sizing: border-box; }
@@ -49,23 +56,16 @@ body {
 a {
 	text-decoration: underline;
   cursor: pointer;
-	color: var(--black-700);
-	&:hover { 
-    text-decoration-color: var(--color-orange); 
-    color: var(--color-orange); 
-  }
+  color: var(--black-700);
 }
 
-input {
-  border: none; 
-  border-bottom: var(--border-style);
-  outline: none; 
-  box-shadow: none;
-  margin: 0; 
-  padding: 0;
+a:hover { 
+  text-decoration-color: var(--color-orange); 
+  color: var(--color-orange);
 }
 
-.h1 {
+h1 {
+  margin: 0;
   font-size: 1.8em; 
   line-height: 1.32em; 
 }
@@ -82,10 +82,77 @@ input {
   line-height: 1.6em; 
 }
 
-p {
+#hero > div {
+  background-size: cover;
+  background-position: 50% 0%;
+  background-image: var(--hero-image);
+}
+.parallax > div {
+  /* Display and position the pseudo-element */
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  /* Move the pseudo-element back away from the camera,
+   * then scale it back up to fill the viewport.
+   * Because the pseudo-element is further away, it appears to move more slowly, like in real life. */
+  transform: translateZ(-1px) scale(1.5);
+  /* Force the background image to fill the whole element. */
+  background-size: 100%;
+  /* Keep the image from overlapping sibling elements. */ 
+  /* z-index: -1; */
+}
+
+main {
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+  perspective: 2px;
+}
+
+#hero {
+  height: 90vh;
+}
+
+main .section {
+  position: relative;
+  min-height: 200px;
+}
+
+
+main p {
+  margin: calc(var(--margin-paragraph) * 2 );
+}
+main .text,
+ul {
   max-width: 920px;
-  margin-top: @margin-small/2;
-  margin-bottom: @margin-small/2;
+  margin: calc( var(--margin-paragraph) / 2 ) auto;
+}
+
+ul {
+  padding-left: 20px;
+}
+ul li {
+  margin-bottom: calc( var(--margin-paragraph) / 2 );
+}
+
+input {
+  border: none; 
+  border-bottom: var(--border-style);
+  outline: none; 
+  box-shadow: none;
+  margin: 0; 
+  padding: 0;
+}
+
+footer {
+  margin: var(--margin-footer);
+}
+
+#more-projects {
+  background: #f5f5f5;
+  padding: 80px 16vw 0px 16vw;
 }
 
 #projects {
@@ -115,3 +182,30 @@ p {
   margin-top: 40px;
 }
 
+@media only screen and (max-width: 1000px) {
+  :root {
+
+  }
+  main .text,
+  ul {
+    margin: calc(var(--margin-paragraph) * 2);
+  }
+
+}
+
+@media only screen and (max-width: 640px) {
+  :root {
+    --font-size: 16px;
+    --line-height: 24px;
+    --margin-paragraph: 20px;
+  }
+
+  main .text,
+  ul {
+    margin: var(--margin-paragraph);
+  }
+
+  main p {
+    margin: var(--margin-paragraph);
+  }
+}

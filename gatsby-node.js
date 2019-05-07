@@ -34,7 +34,6 @@ exports.createPages = ({ graphql, actions }) => {
     result.data.allMarkdownRemark.edges.forEach(({ node }) => {
 
       if(node.frontmatter.redirect!="") {
-        console.log('node.frontmatter.redirect', node.frontmatter.redirect);
         createPage({
           path: node.fields.slug,
           component: path.resolve(`./src/dev/`+node.frontmatter.redirect),
@@ -45,7 +44,6 @@ exports.createPages = ({ graphql, actions }) => {
           },
         })  
       } else {
-        console.log('no redirect', node.frontmatter.redirect.length);
         createPage({
           path: node.fields.slug,
           component: path.resolve(`./src/templates/project.js`),

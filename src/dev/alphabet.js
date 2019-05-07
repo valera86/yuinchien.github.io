@@ -7,7 +7,6 @@ export default ({ data }) => {
       <Helmet>
         <title>Travel</title>
         <meta charSet="utf-8" />
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
         <script src="/alphabet/alpha.js"></script>
         <script src="/alphabet/script.js"></script>
         <link rel="stylesheet" type="text/css" href="/alphabet/alpha.css" />
