@@ -1,11 +1,11 @@
 import React from "react"
 import { Link } from "gatsby"
 import { graphql } from 'gatsby'
-import Layout from "../components/layout"
+import Layout from "./../components/layout"
+
 
 export default ({ data }) => {
   const post = data.markdownRemark
-  console.log(post.frontmatter.cover, post.frontmatter.cover.childImageSharp.fluid);
   return (
     <Layout>
       <div id="hero" className="section parallax">
