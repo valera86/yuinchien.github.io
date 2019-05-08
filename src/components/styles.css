@@ -68,7 +68,7 @@ a:hover {
 .h1,
 h1 {
   margin: 0;
-  font-size: 1.8em;
+  font-size: 1.96em;
   line-height: 1.32em;
 }
 .h2 {
@@ -83,6 +83,8 @@ h1 {
   font-size: 1.2em;
   line-height: 1.6em;
 }
+
+
 
 main {
   height: 100vh;
@@ -190,6 +192,14 @@ footer {
   margin: var(--margin-footer);
 }
 
+#home-wrapper {
+  padding-left: var(--margin);
+  padding-right: var(--margin);
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1160px;
+}
+
 #more-projects {
   background: #FFF;
   padding: calc(6 * var(--margin-paragraph)) 16vw 0 16vw;
@@ -233,7 +243,7 @@ footer {
   display: flex;
   flex-direction: row;
   padding: 0 !important;
-  max-width: 1000px;
+  max-width: 1160px;
   margin: 0 auto;
 }
 #grid .col {
@@ -242,11 +252,13 @@ footer {
   border-left: 1px solid #FF6F59;
   opacity: .4;
   margin-left: calc(var(--margin) / 2);
-  margin-right:calc(var(--margin) / 2);
+  margin-right: calc(var(--margin) / 2);
 }
 #grid .margin {
-  width: calc(var(--margin) / 2);
+  width: calc( var(--margin) / 2 );
 }
+
+
 
 @media only screen and (max-width: 1000px) {
   :root {
@@ -256,10 +268,7 @@ footer {
   ul {
     margin: calc(var(--margin-paragraph) * 2);
   }
-  /* #grid #col1,
-  #grid #col2,
-  #grid #col3,
-  #grid #col4, */
+
   #grid #col5,
   #grid #col6,
   #grid #col7,
