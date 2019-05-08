@@ -84,9 +84,7 @@ h1 {
   line-height: 1.6em;
 }
 
-
-
-main {
+#project-wrapper {
   height: 100vh;
   overflow-x: hidden;
   overflow-y: auto;
@@ -117,7 +115,7 @@ main {
   }
 }
 
-main .section {
+#project-wrapper .section {
   position: relative;
   min-height: 200px;
 }
