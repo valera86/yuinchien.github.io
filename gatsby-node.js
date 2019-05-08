@@ -32,7 +32,7 @@ exports.createPages = ({ graphql, actions }) => {
     }
   `).then(result => {
     result.data.allMarkdownRemark.edges.forEach(({ node }) => {
-      if(node.frontmatter.redirect=="") {
+      if(node.frontmatter.redirect==="") {
         createPage({
           path: node.fields.slug,
           component: path.resolve(`./src/templates/project.js`),

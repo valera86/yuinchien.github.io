@@ -17,10 +17,10 @@ The redesign has been selected by the <a href="https://100.sta-chicago.org/winne
 * [Google Fonts website gets a major redesign](http://www.creativebloq.com/fonts/google-fonts-website-gets-redesign-61620894) – Creative Bloq
 
 
-![Google Fonts Design](./../images/google-fonts/reimagining_google_fonts_inline_0002.png)
+![Google Fonts Redesign](./../images/google-fonts/reimagining_google_fonts_inline_0002.png)
 
-![Google Fonts Design](./../images/google-fonts/160719_staawards_submission-07.png)
+![Google Fonts Redesign](./../images/google-fonts/160719_staawards_submission-07.png)
 
-![Google Fonts Design](./../images/google-fonts/160719_staawards_submission-05.png)
+![Google Fonts Redesign](./../images/google-fonts/160719_staawards_submission-05.png)
 
-![Google Fonts Design](./../images/google-fonts/160719_staawards_submission-06.png)
+![Google Fonts Redesign](./../images/google-fonts/160719_staawards_submission-06.png)

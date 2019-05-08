@@ -22,6 +22,7 @@
   --line-height: 34px;
 
   --aniamte-up-distance: 20px;
+  --max-width: 1160px;
 }
 
 @font-face {
@@ -61,28 +62,28 @@ a {
   color: var(--black-700);
 }
 
-a:hover { 
-  text-decoration-color: var(--color-orange); 
+a:hover {
+  text-decoration-color: var(--color-orange);
   color: var(--color-orange);
 }
 
 .h1,
 h1 {
   margin: 0;
-  font-size: 1.8em; 
-  line-height: 1.32em; 
+  font-size: 1.8em;
+  line-height: 1.32em;
 }
 .h2 {
   font-size: 1.2em;
-  line-height: 1.48em; 
+  line-height: 1.48em;
 }
 .h3 {
-  font-size: 1.54em; 
-  line-height: 1.6em; 
+  font-size: 1.54em;
+  line-height: 1.6em;
 }
 .h4 {
-  font-size: 1.2em; 
-  line-height: 1.6em; 
+  font-size: 1.2em;
+  line-height: 1.6em;
 }
 
 main {
@@ -96,7 +97,7 @@ main {
   -webkit-animation: animateUp 1s forwards;
 }
 @keyframes animateUp {
-  from { 
+  from {
     opacity: 0;
     transform: translate3d(0,var(--aniamte-up-distance),0);
   }
@@ -106,7 +107,7 @@ main {
   }
 }
 @-webkit-keyframes animateUp {
-  from { 
+  from {
     opacity: 0;
     transform: translate3d(0,var(--aniamte-up-distance),0);
   }
@@ -126,6 +127,15 @@ main .section {
   padding-top: calc(4 * var(--margin-paragraph));
   z-index: 100;
 }
+
+.vimeo-iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
 #hero {
   height: 100vh;
 }
@@ -145,8 +155,16 @@ main .section {
   z-index: 1;
 }
 
+main .video {
+  max-width: var(--max-width);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+main .video,
 main p {
-  margin: calc(var(--margin-paragraph) * 2 );
+  margin-top: calc(var(--margin-paragraph) * 2 );
+  margin-bottom: calc(var(--margin-paragraph) * 2 );
 }
 main .text,
 ul {
@@ -162,11 +180,11 @@ ul li {
 }
 
 input {
-  border: none; 
+  border: none;
   border-bottom: var(--border-style);
-  outline: none; 
+  outline: none;
   box-shadow: none;
-  margin: 0; 
+  margin: 0;
   padding: 0;
 }
 
