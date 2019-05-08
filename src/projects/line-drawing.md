@@ -19,10 +19,10 @@ Here is the P5.js sketch: https://editor.p5js.org/yuin/sketches/SyLCrVJbN
 
 ![Line Drawing](./../images/line-drawing/canvas(12).jpg)
 
-![Line Drawing](./../images/line-drawing/canvas(26).jpg)
-
 ![Line Drawing](./../images/line-drawing/canvas(13).jpg)
 
 ![Line Drawing](./../images/line-drawing/canvas(25).jpg)
 
 ![Line Drawing](./../images/line-drawing/canvas(29).jpg)
+
+![Line Drawing](./../images/line-drawing/canvas(26).jpg)
