@@ -203,6 +203,13 @@ footer {
   background: #FFF;
   padding: calc(6 * var(--margin-paragraph)) 16vw 0 16vw;
 }
+#more-projects a {
+  text-decoration: none;
+}
+
+.line-thru {
+  text-decoration: line-through;
+}
 
 #projects {
   margin-top: 40px;

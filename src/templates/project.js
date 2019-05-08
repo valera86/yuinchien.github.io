@@ -18,13 +18,14 @@ export default ({ data }) => {
       <div className="section parallax">
         <div id="more-projects">
           {data.allMarkdownRemark.edges.map(({ node }) => (
-            <div className="project" key={node.id}>
+            <div className={"project " + (node.fields.slug===post.fields.slug ? "line-thru": "") } key={node.id}>
               {node.frontmatter.redirect===""
                 ? (<Link to={node.fields.slug}>{node.frontmatter.title}</Link>)
                 : (<a href={node.frontmatter.redirect}>{node.frontmatter.title}</a>)
               }
             </div>
           ))}
+          <Link to="/" style={{marginTop:`24px`,display:`block`}}>—— yuinchien.com</Link>
         </div>
       </div>
     </Layout>
@@ -35,6 +36,9 @@ export const query = graphql`
   query($slug: String!) {
     markdownRemark(fields: { slug: { eq: $slug } }) {
       html
+      fields {
+        slug
+      }
       frontmatter {
         title
         cover {
