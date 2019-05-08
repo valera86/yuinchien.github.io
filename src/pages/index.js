@@ -24,6 +24,22 @@ export default ({ data }) => {
         <div>● instagram.com/tinycloud</div>
         <div>● twitter.com/yuinchien</div>
       </div>
+      <div id="grid" className="box">
+        <div className="margin"></div>
+        <div id="col1" className="col"></div>
+        <div id="col2" className="col"></div>
+        <div id="col3" className="col"></div>
+        <div id="col4" className="col"></div>
+        <div id="col5" className="col"></div>
+        <div id="col6" className="col"></div>
+        <div id="col7" className="col"></div>
+        <div id="col8" className="col"></div>
+        <div className="col"></div>
+        <div className="col"></div>
+        <div className="col"></div>
+        <div className="col"></div>
+        <div className="margin"></div>
+      </div>
     </Layout>
   )
 }

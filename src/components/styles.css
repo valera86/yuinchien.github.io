@@ -1,10 +1,8 @@
 :root {
-  --margin-large: 32px;
-  --margin-medium: 32px;
-  --margin-small: 20px;
-
   --border-style: 1px solid rgba(0,0,0,0.1);
   --transition-curve: cubic-bezier(0.4, 0.0, 0.2, 1);
+
+  --margin: 40px;
 
   --size-large: 1280px;
   --size-medium: 880px;
@@ -224,6 +222,31 @@ footer {
   margin-top: 40px;
 }
 
+#grid {
+  position: fixed;
+  z-index: -1;
+  pointer-events: none;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  display: flex;
+  flex-direction: row;
+  padding: 0 !important;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+#grid .col {
+  flex: 1;
+  border-right: 1px solid #FF6F59;
+  border-left: 1px solid #FF6F59;
+  opacity: .4;
+  margin-left: calc(var(--margin) / 2);
+  margin-right:calc(var(--margin) / 2);
+}
+#grid .margin {
+  width: calc(var(--margin) / 2);
+}
 
 @media only screen and (max-width: 1000px) {
   :root {
@@ -233,7 +256,16 @@ footer {
   ul {
     margin: calc(var(--margin-paragraph) * 2);
   }
-
+  /* #grid #col1,
+  #grid #col2,
+  #grid #col3,
+  #grid #col4, */
+  #grid #col5,
+  #grid #col6,
+  #grid #col7,
+  #grid #col8 {
+    display: none;
+  }
 }
 
 @media only screen and (max-width: 640px) {
@@ -241,6 +273,7 @@ footer {
     --font-size: 16px;
     --line-height: 24px;
     --margin-paragraph: 20px;
+    --margin: 20px;
   }
 
   main .text,
@@ -258,5 +291,16 @@ footer {
 
   #more-projects {
     padding: calc(4 * var(--margin-paragraph)) var(--margin-paragraph) var(--margin-paragraph) var(--margin-paragraph);
+  }
+
+  #grid #col1,
+  #grid #col2,
+  #grid #col3,
+  #grid #col4,
+  #grid #col5,
+  #grid #col6,
+  #grid #col7,
+  #grid #col8 {
+    display: none;
   }
 }
