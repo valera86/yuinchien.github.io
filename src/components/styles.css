@@ -88,7 +88,11 @@ h1 {
   height: 100vh;
   overflow-x: hidden;
   overflow-y: auto;
+  -webkit-perspective: 2px;
   perspective: 2px;
+}
+
+.animate-up {
   transform: translate3d(0,var(--aniamte-up-distance),0);
   opacity: 0;
   animation: animateUp 1s forwards;
@@ -141,7 +145,6 @@ h1 {
 #hero > div {
   background-size: cover;
   background-position: 50% 0%;
-  background-image: var(--hero-image);
   position: absolute;
   top: 0;
   right: 0;
@@ -308,12 +311,21 @@ footer {
     margin: var(--margin-paragraph);
   }
 
+  #project-wrapper {
+    -webkit-perspective: none !important;
+    perspective: none !important;
+  }
+  .parallax > div {
+    -webkit-transform: none !important;
+    transform: none !important;
+  }
+
   #content {
     padding-top: calc(0.5 * var(--margin-paragraph));
   }
 
   #more-projects {
-    padding: calc(4 * var(--margin-paragraph)) var(--margin-paragraph) var(--margin-paragraph) var(--margin-paragraph);
+    padding: calc(1 * var(--margin-paragraph)) var(--margin-paragraph) var(--margin-paragraph) var(--margin-paragraph);
   }
 
   #grid #col1,

@@ -8,7 +8,7 @@ export default ({ data }) => {
   return (
     <Layout>
       <div id="home-wrapper">
-        <div id="home-container">
+        <div id="home-container" className="animate-up">
           <div id="projects">
             {data.allMarkdownRemark.edges.map(({ node }) => (
               <span className="project" key={node.id}>
@@ -26,22 +26,23 @@ export default ({ data }) => {
             <div>● instagram.com/tinycloud</div>
             <div>● twitter.com/yuinchien</div>
           </div>
-          <div id="grid">
-            <div className="margin"></div>
-            <div id="col1" className="col"></div>
-            <div id="col2" className="col"></div>
-            <div id="col3" className="col"></div>
-            <div id="col4" className="col"></div>
-            <div id="col5" className="col"></div>
-            <div id="col6" className="col"></div>
-            <div id="col7" className="col"></div>
-            <div id="col8" className="col"></div>
-            <div className="col"></div>
-            <div className="col"></div>
-            <div className="col"></div>
-            <div className="col"></div>
-            <div className="margin"></div>
-          </div>
+
+        </div>
+        <div id="grid">
+          <div className="margin"></div>
+          <div id="col1" className="col"></div>
+          <div id="col2" className="col"></div>
+          <div id="col3" className="col"></div>
+          <div id="col4" className="col"></div>
+          <div id="col5" className="col"></div>
+          <div id="col6" className="col"></div>
+          <div id="col7" className="col"></div>
+          <div id="col8" className="col"></div>
+          <div className="col"></div>
+          <div className="col"></div>
+          <div className="col"></div>
+          <div className="col"></div>
+          <div className="margin"></div>
         </div>
       </div>
     </Layout>

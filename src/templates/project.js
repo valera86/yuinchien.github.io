@@ -7,7 +7,7 @@ export default ({ data }) => {
   const post = data.markdownRemark
   return (
     <Layout>
-      <div id="project-wrapper">
+      <div id="project-wrapper" className="animate-up">
         <div id="hero" className="section parallax">
           <div style={{backgroundImage: `url(${post.frontmatter.cover.childImageSharp.fluid.src})`}} />
         </div>
