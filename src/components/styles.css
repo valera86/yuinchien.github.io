@@ -20,6 +20,8 @@
 
   --font-size: 20px;
   --line-height: 34px;
+
+  --aniamte-up-distance: 20px;
 }
 
 @font-face {
@@ -88,7 +90,32 @@ main {
   overflow-x: hidden;
   overflow-y: auto;
   perspective: 2px;
+  transform: translate3d(0,var(--aniamte-up-distance),0);
+  opacity: 0;
+  animation: animateUp 1s forwards;
+  -webkit-animation: animateUp 1s forwards;
 }
+@keyframes animateUp {
+  from { 
+    opacity: 0;
+    transform: translate3d(0,var(--aniamte-up-distance),0);
+  }
+  to {
+    opacity: 1;
+    transform: translate3d(0,0,0);
+  }
+}
+@-webkit-keyframes animateUp {
+  from { 
+    opacity: 0;
+    transform: translate3d(0,var(--aniamte-up-distance),0);
+  }
+  to {
+    opacity: 1;
+    transform: translate3d(0,0,0);
+  }
+}
+
 main .section {
   position: relative;
   min-height: 200px;
@@ -100,13 +127,13 @@ main .section {
   z-index: 100;
 }
 #hero {
-  height: 96vh;
+  height: 100vh;
 }
+
 #hero > div {
   background-size: cover;
   background-position: 50% 0%;
   background-image: var(--hero-image);
-  transform: translateZ(-1px) scale(1.5);
   position: absolute;
   top: 0;
   right: 0;
@@ -178,6 +205,7 @@ footer {
   margin-bottom: 40px;
   margin-top: 40px;
 }
+
 
 @media only screen and (max-width: 1000px) {
   :root {

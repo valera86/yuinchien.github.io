@@ -19,7 +19,10 @@ export default ({ data }) => {
         <div id="more-projects">
           {data.allMarkdownRemark.edges.map(({ node }) => (
             <div className="project" key={node.id}>
-              <Link to={node.fields.slug}>{node.frontmatter.title}</Link>
+              {node.frontmatter.redirect===""
+                ? (<Link to={node.fields.slug}>{node.frontmatter.title}</Link>)
+                : (<a href={node.frontmatter.redirect}>{node.frontmatter.title}</a>)
+              }
             </div>
           ))}
         </div>
@@ -49,6 +52,7 @@ export const query = graphql`
           id
           frontmatter {
             title
+            redirect
           }
           fields {
             slug

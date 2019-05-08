@@ -1,5 +1,5 @@
 ---
-title: "Color page"
+title: "Color"
 description: "color description tbd"
 date: "2019-05-04"
 redirect: ""

@@ -1,6 +1,6 @@
 ---
-title: "Travel page"
+title: "Travel"
 description: "A WIP drawing of my travel records"
 date: "2017-09-10"
-redirect: "travel.js"
+redirect: "https://yuinchien.github.io/projects/travel/index.html"
 ---

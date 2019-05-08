@@ -32,18 +32,7 @@ exports.createPages = ({ graphql, actions }) => {
     }
   `).then(result => {
     result.data.allMarkdownRemark.edges.forEach(({ node }) => {
-
-      if(node.frontmatter.redirect!="") {
-        createPage({
-          path: node.fields.slug,
-          component: path.resolve(`./src/dev/`+node.frontmatter.redirect),
-          context: {
-            // Data passed to context is available
-            // in page queries as GraphQL variables.
-            slug: node.fields.slug,
-          },
-        })  
-      } else {
+      if(node.frontmatter.redirect=="") {
         createPage({
           path: node.fields.slug,
           component: path.resolve(`./src/templates/project.js`),
@@ -51,8 +40,8 @@ exports.createPages = ({ graphql, actions }) => {
             // Data passed to context is available
             // in page queries as GraphQL variables.
             slug: node.fields.slug,
-          },
-        })  
+          }
+        })
       }
     })
   })
