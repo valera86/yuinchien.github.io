@@ -10,7 +10,7 @@ This P5.js sketch explores drawing of straight lines & arcs. The program dynamic
 </div>
 
 <div class="text">
-Here is the P5.js sketch: https://editor.p5js.org/yuin/sketches/SyLCrVJbN
+Here is the P5.js sketch: <a href="https://editor.p5js.org/yuin/sketches/SyLCrVJbN" target="_blank">https://editor.p5js.org/yuin/sketches/SyLCrVJbN</a>
 </div>
 
 ![Line Drawing](./../images/line-drawing/canvas(6).jpg)
