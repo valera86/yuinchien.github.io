@@ -194,9 +194,8 @@ footer {
 }
 
 #home-wrapper {
-  padding-left: var(--margin);
-  padding-right: var(--margin);
-  margin: var(--margin) auto;
+  padding: calc(var(--margin) * 2) var(--margin);
+  margin: 0 auto;
   max-width: var(--max-width);
 }
 
@@ -212,9 +211,6 @@ footer {
   text-decoration: line-through;
 }
 
-#projects {
-  margin-top: 40px;
-}
 .project {
   color: #222;
   width: 100%;
@@ -310,7 +306,9 @@ footer {
   main p {
     margin: var(--margin-paragraph);
   }
-
+  #home-wrapper {
+    padding: var(--margin);
+  }
   #project-wrapper {
     -webkit-perspective: none !important;
     perspective: none !important;

@@ -26,7 +26,6 @@ export default ({ data }) => {
             <div>● instagram.com/tinycloud</div>
             <div>● twitter.com/yuinchien</div>
           </div>
-
         </div>
         <div id="grid">
           <div className="margin"></div>
