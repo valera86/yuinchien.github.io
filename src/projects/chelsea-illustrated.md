@@ -1,7 +1,7 @@
 ---
 title: "Chelsea Illustrated"
 description: "A quiz demo app for Google IO"
-date: "2016-07-01"
+date: "2014-07-01"
 redirect: ""
 cover: "./../images/chelsea-illustrated/3.png"
 ---

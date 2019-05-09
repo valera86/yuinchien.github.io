@@ -201,7 +201,7 @@ footer {
 
 #more-projects {
   background: #FFF;
-  padding: calc(6 * var(--margin-paragraph)) 16vw 0 16vw;
+  padding: calc(4 * var(--margin-paragraph)) 16vw 0 16vw;
 }
 #more-projects a {
   text-decoration: none;
