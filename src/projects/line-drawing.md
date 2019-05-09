@@ -6,11 +6,7 @@ redirect: ""
 cover: "./../images/line-drawing/cover.jpg"
 ---
 <div class="text">
-This P5.js sketch explores drawing of straight lines & arcs. The program dynamically creates grid size & stroke weight from the beginning and produces drawing of diverse densities & motion.
-</div>
-
-<div class="text">
-Here is the P5.js sketch: <a href="https://editor.p5js.org/yuin/sketches/SyLCrVJbN" target="_blank">https://editor.p5js.org/yuin/sketches/SyLCrVJbN</a>
+This P5.js sketch explores drawing of straight lines & arcs. The program dynamically creates grid size & stroke weight from the beginning and produces drawing of diverse densities & motion. See P5.js <a href="https://editor.p5js.org/yuin/sketches/SyLCrVJbN" target="_blank">sketch</a>.
 </div>
 
 ![Line Drawing](./../images/line-drawing/canvas(6).jpg)

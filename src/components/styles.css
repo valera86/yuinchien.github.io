@@ -189,8 +189,8 @@ input {
   padding: 0;
 }
 
-footer {
-  margin: var(--margin-footer);
+#personal-info a {
+  text-decoration: none;
 }
 
 #home-wrapper {

@@ -20,11 +20,11 @@ export default ({ data }) => {
               </span>
             ))}
           </div>
-          <div className="h2">
+          <div id="personal-info" className="h2">
             <div id="bio">Yuin Chien is a multidisciplinary designer who creates form and function by pushing pixels and code. Striving for aesthetics, imagination and intent, she explores the intersection of human interactions, design and technology. Her work has been selected by MoMA, Communication Arts, STA 100 Awards, Huffington Post, and The Verge. See <a href={resume}>resume</a>.</div>
-            <div>● cloud@yuinchien.com</div>
-            <div>● instagram.com/tinycloud</div>
-            <div>● twitter.com/yuinchien</div>
+            <div><a href="mailto:cloud@yuinchien.com" target="_blank">● cloud@yuinchien.com</a></div>
+            <div><a href="https://www.instagram.com/tinycloud/" target="_blank">● instagram.com/tinycloud</a></div>
+            <div><a href="https://twitter.com/yuinchien" target="_blank">● twitter.com/yuinchien</a></div>
           </div>
         </div>
         <div id="grid">
@@ -64,7 +64,6 @@ export const query = graphql`
             title
             description
             redirect
-            date(formatString: "DD MMMM, YYYY")
           }
           excerpt
           fields {
