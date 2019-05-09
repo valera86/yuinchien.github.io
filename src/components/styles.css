@@ -306,6 +306,13 @@ input {
   main p {
     margin: var(--margin-paragraph);
   }
+
+  main .video,
+  main p {
+    margin-top: var(--margin-paragraph);
+    margin-bottom: var(--margin-paragraph);
+  }
+
   #home-wrapper {
     padding: var(--margin);
   }
@@ -323,7 +330,7 @@ input {
   }
 
   #more-projects {
-    padding: calc(1 * var(--margin-paragraph)) var(--margin-paragraph) var(--margin-paragraph) var(--margin-paragraph);
+    padding: var(--margin-paragraph);
   }
 
   #grid #col1,
