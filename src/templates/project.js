@@ -2,11 +2,13 @@ import React from "react"
 import { Link } from "gatsby"
 import { graphql } from 'gatsby'
 import Layout from "./../components/layout"
+import SEO from "../components/seo"
 
 export default ({ data }) => {
   const post = data.markdownRemark
   return (
     <Layout>
+      <SEO title={post.frontmatter.title} />
       <div id="project-wrapper" className="animate-up">
         <div id="hero" className="section parallax">
           <div style={{backgroundImage: `url(${post.frontmatter.cover.childImageSharp.fluid.src})`}} />
