@@ -156,6 +156,24 @@ h1 {
   z-index: 1;
 }
 
+.two-up {
+  display: flex;
+  flex-flow: row nowrap;
+  margin-top: calc(2 * var(--margin-paragraph));
+  margin-bottom: calc(2 * var(--margin-paragraph));
+}
+.two-up > * {
+  flex: 1;
+}
+.two-up > :first-child {
+  margin-right: var(--margin-paragraph) !important;
+}
+.two-up > :last-child {
+  margin-left: var(--margin-paragraph) !important;
+}
+
+
+main .two-up,
 main .video {
   max-width: var(--max-width);
   margin-left: auto;
@@ -194,7 +212,7 @@ input {
 }
 
 #home-wrapper {
-  padding: calc(var(--margin) * 2) var(--margin);
+  padding: calc(2 * var(--margin-paragraph));
   margin: 0 auto;
   max-width: var(--max-width);
 }
@@ -254,14 +272,12 @@ input {
   border-right: 1px solid #FF6F59;
   border-left: 1px solid #FF6F59;
   opacity: .4;
-  margin-left: calc(var(--margin) / 2);
-  margin-right: calc(var(--margin) / 2);
+  margin-left: calc(0.5 * var(--margin-paragraph));
+  margin-right: calc(0.5 * var(--margin-paragraph));
 }
 #grid .margin {
-  width: calc( var(--margin) / 2 );
+  width: calc(1.5 * var(--margin-paragraph));
 }
-
-
 
 @media only screen and (max-width: 1000px) {
   :root {
@@ -285,7 +301,6 @@ input {
     --font-size: 16px;
     --line-height: 24px;
     --margin-paragraph: 20px;
-    --margin: 20px;
   }
 
   .h1,
@@ -314,7 +329,7 @@ input {
   }
 
   #home-wrapper {
-    padding: var(--margin);
+    padding: var(--margin-paragraph);
   }
   #project-wrapper {
     -webkit-perspective: none !important;
@@ -333,6 +348,9 @@ input {
     padding: var(--margin-paragraph);
   }
 
+  #grid .margin {
+    width: calc(.5 * var(--margin-paragraph));
+  }
 
   #grid #col1,
   #grid #col2,
