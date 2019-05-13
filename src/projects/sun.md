@@ -6,7 +6,7 @@ redirect: ""
 cover: "./../images/sun/cover.png"
 ---
 <div class="text">
-Generative drawings using canvas & JS to experiment with density, geometry, randomness with straight lines.
+Generative drawings using html canvas & JS to explore the dynamics of density and randomness.
 </div>
 
 <div class="two-up">

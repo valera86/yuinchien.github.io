@@ -10,11 +10,6 @@ cover: "./../images/vanishing-point/download_4.png"
 Spatial composition study with generative drawings.
 </div>
 
-<!-- <div class="two-up">
-  <img src="./../images/vanishing-point/download_(1).png" />
-  <img src="./../images/vanishing-point/2019.04.28-18.54.03.png" />
-</div> -->
-
 <div class="two-up">
   <img src="./../images/vanishing-point/2019.04.28-18.40.23.png" />
   <img src="./../images/vanishing-point/download_(2).png" />
