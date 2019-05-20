@@ -141,6 +141,28 @@ h1 {
 #hero {
   height: 100vh;
 }
+#hero .link-home {
+  position: absolute;
+  z-index: 100;
+  margin: 20px 24px;
+}
+
+.link-home {
+  text-decoration: none;
+}
+.link-home:before {
+  width: 20px;
+  height: 1px;
+  background: #444;
+  content: "";
+  vertical-align: middle;
+  display: inline-block;
+  margin-right: 8px;
+}
+.link-home:hover:before {
+  background: var(--color-orange);
+}
+
 
 #hero > div {
   background-size: cover;
@@ -347,6 +369,7 @@ input {
     margin-top: var(--margin-paragraph);
     margin-bottom: var(--margin-paragraph);
   }
+
 
   #home-wrapper {
     padding: var(--margin-paragraph);
