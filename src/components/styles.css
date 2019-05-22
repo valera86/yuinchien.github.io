@@ -141,11 +141,8 @@ h1 {
 #hero {
   height: 100vh;
 }
-#hero .link-home {
-  position: absolute;
-  z-index: 100;
-  margin: 20px 24px;
-}
+
+
 
 .link-home {
   text-decoration: none;
@@ -157,7 +154,7 @@ h1 {
   content: "";
   vertical-align: middle;
   display: inline-block;
-  margin-right: 8px;
+  margin-right: 6px;
 }
 .link-home:hover:before {
   background: var(--color-orange);
@@ -231,6 +228,9 @@ input {
 
 #personal-info a {
   text-decoration: none;
+}
+#bio a {
+  text-decoration: underline;
 }
 
 #home-wrapper {
@@ -369,7 +369,6 @@ input {
     margin-top: var(--margin-paragraph);
     margin-bottom: var(--margin-paragraph);
   }
-
 
   #home-wrapper {
     padding: var(--margin-paragraph);

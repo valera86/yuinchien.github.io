@@ -11,7 +11,6 @@ export default ({ data }) => {
       <SEO title={post.frontmatter.title} />
       <div id="project-wrapper" className="animate-up">
         <div id="hero" className="section parallax">
-          <Link className="link-home" to="/" style={{marginTop:`24px`,display:`block`}}>yuinchien.com</Link>
           <div style={{backgroundImage: `url(${post.frontmatter.cover.childImageSharp.fluid.src})`}} />
         </div>
         <div id="content" className="section">
