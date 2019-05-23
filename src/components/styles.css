@@ -142,7 +142,15 @@ h1 {
   height: 100vh;
 }
 
-
+.bullet:before {
+  width: 12px;
+  height: 12px;
+  border-radius: 6px;
+  background: #444;
+  content: "";
+  display: inline-block;
+  margin-right: 12px;
+}
 
 .link-home {
   text-decoration: none;
@@ -403,5 +411,11 @@ input {
   #grid #col7,
   #grid #col8 {
     display: none;
+  }
+
+  .bullet:before {
+    width: 12px;
+    height: 12px;
+    margin-right: 8px;
   }
 }
