@@ -1,6 +1,6 @@
 ---
 title: "Sun"
-description: "Generative drawings with pen plotter"
+description: "Generative drawings"
 date: "2019-05-01"
 redirect: ""
 cover: "./../images/sun/cover.png"
