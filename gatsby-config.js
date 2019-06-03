@@ -8,8 +8,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: "GatsbyJS",
-        short_name: "GatsbyJS",
+        name: "yuinchien.com",
+        short_name: "yuinchien.com",
         start_url: "/",
         background_color: "#fff",
         theme_color: "#fff",
