@@ -23,7 +23,7 @@ export default ({ data }) => {
             ))}
           </div>
           <div id="personal-info" className="h2">
-            <div id="bio">Yuin Chien is a multidisciplinary designer who creates form and function by pushing pixels and code. Striving for aesthetics, imagination and intent, she explores the intersection of human interactions, design and technology. Her work has been selected by MoMA, Communication Arts, STA 100 Awards, Huffington Post, and The Verge. See <a href={resume}>resume</a>.</div>
+            <div id="bio">Yuin Chien is a San Francisco based designer, artist & programmer. Striving for aesthetics, imagination and intent, she explores the intersection of human interactions, design and technology. She makes generative art and runs a <a rel="noopener noreferrer" href="https://store.yuinchien.com/" target="_blank">print shop</a> for her plotter drawings. Her work has been selected by MoMA, Communication Arts, STA 100 Awards, Huffington Post, and The Verge. See <a href={resume}>resume</a>.</div>
             <div className="bullet">cloud@yuinchien.com</div>
             <div className="bullet"><a rel="noopener noreferrer" href="https://www.instagram.com/tinycloud/" target="_blank">instagram.com/tinycloud</a></div>
             <div className="bullet"><a rel="noopener noreferrer" href="https://twitter.com/yuinchien" target="_blank">twitter.com/yuinchien</a></div>
