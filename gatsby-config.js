@@ -1,8 +1,11 @@
 module.exports = {
   siteMetadata: {
     title: `Yuin Chien`,
-    description: `Yuin Chien is a multidisciplinary designer who creates form and function by pushing pixels and code.`,
+    description: `Yuin Chien is a San Francisco based designer, artist and programmer focusing on graphic design & creative coding.`,
     author: `Yuin Chien`,
+    url: "https://yuinchien.com",
+    image: `/images/plotter.jpeg`,
+    twitterUsername: `@yuinchien`,
   },
   plugins: [
     {

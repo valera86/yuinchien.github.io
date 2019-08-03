@@ -83,6 +83,20 @@ h1 {
   font-size: 1.2em;
   line-height: 1.6em;
 }
+.flex {
+  flex: 1;
+}
+#nav-links {
+  margin-bottom: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+#nav-links a {
+  text-decoration: none;
+  /* margin-left: 16px; */
+  /* text-transform: uppercase; */
+}
 
 #project-wrapper {
   height: 100vh;
@@ -143,13 +157,16 @@ h1 {
   height: 100vh;
 }
 
+.bullet {
+  display: flex;
+  align-items: center;
+}
 .bullet:before {
   width: 12px;
   height: 12px;
   border-radius: 6px;
   background: #444;
   content: "";
-  display: inline-block;
   margin-right: 12px;
 }
 
