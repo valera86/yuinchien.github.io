@@ -26,7 +26,7 @@ export default ({ data }) => {
             <div id="bio">Yuin Chien is a San Francisco based designer & programmer focusing on graphic design, generative art and creative coding. She creates plotter drawings and runs a <a rel="noopener noreferrer" href="https://store.yuinchien.com/" target="_blank">print shop</a>. Her work has been selected by MoMA, Communication Arts, STA 100 Awards, Huffington Post, and The Verge. See <a href={resume}>resume</a>.</div>
 
             <div className="bullet"><a rel="noopener noreferrer" href="https://store.yuinchien.com" target="_blank">store.yuinchien.com</a></div>
-            <div className="bullet"><a rel="noopener noreferrer" href="https://www.instagram.com/tinycloud/" target="_blank">instagram.com/tinycloud</a></div>
+            <div className="bullet"><a rel="noopener noreferrer" href="https://www.instagram.com/yuin.chien/" target="_blank">instagram.com/yuin.chien</a></div>
             <div className="bullet"><a rel="noopener noreferrer" href="https://twitter.com/yuinchien" target="_blank">twitter.com/yuinchien</a></div>
             <div className="bullet">cloud@yuinchien.com</div>
 
