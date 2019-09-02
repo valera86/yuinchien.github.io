@@ -113,6 +113,28 @@ h1 {
   animation: animateUp 1s forwards;
   -webkit-animation: animateUp 1s forwards;
 }
+
+/* teaching */
+#teaching-wrapper {
+  margin: 1.2em 1.5em;
+}
+#teaching-wrapper .font-bold {
+  font-weight: bold;
+}
+.teaching-topbar {
+  display: flex;
+}
+.teaching-topbar > div {
+  margin-right: 1em;
+}
+.teaching-topbar a {
+  text-decoration: underline;
+}
+.teaching-desc {
+  max-width: 760px;
+}
+
+
 @keyframes animateUp {
   from {
     opacity: 0;
