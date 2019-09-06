@@ -1,6 +1,6 @@
 ---
 title: "Numerical Compositions"
-description: "Generative drawings created with a single stroke typeface"
+description: "Drawings created with a single stroke typeface design"
 date: "2019-09-03"
 redirect: ""
 cover: "./../images/numerical-compositions/DO01000572-3.jpg"

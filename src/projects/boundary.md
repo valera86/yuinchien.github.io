@@ -1,6 +1,6 @@
 ---
 title: "Boundary"
-description: "Generative drawings inspired by the boundaries of sports field"
+description: "Drawings inspired by the boundaries of sports field"
 date: "2019-08-31"
 redirect: ""
 cover: "./../images/boundary/L1000043.jpg"
