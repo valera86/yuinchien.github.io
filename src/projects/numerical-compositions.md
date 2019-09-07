@@ -1,6 +1,6 @@
 ---
 title: "Numerical Compositions"
-description: "Drawings created with a single stroke typeface design"
+description: "Abstract plotter drawings created with a single stroke typeface"
 date: "2019-09-03"
 redirect: ""
 cover: "./../images/numerical-compositions/DO01000572-3.jpg"
