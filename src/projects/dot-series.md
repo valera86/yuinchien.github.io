@@ -5,14 +5,19 @@ date: "2019-06-31"
 redirect: ""
 cover: "./../images/dot-series/100.png"
 ---
-<div class="text">Inspired by Matisse cut out, I wanted to create the free forms made out of paper & scissor. I started using Paper.js to create a tree-like structure, and turned it into a drawing tool that can generate dynamic outlines for the skeleton. The first video demonstrates how the tool works with the most basic structure – 3 nodes. Later on I expaned the tool to create animation like the second video, by interpolating still frames that I composed. </div>
+<div class="text">Inspired by Matisse cut out, I wanted to create the free forms made out of paper & scissor. I started using Paper.js to create a tree-like structure, and turned it into a drawing tool that can generate dynamic outlines for the skeleton. The first video demonstrates how the tool works with the most basic structure – 3 nodes. </div>
 
-<div class="two-up">
-  <div class="" style="padding:50% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/358426372?autoplay=1&loop=1&title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
-  <div class="" style="padding:50% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/358414087?autoplay=1&loop=1&title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+<div class="video small">
+<div style="padding:100% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/358426372?autoplay=1&loop=1&title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
 </div>
 
-<div class="text">Below are the drawings made with the drawing tool. </div>
+<div class="text">Later on I expaned the tool to create animation like the second video, by interpolating still frames that I composed.</div>
+
+<div class="video small">
+  <div style="padding:100% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/358414087?autoplay=1&loop=1&title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+</div>
+
+<div class="text">Below are the drawings I made with the drawing tool. </div>
 
 ![Google Fonts Redesign](./../images/dot-series/02.jpg)
 
@@ -38,9 +43,12 @@ cover: "./../images/dot-series/100.png"
   <img src="./../images/dot-series/09.jpg" />
 </div> -->
 
-<div class="two-up">
-  <div class="video" style="padding:50% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/358202627?autoplay=1&loop=1&title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
-  <div class="video" style="padding:50% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/358235316?autoplay=1&loop=1&title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+<div class="video small">
+  <div style="padding:66.66% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/358235316?autoplay=1&loop=1&title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+</div>
+
+<div class="video small">
+  <div style="padding:66.66% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/358202627?autoplay=1&loop=1&title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
 </div>
 
 

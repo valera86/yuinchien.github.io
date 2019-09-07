@@ -247,6 +247,10 @@ h1 {
   margin-right: auto;
 }
 
+.video.small {
+  max-width: 640px;
+}
+
 main .video,
 main p {
   margin-top: calc(var(--margin-paragraph) * 2 );
