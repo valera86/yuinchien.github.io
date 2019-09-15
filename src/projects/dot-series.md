@@ -33,16 +33,6 @@ cover: "./../images/dot-series/100.png"
 
 ![Google Fonts Redesign](./../images/dot-series/03.jpg)
 
-<!-- <div class="two-up">
-  <img src="./../images/dot-series/10.jpg" />
-  <img src="./../images/dot-series/07.jpg" />
-</div> -->
-
-<!-- <div class="two-up">
-  <img src="./../images/dot-series/08.jpg" />
-  <img src="./../images/dot-series/09.jpg" />
-</div> -->
-
 <div class="video small">
   <div style="padding:66.66% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/358235316?autoplay=1&loop=1&title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
 </div>
