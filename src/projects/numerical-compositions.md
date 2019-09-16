@@ -9,14 +9,9 @@ cover: "./../images/numerical-compositions/cover3.jpg"
 
 <div class="video" style="padding:70.11% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/358239232?autoplay=1&loop=1&title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
 
-<!-- <div class="two-up">
-
-  <img src="./../images/numerical-compositions/L1000755-2.jpg" />
-</div> -->
-
 <div class="two-up">
-  <img src="./../images/numerical-compositions/L1000755-2.jpg" />
-  <img src="./../images/numerical-compositions/L1000765.jpg" />
+  <img src="./../images/numerical-compositions/L1000860.jpg" />
+  <img src="./../images/numerical-compositions/L1000870.jpg" />
 </div>
 
 <div class="two-up">
@@ -26,13 +21,13 @@ cover: "./../images/numerical-compositions/cover3.jpg"
 </div>
 
 <div class="two-up">
-  <img src="./../images/numerical-compositions/L1000750-2.jpg" />
-  <img src="./../images/numerical-compositions/L1000738.jpg" />
+  <img src="./../images/numerical-compositions/L1000863.jpg" />
+  <img src="./../images/numerical-compositions/L1000876.jpg" />
 </div>
 
 <div class="two-up">
-  <img src="./../images/numerical-compositions/L1000770-2.jpg" />
-  <img src="./../images/numerical-compositions/L1000756.jpg" />
+  <img src="./../images/numerical-compositions/L1000880.jpg" />
+  <img src="./../images/numerical-compositions/L1000878.jpg" />
 </div>
 
 <div class="two-up">
