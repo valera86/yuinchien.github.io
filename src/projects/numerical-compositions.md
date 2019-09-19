@@ -31,14 +31,14 @@ cover: "./../images/numerical-compositions/cover3.jpg"
 </div>
 
 <div class="two-up">
-  <img src="./../images/numerical-compositions/L1000790-6.jpg" />
+  <img src="./../images/numerical-compositions/L1000902.jpg" />
   <img src="./../images/numerical-compositions/L1000702-3.jpg" />
 </div>
 <div class="two-up">
-  <img src="./../images/numerical-compositions/L1000779-3.jpg" />
+  <img src="./../images/numerical-compositions/L1000688.jpg" />  
   <img src="./../images/numerical-compositions/L1000784-2.jpg" />
 </div>
 <div class="two-up">
   <img src="./../images/numerical-compositions/L1000657-5.jpg" />
-  <img src="./../images/numerical-compositions/L1000787-3.jpg" />
+  <img src="./../images/numerical-compositions/L1000897.jpg" />
 </div>
