@@ -5,9 +5,16 @@ date: "2019-09-03"
 redirect: ""
 cover: "./../images/numerical-compositions/cover3.jpg"
 ---
-<div class="text">By adapting my <a href="https://yuinchien.com/projects/numerical/index.html">css typeface</a> to single stroke design which can be composed of a wide variety of geometry shapes, I created a series of plotter drawings to explore typographic compositions, and color dynamics. Checkout the plotter drawings at <a href="https://store.yuinchien.com/" target="_blank">https://store.yuinchien.com/</a>.</div>
+
+<div class="text">This project experiments with type design, creative coding and drawing with machine.</div>
+
+<div class="text">It was an aspiration to create typographic drawings with my pen plotter machine, I designed a single stroke variable font for numerical featuring basic geometry of line, circle and polygon. Made with html canvas and Paper.js, the type can be dynamically generated with different constructs of line weight, stroke cap, and polygon/circle shapes for wide range of visual expressions. Checkout the <a href="https://yuinchien.com/projects/variable-font/index.html" target="_blank">type generator</a> in the browser.</div>
+
+<div class="text">I created a series of pen plotter drawings with the generative font to explore typographic compositions, abstract form, and color dynamics. Checkout the plotter drawings at <a href="https://store.yuinchien.com/" target="_blank">https://store.yuinchien.com/</a>.</div>
 
 <div class="video" style="padding:70.11% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/358239232?autoplay=1&loop=1&title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+
+<div class="text">Pen plotter drawings created with acrylic paint markers.</div>
 
 <div class="two-up">
   <img src="./../images/numerical-compositions/L1000860.jpg" />
