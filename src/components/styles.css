@@ -247,6 +247,11 @@ h1 {
   margin-right: auto;
 }
 
+/* .two-up .gif {
+  width: calc(50% - var(--margin-paragraph));
+  width: 100%;
+} */
+
 .video.small {
   max-width: 640px;
 }
@@ -259,7 +264,7 @@ main p {
 main .text,
 ul {
   max-width: 920px;
-  margin: calc( var(--margin-paragraph) / 2 ) auto;
+  margin: var(--margin-paragraph) auto;
 }
 
 ul {
