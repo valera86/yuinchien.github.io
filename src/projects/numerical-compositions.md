@@ -6,7 +6,7 @@ redirect: ""
 cover: "./../images/numerical-compositions/cover3.jpg"
 ---
 
-<div class="text">This project experiments with type design, creative coding and drawing with machine. It was an aspiration to create typographic drawings with my pen plotter machine, I designed a single stroke variable font for numerical featuring basic geometry of line, circle and polygon. Made with html canvas and Paper.js, the type can be dynamically generated with different constructs of line weight, stroke cap, and polygon/circle shapes for wide range of visual expressions. Checkout the <a href="https://yuinchien.com/projects/variable-font/index.html" target="_blank">type generator</a> in the browser.</div>
+<div class="text">This project experiments with type design, creative coding and drawing with machine. It was a desire to create typographic drawings with my pen plotter, I designed a single stroke variable font for numerical featuring basic geometry of lines, circles and polygons. Made with html canvas and Paper.js, the type can be dynamically generated with different constructs of line weight, stroke cap, and polygon/circle shapes for wide range of visual expressions. Checkout the online <a href="https://yuinchien.com/projects/variable-font/index.html" target="_blank">type generator</a>.</div>
 
 <div class="text">I created a series of pen plotter drawings with the generative font to explore typographic compositions, abstract form, and color dynamics. The drawings are created with acrylic paint markers on black paper. Checkout the plotter drawings at <a href="https://store.yuinchien.com/" target="_blank">https://store.yuinchien.com/</a>.</div>
 
