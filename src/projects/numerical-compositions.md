@@ -57,7 +57,7 @@ cover: "./../images/numerical-compositions/L1010226-3.jpg"
 
 <div class="text">I created a zine to showcase this project. Risograph mist printed on 11"x17" forest green paper. </div>
 
-![zine](./../images/numerical-compositions/L1010282-3.jpg)
+![zine](./../images/numerical-compositions/L1010282-5.jpg)
 
 ![zine](./../images/numerical-compositions/L1010251-7.jpg)
 
