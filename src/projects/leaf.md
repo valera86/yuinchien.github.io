@@ -11,16 +11,13 @@ A series of leaf drawings designed using a vector tool I created with Paper.js. 
 
 <div class="two-up">
   <img src="./../images/leaf/DO01000401_4x3.jpg" />
-  <img src="./../images/leaf/DO01010022 (2).JPG" />
-</div>
-
-<div class="two-up">
   <img src="./../images/leaf/L1000370.jpg" />
-  <img src="./../images/leaf/L1000372.jpg" />
+  <!-- <img src="./../images/leaf/DO01010022 (2).JPG" /> -->
 </div>
 
 <div class="two-up">
-  <img src="./../images/leaf/L1000373.jpg" />
+  <!-- <img src="./../images/leaf/L1000373.jpg" /> -->
+  <img src="./../images/leaf/L1000372.jpg" />
   <img src="./../images/leaf/L1000374.jpg" />
 </div>
 
@@ -35,8 +32,6 @@ A series of leaf drawings designed using a vector tool I created with Paper.js. 
   <img src="./../images/leaf/L1000417-4.jpg" />
   <img src="./../images/leaf/MVIMG_20190824_095319.jpg" />
 </div>
-
-![Generative leaf drawing](./../images/leaf/L1000220-2.jpg)
 
 <div class="two-up">
   <img src="./../images/leaf/DO01000853.jpeg" />

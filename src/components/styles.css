@@ -86,6 +86,20 @@ h1 {
 .flex {
   flex: 1;
 }
+
+#link-store {
+  position: fixed;
+  right: 0;
+  top: 0;
+  background: #222;
+  padding: 4px 10px;
+  text-decoration: none;
+  color: white;
+  /* margin: 8px; */
+  z-index: 10000;
+}
+
+
 #nav-links {
   margin-bottom: 32px;
   display: flex;
@@ -218,10 +232,10 @@ h1 {
   bottom: 0;
   left: 0;
 }
-.parallax > div {
+/* .parallax > div {
   transform: translateZ(-1px) scale(1.5);
   z-index: 1;
-}
+} */
 
 .two-up {
   display: flex;
@@ -261,10 +275,16 @@ main p {
   margin-top: calc(var(--margin-paragraph) * 2 );
   margin-bottom: calc(var(--margin-paragraph) * 2 );
 }
+
+#more-projects,
 main .text,
 ul {
   max-width: 920px;
   margin: var(--margin-paragraph) auto;
+}
+
+#more-projects {
+  margin: calc(var(--margin-paragraph) * 2) auto;
 }
 
 ul {
@@ -298,7 +318,8 @@ input {
 
 #more-projects {
   background: #FFF;
-  padding: calc(4 * var(--margin-paragraph)) 16vw 0 16vw;
+  padding: var(--margin-paragraph);
+  /* calc(4 * var(--margin-paragraph)) 16vw 0 16vw; */
 }
 #more-projects a {
   text-decoration: none;
@@ -434,10 +455,10 @@ input {
     -webkit-perspective: none !important;
     perspective: none !important;
   }
-  .parallax > div {
+  /* .parallax > div {
     -webkit-transform: none !important;
     transform: none !important;
-  }
+  } */
 
   #content {
     padding-top: calc(0.5 * var(--margin-paragraph));
