@@ -39,22 +39,25 @@ cover: "./../images/numerical-compositions/L1010226-3.jpg"
 
 <div class="video" style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/367370119" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
 
-<div class="two-up">
-  <img src="./../images/numerical-compositions/L1000657-5.jpg" />
-  <img src="./../images/numerical-compositions/L1000688.jpg" />
-</div>
+
 <div class="two-up">
   <img src="./../images/numerical-compositions/L1000702-3.jpg" />
   <img src="./../images/numerical-compositions/L1000893.jpg" />
 </div>
+
 <div class="two-up">
-  <img src="./../images/numerical-compositions/L1000784-2.jpg" />
+  <img src="./../images/numerical-compositions/L1000657-5.jpg" />
+  <img src="./../images/numerical-compositions/L1000688.jpg" />
+</div>
+
+<div class="two-up">
   <img src="./../images/numerical-compositions/L1000897.jpg" />
+  <img src="./../images/numerical-compositions/L1000784-2.jpg" />
 </div>
 
 <div class="text">I created a zine to showcase this project. Risograph mist printed on 11"x17" forest green paper. </div>
 
-![zine](./../images/numerical-compositions/L1010241-2.jpg)
+![zine](./../images/numerical-compositions/L1010282-3.jpg)
 
 ![zine](./../images/numerical-compositions/L1010251-7.jpg)
 
