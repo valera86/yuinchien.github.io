@@ -57,6 +57,8 @@ cover: "./../images/numerical-compositions/L1010226-3.jpg"
 
 <div class="text">I created a zine to showcase this project. Risograph mist printed on 11"x17" forest green paper. </div>
 
+<div class="video" style="padding:75% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/373693341?autoplay=1&loop=1&title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+
 ![zine](./../images/numerical-compositions/L1010282-5.jpg)
 
 ![zine](./../images/numerical-compositions/L1010251-7.jpg)
