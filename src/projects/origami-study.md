@@ -6,9 +6,9 @@ redirect: ""
 cover: "./../images/origami-study/cover.png"
 ---
 
-<div class="text">An independent study of origami to explore forms, colors and motion. Vector shapes of polygons and circles are programmed in JS to behave like paper, they fold freely to create structured layers and shapes. The below demo video is a single fold motion study featuring varied geometries.</div>
+  <div class="text">An independent study of origami to explore forms, colors and motion. Vector shapes of polygons and circles are programmed in JS to behave like paper, they fold freely to create structured layers and shapes. Checkout the live demo with gui: <a href="https://yuinchien.com/projects/origami/" target="_blank">https://yuinchien.com/projects/origami/</a>.</div>
 
-<div class="video"><div style="padding:70.38% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/386388083?autoplay=1&loop=1&title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script></div>
+<div class="video"><div style="padding:71.43% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/386404521?autoplay=1&loop=1&title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script></div>
 
 <div class="text">A series of visual study exploring origami compositions and colors, hoping to give forms to personal memories and poetic imagination.</div>
 
