@@ -6,7 +6,7 @@ redirect: ""
 cover: "./../images/origami-study/cover.png"
 ---
 
-<div class="text">An independent study of origami to explore forms, colors and motion. Vector shapes of polygons and circles are programmed in JS to behave like paper, they fold freely to create structured layers and forms. The below demo video is a single fold motion study featuring varied geometry constructs.</div>
+<div class="text">An independent study of origami to explore forms, colors and motion. Vector shapes of polygons and circles are programmed in JS to behave like paper, they fold freely to create structured layers and shapes. The below demo video is a single fold motion study featuring varied geometries.</div>
 
 <div class="video"><div style="padding:70.38% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/386388083?autoplay=1&loop=1&title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script></div>
 
@@ -31,7 +31,7 @@ cover: "./../images/origami-study/cover.png"
   <img src="./../images/origami-study/Frame23.png" />
 </div>
 
-<div class="text">This is a demo video featuring double folding of varied geometry constructs. The following visual study explores origami compositions in outline strokes.</div>
+<div class="text">A demo video featuring double folding of diverse shapes. The following visual study explores origami compositions in outline strokes.</div>
 
 <div class="video fixed-size"><iframe src="https://player.vimeo.com/video/386356715?autoplay=1&loop=1&title=0&byline=0&portrait=0" width="640" height="640" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div>
 
