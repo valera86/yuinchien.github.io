@@ -10,14 +10,13 @@ export default ({ data }) => {
     <Layout>
       <SEO title={post.frontmatter.title} />
       <div id="project-wrapper" className="animate-up">
-        <div id="hero" className="section parallax">
-          <div style={{backgroundImage: `url(${post.frontmatter.cover.childImageSharp.fluid.src})`}} />
-        </div>
-        <div id="content" className="section">
+        <img alt="hero" src={post.frontmatter.cover.childImageSharp.fluid.src} id="hero" style={{backgroundImage: `url(${post.frontmatter.cover.childImageSharp.fluid.src})`}} />
+        <div id="content">
           <h1 className="text">{post.frontmatter.title}</h1>
           <div dangerouslySetInnerHTML={{ __html: post.html }} />
         </div>
-        <div className="section parallax">
+
+        <div style={{background: `white`,position: `relative`}}>
           <div id="more-projects">
             {data.allMarkdownRemark.edges.map(({ node }) => (
               <div className={"project " + (node.fields.slug===post.fields.slug ? "line-thru": "") } key={node.id}>
