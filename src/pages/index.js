@@ -10,7 +10,7 @@ export default ({ data }) => {
     <Layout>
       <SEO title="Projects" />
       <div id="home-wrapper">
-        <a id="link-store" rel="noopener noreferrer" href="https://store.yuinchien.com" target="_blank">store</a>
+        <a id="link-store" rel="noopener noreferrer" href="https://store.yuinchien.com" target="_blank"></a>
         <div id="home-container" className="animate-up">
           <div id="projects">
             {data.allMarkdownRemark.edges.map(({ node }) => (

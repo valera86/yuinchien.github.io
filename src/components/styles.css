@@ -21,6 +21,8 @@
 
   --aniamte-up-distance: 20px;
   --max-width: 1160px;
+
+  --url-store: url(../images/shopping_cart-24px.svg);
 }
 
 @font-face {
@@ -91,11 +93,18 @@ h1 {
   position: fixed;
   right: 0;
   top: 0;
-  background: #222;
+  margin: 12px;
+  background: #fff;
+  border-radius: 100%;
   padding: 4px 10px;
   text-decoration: none;
   color: white;
-  /* margin: 8px; */
+  width: 40px;
+  height: 40px;
+  background-image: var(--url-store);
+  background-size: 32px 32px;
+  background-repeat: no-repeat;
+  background-position: center center;
   z-index: 10000;
 }
 
@@ -256,7 +265,7 @@ h1 {
 .video.fixed-size {
   display: flex;
   align-items: center;
-  justify-content: center;  
+  justify-content: center;
 }
 
 
