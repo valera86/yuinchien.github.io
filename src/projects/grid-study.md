@@ -1,6 +1,6 @@
 ---
 title: "Grid Study"
-description: "A drawing device for wandering paths"
+description: "A design study of drawing within a grid system"
 date: "2020-02-01"
 redirect: ""
 cover: "./../images/grid-study/cover2.png"
