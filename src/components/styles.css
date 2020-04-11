@@ -386,10 +386,18 @@ input {
   width: calc(1.5 * var(--margin-paragraph));
 }
 
-@media only screen and (max-width: 1000px) {
-  :root {
-
+@media only screen and (max-width: 1160px) {
+  #hero {
+    width: 100%;
+    transform: scale(1.2);
   }
+  #content {
+    margin-top: 50vh;
+    padding-top: calc(0.5 * var(--margin-paragraph));
+  }
+}
+@media only screen and (max-width: 1000px) {
+
   #more-projects,
   main .text,
   ul {
@@ -430,6 +438,10 @@ input {
     margin: var(--margin-paragraph);
   }
 
+  #content {
+    margin-top: 40vh;
+  }
+
   .h1,
   main h1.text {
     margin-bottom: calc(-0.75 * var(--margin-paragraph));
@@ -458,17 +470,6 @@ input {
   #project-wrapper {
     -webkit-perspective: none !important;
     perspective: none !important;
-  }
-
-  #hero {
-    width: auto;
-    height: 40vh;
-    transform: scale(1.2);
-  }
-
-  #content {
-    margin-top: 35vh;
-    padding-top: calc(0.5 * var(--margin-paragraph));
   }
 
   #more-projects {
