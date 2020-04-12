@@ -77,7 +77,7 @@ I developed a series of sketches by playing with colors and the 3x5 grid system.
 </div>
 
 <div class="text">
-The grid study eventually lead to the creation of MAX – an experimental typeface made in javascript, featuring 4 axes of variants including width, weight, slant and curve. Checkout the web type specimen: <a href="https://yuinchien.com/projects/max" target="_blank">yuinchien.com/projects/max</a>.
+The grid study eventually lead to the creation of MAX – An experimental typeface that sharpens, tilts, hollows and distorts. With 4 axes of variation including width, weight, slant and curve, MAX affords complex visual expressions and qualities. Checkout the web type specimen: <a href="https://yuinchien.com/projects/max" target="_blank">yuinchien.com/projects/max</a>.
 </div>
 
 
