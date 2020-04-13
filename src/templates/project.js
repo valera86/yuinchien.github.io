@@ -10,7 +10,7 @@ export default ({ data }) => {
     <Layout>
       <SEO title={post.frontmatter.title} />
       <div id="project-wrapper" className="animate-up">
-        <img alt="hero" src={post.frontmatter.cover.childImageSharp.fluid.src} id="hero" style={{backgroundImage: `url(${post.frontmatter.cover.childImageSharp.fluid.src})`}} />
+        <img alt="hero" src={post.frontmatter.cover.childImageSharp.fluid.src} id="hero" />
         <div id="content">
           <h1 className="text">{post.frontmatter.title}</h1>
           <div dangerouslySetInnerHTML={{ __html: post.html }} />
