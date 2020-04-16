@@ -17,7 +17,7 @@
   --margin-paragraph: 20px;
 
   --font-size: 20px;
-  --line-height: 38px;
+  --line-height: 32px;
 
   --aniamte-up-distance: 20px;
   --max-width: 1160px;
@@ -376,7 +376,7 @@ input {
 }
 
 h1.text {
-  margin-bottom: calc(var(--margin-paragraph) * -1);
+  margin-bottom: calc(var(--margin-paragraph) * -0.5);
 }
 
 @media only screen and (max-width: 1240px) {
