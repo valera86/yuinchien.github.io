@@ -1,10 +1,10 @@
 module.exports = {
   siteMetadata: {
     title: `Yuin Chien`,
-    description: `Yuin Chien is a San Francisco based designer, artist and programmer focusing on graphic design, generative art & creative coding.`,
+    description: `Yuin Chien is a San Francisco based designer and programmer focusing on graphic design & creative coding.`,
     author: `Yuin Chien`,
     url: "https://yuinchien.com",
-    image: `/images/plotter.jpeg`,
+    image: `/images/hi.png`,
     twitterUsername: `@yuinchien`,
   },
   plugins: [
