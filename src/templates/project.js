@@ -15,19 +15,16 @@ export default ({ data }) => {
           <h1 className="text">{post.frontmatter.title}</h1>
           <div dangerouslySetInnerHTML={{ __html: post.html }} />
         </div>
-
-        <div style={{background: `white`,position: `relative`}}>
-          <div id="more-projects">
-            {data.allMarkdownRemark.edges.map(({ node }) => (
-              <div className={"project " + (node.fields.slug===post.fields.slug ? "line-thru": "") } key={node.id}>
-                {node.frontmatter.redirect===""
-                  ? (<Link to={node.fields.slug}>{node.frontmatter.title}</Link>)
-                  : (<a href={node.frontmatter.redirect}>{node.frontmatter.title}</a>)
-                }
-              </div>
-            ))}
-            <Link className="link-home" to="/" style={{marginTop:`24px`,display:`block`}}>yuinchien.com</Link>
-          </div>
+        <div id="more-projects">
+          {data.allMarkdownRemark.edges.map(({ node }) => (
+            <div className={"project " + (node.fields.slug===post.fields.slug ? "line-thru": "") } key={node.id}>
+              {node.frontmatter.redirect===""
+                ? (<Link to={node.fields.slug}>{node.frontmatter.title}</Link>)
+                : (<a href={node.frontmatter.redirect}>{node.frontmatter.title}</a>)
+              }
+            </div>
+          ))}
+          <Link className="link-home" to="/" style={{marginTop:`24px`,display:`block`}}>yuinchien.com</Link>
         </div>
       </div>
     </Layout>

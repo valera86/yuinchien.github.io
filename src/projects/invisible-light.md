@@ -3,7 +3,7 @@ title: "Invisible Light"
 description: "Data Visualization of Network Traffic in the air"
 date: "2011-01-05"
 redirect: ""
-cover: "./../images/invisible-light/internet.png"
+cover: "./../images/invisible-light/cover.png"
 ---
 
 <div class="text">
@@ -14,12 +14,12 @@ Human eyes can only perceive a small range of electromagnetic waves - the visibl
 
 ![Invisible Light](./../images/invisible-light/3.jpg)
 
-<div class="two-up">
+<div class="row two">
   <img src="./../images/invisible-light/emwave.jpeg" />
   <img src="./../images/invisible-light/sketch5.jpeg" />
 </div>
 
-<div class="two-up">
+<div class="row two">
   <img src="./../images/invisible-light/sketch6.jpeg" />
   <img src="./../images/invisible-light/sketch7.jpeg" />
 </div>

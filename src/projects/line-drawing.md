@@ -11,14 +11,14 @@ This P5.js sketch explores drawing of straight lines & arcs. The program dynamic
 
 ![Line Drawing](./../images/line-drawing/canvas(13).jpg)
 
-<div class="two-up">
+<div class="row two">
   <img src="./../images/line-drawing/canvas(12).jpg" />
   <img src="./../images/line-drawing/canvas(8).jpg" />
 </div>
 
 ![Line Drawing](./../images/line-drawing/canvas(6).jpg)
 
-<div class="two-up">
+<div class="row two">
   <img src="./../images/line-drawing/canvas(25).jpg" />
   <img src="./../images/line-drawing/canvas(23).jpg" />
 </div>

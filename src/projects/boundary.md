@@ -6,13 +6,15 @@ redirect: ""
 cover: "./../images/boundary/L1000043.jpg"
 ---
 <div class="text">
-This series is inspired by the colorful lines marking the boundaries of sports field. I love the textures of layering paints aging overtime. Acrylic paint on black paper with axidraw.</div>
+Inspired by the colorful lines marking the boundaries of sports field. I love the textures of layering paints aging overtime. Made with acrylic pens on black paper.</div>
 
-<div class="video" style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/358235373?autoplay=1&loop=1&title=0&byline=0&portrait=0&muted=1" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+<div class="video">
+<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/358235373?autoplay=1&loop=1&title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+</div>
 
 ![Generative leaf drawing](./../images/boundary/L1000044.jpg)
 
-<div class="two-up">
+<div class="row two">
   <img src="./../images/boundary/L1000049.jpg" />
   <img src="./../images/boundary/MVIMG_20190818_144748.jpg" />
 </div>
