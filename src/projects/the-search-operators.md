@@ -2,7 +2,6 @@
 title: "The Search Operators"
 description: "The sloppy twin of Google search"
 date: "2012-07-01"
-redirect: ""
 cover: "./../images/the-search-operators/1.png"
 ---
 <div class="text">

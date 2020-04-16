@@ -2,7 +2,6 @@
 title: "Origami Study"
 description: "Paper folding exploration of form and motion"
 date: "2020-01-20"
-redirect: ""
 cover: "./../images/origami-study/Frame110.png"
 ---
 

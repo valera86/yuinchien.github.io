@@ -2,7 +2,6 @@
 title: "Text Experiment"
 description: "Drawing with Processing"
 date: "2011-06-01"
-redirect: ""
 cover: "./../images/text-experiment/lyrics.png"
 ---
 <div class="text">

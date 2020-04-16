@@ -2,7 +2,6 @@
 title: "Google Fonts"
 description: "A complete redesign of Google Fonts"
 date: "2016-08-01"
-redirect: ""
 cover: "./../images/google-fonts/160719_staawards_submission-04.png"
 ---
 <div class="text">

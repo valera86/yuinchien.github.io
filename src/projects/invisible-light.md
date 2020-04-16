@@ -2,7 +2,6 @@
 title: "Invisible Light"
 description: "Data Visualization of Network Traffic in the air"
 date: "2011-01-05"
-redirect: ""
 cover: "./../images/invisible-light/cover.png"
 ---
 

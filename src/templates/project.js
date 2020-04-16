@@ -1,35 +1,54 @@
-import React from "react"
+// import React from "react"
+import React, { Component } from 'react'
 import { Link } from "gatsby"
 import { graphql } from 'gatsby'
 import Layout from "./../components/layout"
 import SEO from "../components/seo"
 
-export default ({ data }) => {
-  const post = data.markdownRemark
-  return (
-    <Layout>
-      <SEO title={post.frontmatter.title} />
-      <div id="project-wrapper" className="animate-up">
-        <img alt="hero" src={post.frontmatter.cover.childImageSharp.fluid.src} id="hero" />
-        <div id="content">
-          <h1 className="text">{post.frontmatter.title}</h1>
-          <div dangerouslySetInnerHTML={{ __html: post.html }} />
-        </div>
-        <div id="more-projects">
+class Project extends React.Component  {
+
+  constructor(props) {
+    super(props)
+    this.state = {
+      showMenu: false,
+    }
+  }
+
+  handleModalOpen = event => {
+    this.setState({
+      showMenu: !this.state.showMenu
+    })
+  }
+
+  render() {
+    const { data } = this.props;
+    const post = data.markdownRemark;
+    const menuActive = this.state.showMenu ? 'open' : '';
+    return (
+      <Layout>
+        <SEO title={post.frontmatter.title} />
+        <div id="drawer" className={`${menuActive}`}>
+          <Link id="button-home" className="fab" to="/"></Link>
           {data.allMarkdownRemark.edges.map(({ node }) => (
-            <div className={"project " + (node.fields.slug===post.fields.slug ? "line-thru": "") } key={node.id}>
-              {node.frontmatter.redirect===""
-                ? (<Link to={node.fields.slug}>{node.frontmatter.title}</Link>)
-                : (<a href={node.frontmatter.redirect}>{node.frontmatter.title}</a>)
-              }
+            <div className={`project ${node.fields.slug===post.fields.slug ? "selected": ""}`} key={node.id}>
+              <Link to={node.fields.slug}><img src={node.frontmatter.cover.childImageSharp.fluid.src} /></Link>
+              <span>{node.frontmatter.title}</span>
+              <span className="desc"> {node.frontmatter.description} </span>
             </div>
           ))}
-          <Link className="link-home" to="/" style={{marginTop:`24px`,display:`block`}}>yuinchien.com</Link>
         </div>
-      </div>
-    </Layout>
-  )
+        <div id="project-wrapper" className={`animate-up ${menuActive}`}>
+          <div id="button-menu" className={`fab ${menuActive}`} onClick={this.handleModalOpen}></div>
+          <div id="content">
+            <h1 className="text">{post.frontmatter.title}</h1>
+            <div dangerouslySetInnerHTML={{ __html: post.html }} />
+          </div>
+        </div>
+      </Layout>
+    )
+  }
 }
+export default Project;
 
 export const query = graphql`
   query($slug: String!) {
@@ -55,7 +74,13 @@ export const query = graphql`
           id
           frontmatter {
             title
-            redirect
+            cover {
+              childImageSharp {
+                fluid(maxWidth: 1280) {
+                  ...GatsbyImageSharpFluid
+                }
+              }
+            }
           }
           fields {
             slug

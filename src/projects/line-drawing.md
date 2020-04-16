@@ -2,7 +2,6 @@
 title: "Line Drawing"
 description: "Sketches of lines & arcs"
 date: "2019-03-01"
-redirect: ""
 cover: "./../images/line-drawing/cover.jpg"
 ---
 <div class="text">

@@ -2,7 +2,6 @@
 title: "Dot Series"
 description: "Free form drawings with dots"
 date: "2019-06-31"
-redirect: ""
 cover: "./../images/dot-series/100.png"
 ---
 <div class="text">Inspired by Matisse cut out, I wanted to create the free forms made out of paper & scissor. I started using Paper.js to create a tree-like structure, and turned it into a drawing tool that can generate dynamic outlines for the skeleton. </div>
@@ -29,11 +28,9 @@ cover: "./../images/dot-series/100.png"
 
 ![Google Fonts Redesign](./../images/dot-series/03.jpg)
 
-<div class="row two">
-<div style="padding:75% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/358235316?autoplay=1&loop=1&title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+<div class="video"><div style="padding:75% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/358202627?autoplay=1&loop=1&title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script></div>
 
-<div style="padding:75% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/358202627?autoplay=1&loop=1&title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
-</div>
+<div class="video"><div style="padding:77.7% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/358235316?autoplay=1&loop=1&title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script></div>
 
 
 ![Dot Series](./../images/dot-series/20.png)

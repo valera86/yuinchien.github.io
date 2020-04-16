@@ -1,0 +1,74 @@
+import React from "react"
+import { Link } from "gatsby"
+import { graphql } from 'gatsby'
+import Layout from "./../components/layout"
+import SEO from "../components/seo"
+
+export default ({ data }) => {
+  const post = data.markdownRemark
+  return (
+    <Layout>
+      <SEO title={post.frontmatter.title} />
+      <div id="project-wrapper" className="animate-up">
+        <img alt="hero" src={post.frontmatter.cover.childImageSharp.fluid.src} id="hero" />
+        <div id="content">
+          <h1 className="text">{post.frontmatter.title}</h1>
+          <div dangerouslySetInnerHTML={{ __html: post.html }} />
+        </div>
+        <div id="more-projects">
+          {data.allMarkdownRemark.edges.map(({ node }) => (
+            <div className={"project " + (node.fields.slug===post.fields.slug ? "line-thru": "") } key={node.id}>
+              {node.frontmatter.redirect===""
+                ? (<Link to={node.fields.slug}>{node.frontmatter.title}</Link>)
+                : (<a href={node.frontmatter.redirect}>{node.frontmatter.title}</a>)
+              }
+            </div>
+          ))}
+          <Link className="link-home" to="/" style={{marginTop:`24px`,display:`block`}}>yuinchien.com</Link>
+        </div>
+        <img alt="hero" src={post.frontmatter.cover.childImageSharp.fluid.src} id="hero" />
+      </div>
+    </Layout>
+  )
+}
+
+export const query = graphql`
+  query($slug: String!) {
+    markdownRemark(fields: { slug: { eq: $slug } }) {
+      html
+      fields {
+        slug
+      }
+      frontmatter {
+        title
+        cover {
+          childImageSharp {
+            fluid(maxWidth: 2560) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+      }
+    }
+    allMarkdownRemark(sort: { order: DESC, fields: [frontmatter___date] }) {
+      edges {
+        node {
+          id
+          frontmatter {
+            title
+            cover {
+              childImageSharp {
+                fluid(maxWidth: 2560) {
+                  ...GatsbyImageSharpFluid
+                }
+              }
+            }
+          }
+          fields {
+            slug
+          }
+        }
+      }
+    }
+  }
+`

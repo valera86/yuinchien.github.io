@@ -23,26 +23,21 @@ exports.createPages = ({ graphql, actions }) => {
             fields {
               slug
             }
-            frontmatter {
-              redirect
-            }
           }
         }
       }
     }
   `).then(result => {
     result.data.allMarkdownRemark.edges.forEach(({ node }) => {
-      if(node.frontmatter.redirect==="") {
-        createPage({
-          path: node.fields.slug,
-          component: path.resolve(`./src/templates/project.js`),
-          context: {
-            // Data passed to context is available
-            // in page queries as GraphQL variables.
-            slug: node.fields.slug,
-          }
-        })
-      }
+      createPage({
+        path: node.fields.slug,
+        component: path.resolve(`./src/templates/project.js`),
+        context: {
+          // Data passed to context is available
+          // in page queries as GraphQL variables.
+          slug: node.fields.slug,
+        }
+      })
     })
   })
 }

@@ -2,7 +2,6 @@
 title: "Chelsea Illustrated"
 description: "A digital mural illustrating Chelsea's past and present"
 date: "2014-07-01"
-redirect: ""
 cover: "./../images/chelsea-illustrated/3.png"
 ---
 

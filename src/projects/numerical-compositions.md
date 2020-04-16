@@ -2,15 +2,16 @@
 title: "Numerical Compositions"
 description: "Abstract plotter drawings created with a single stroke typeface"
 date: "2019-09-03"
-redirect: ""
 cover: "./../images/numerical-compositions/L1010226-3.jpg"
 ---
 
-<div class="text">This project experiments with type design, creative coding and drawing with machine. Aspired to create typographic drawings with my pen plotter, I designed a single stroke variable font for numerical featuring basic geometry of lines, circles and polygons. Made with html canvas and Paper.js, the type can be dynamically generated with different constructs of line weight, stroke cap, and polygon/circle shapes. </div>
+<div class="text">This project experiments with type design, creative coding and drawing with machine. Aspired to create typographic drawings with my pen plotter, I designed a single stroke variable font for numerical featuring basic geometry of lines, circles and polygons. </div>
 
-<div class="text">This project has been selected for <a href="https://100.sta-chicago.org/" target="_blank">STA 100</a> in 2019 by the Society of Typographic Arts institute. Winning entry: <a href="https://100.sta-chicago.org/winners/2019/numerical-compositions" target="_blank">100.sta-chicago.org/winners/2019/numerical-compositions</a>.</div>
+<div class="text">Selected for <a href="https://100.sta-chicago.org/" target="_blank">STA 100</a> in 2019 by the Society of Typographic Arts institute. Winning entry: <a href="https://100.sta-chicago.org/winners/2019/numerical-compositions" target="_blank">100.sta-chicago.org/winners/2019/numerical-compositions</a>.</div>
 
 <div class="video"><div style="padding:70.11% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/358239232?title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script></div>
+
+
 
 <div class="text">A demo video of the <a href="https://yuinchien.com/projects/variable-font/index.html" target="_blank">type generator</a> showing the different type variants.</div>
 
