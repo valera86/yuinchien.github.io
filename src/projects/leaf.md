@@ -1,6 +1,6 @@
 ---
 title: "Leaf"
-description: "Generative drawings of leaf made with pen plotter"
+description: "Generative drawings of leaf"
 date: "2019-09-01"
 cover: "./../images/leaf/cover.jpg"
 ---
@@ -47,4 +47,18 @@ A series of leaf drawings designed using a vector tool I created with Paper.js. 
 <div class="row two">
   <img src="./../images/leaf/DO01000867.JPG" />
   <img src="./../images/leaf/DO01000863.JPG" />
+</div>
+
+<div class="text">
+Leaf design printed with Risograph.
+</div>
+
+<div class="row two">
+  <img src="./../images/leaf/L1010006.JPG" />
+  <img src="./../images/leaf/L1010002.JPG" />
+</div>
+
+<div class="row two">
+  <img src="./../images/leaf/L1000952.JPG" />
+  <img src="./../images/leaf/L1000941.JPG" />
 </div>
