@@ -2,7 +2,7 @@
 title: "Grid Study"
 description: "The design journey with a drawing device"
 date: "2020-02-01"
-cover: "./../images/grid-study/cover.png"
+cover: "./../images/grid-study/sketches.png"
 ---
 
 <div class="text">
@@ -46,7 +46,9 @@ After the more complex grid exploration, I was drawn to the individual fluid sha
   <img src="./../images/grid-study/102.jpg" />
 </div>
 
-<div class="row three">
+![Grid Study](./../images/grid-study/sketches.png)
+
+<!-- <div class="row three">
   <img src="./../images/grid-study/020.jpg" />
   <img src="./../images/grid-study/021.jpg" />
   <img src="./../images/grid-study/026.jpg" />
@@ -56,28 +58,22 @@ After the more complex grid exploration, I was drawn to the individual fluid sha
   <img src="./../images/grid-study/023.jpg" />
   <img src="./../images/grid-study/024.jpg" />
   <img src="./../images/grid-study/025.jpg" />
-</div>
+</div> -->
 
 <div class="text">
 I developed a series of sketches by playing with colors and the 3x5 grid system. Printing them in Risograph seemed like a good idea, I tried to explore riso color, texture and gradient.
 </div>
 
 <div class="row two">
-<div style="padding:125% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/408884474?autoplay=1&loop=1&title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
-<div style="padding:125% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/408884448?autoplay=1&loop=1&title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+<div style="padding:125% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/408884474?autoplay=1&loop=1&title=0&byline=0&portrait=0&muted=1" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+<div style="padding:125% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/408884448?autoplay=1&loop=1&title=0&byline=0&portrait=0&muted=1" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
 </div>
 
-<!-- <div class="video fixed-size"><iframe src="https://player.vimeo.com/video/406273059?title=0&byline=0&portrait=0" width="720" height="720" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div> -->
+![Grid Study](./../images/grid-study/cover2.JPG)
 
 <div class="row two">
-  <img src="./../images/grid-study/IMG_1290.JPG" />
+  <img src="./../images/grid-study/IMG_1305.jpg" />
   <img src="./../images/grid-study/IMG_1303.JPG" />
-</div>
-
-<div class="row three">
-  <img src="./../images/grid-study/000.jpg" />
-  <img src="./../images/grid-study/001.jpg" />
-  <img src="./../images/grid-study/004.jpg" />
 </div>
 
 <div class="text">The grid study also lead to the creation of  <a href="/max">MAX</a> – an experimental typeface.</div>

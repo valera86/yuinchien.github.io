@@ -285,7 +285,7 @@ input {
 
 #content img,
 .project img {
-  border: var(--border-style);
+  outline: var(--border-style);
 }
 .project img {
   max-width: 100%;
@@ -303,8 +303,9 @@ input {
   opacity: .4;
   -webkit-transition: .1s all;
   text-decoration: none !important;
+}
+.project .info {
   height: 80px;
-  display: block;
 }
 
 #drawer {
@@ -410,7 +411,7 @@ div:focus {outline:0;}
     padding-bottom: calc(var(--margin) * 6);
   }
 
-  .project .desc {
+  .project .info {
     height: 60px;
   }
 

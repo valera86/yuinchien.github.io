@@ -15,8 +15,10 @@ export default ({ data }) => {
             {data.allMarkdownRemark.edges.map(({ node }) => (
               <div className="project" key={node.id}>
                 <Link to={node.fields.slug}><img alt="hero" src={node.frontmatter.cover.childImageSharp.fluid.src} /></Link>
-                <span>{node.frontmatter.title}</span>
-                <span className="desc"> {node.frontmatter.description} </span>
+                <div class="info">
+                  <span>{node.frontmatter.title}</span>
+                  <span className="desc"> {node.frontmatter.description} </span>
+                </div>
               </div>
             ))}
           </div>
