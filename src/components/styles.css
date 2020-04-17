@@ -194,9 +194,6 @@ h1 {
 .row.two {
   column-count: 2;
 }
-.row.three {
-  column-count: 3;
-}
 
 .row,
 .video {
@@ -413,6 +410,14 @@ div:focus {outline:0;}
 
   .project .info {
     height: 60px;
+  }
+
+  .row.two {
+    column-count: 1;
+  }
+  .row.two > div:first-child,
+  .row.two > span:first-child {
+    margin-bottom: calc(var(--margin) * 2);
   }
 
   #home-wrapper .project {

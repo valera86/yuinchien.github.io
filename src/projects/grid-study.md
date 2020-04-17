@@ -37,26 +37,11 @@ After the more complex grid exploration, I was drawn to the individual fluid sha
 
 ![Grid Study](./../images/grid-study/cover.png)
 
-<!-- <div class="row three">
-  <img src="./../images/grid-study/020.jpg" />
-  <img src="./../images/grid-study/021.jpg" />
-  <img src="./../images/grid-study/026.jpg" />
-</div>
-
-<div class="row three">
-  <img src="./../images/grid-study/023.jpg" />
-  <img src="./../images/grid-study/024.jpg" />
-  <img src="./../images/grid-study/025.jpg" />
-</div> -->
-
 <div class="text">
 I developed a series of sketches by playing with colors and the 3x5 grid system. Printing them in Risograph seemed like a good idea, I tried to explore riso color, texture and gradient.
 </div>
 
-<div class="row two">
-<div style="padding:125% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/408884474?autoplay=1&loop=1&title=0&byline=0&portrait=0&muted=1" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
-<div style="padding:125% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/408884448?autoplay=1&loop=1&title=0&byline=0&portrait=0&muted=1" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
-</div>
+<div class="row two"><div style="padding:125% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/408884474?autoplay=1&loop=1&title=0&byline=0&portrait=0&muted=1" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script><div style="padding:125% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/408884448?autoplay=1&loop=1&title=0&byline=0&portrait=0&muted=1" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script></div>
 
 ![Grid Study](./../images/grid-study/cover2.JPG)
 
