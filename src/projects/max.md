@@ -2,7 +2,7 @@
 title: "MAX"
 description: "An experimental typeface that sharpens, tilts, hollows and distorts"
 date: "2020-03-20"
-cover: "./../images/max/011.png"
+cover: "./../images/max/cover2.png"
 ---
 
 <div class="text">An experimental typeface that sharpens, tilts, hollows and distorts. With 4 axes of variation including width, weight, slant and curve, MAX affords complex visual expressions and qualities. Checkout the web type specimen: <a href="https://yuinchien.com/projects/max" target="_blank">yuinchien.com/projects/max</a>.</div>

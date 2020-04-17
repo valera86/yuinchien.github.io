@@ -2,7 +2,7 @@
 title: "Grid Study"
 description: "The design journey with a drawing device"
 date: "2020-02-01"
-cover: "./../images/grid-study/sketches.png"
+cover: "./../images/grid-study/053.jpg"
 ---
 
 <div class="text">
@@ -15,21 +15,11 @@ Inspired by the research in Armin Hofmann's <a target="_blank" href="https://www
 With the initial drawing device setup, I started exploring compositions, densities, shades and dimension by layering the paths in interesting ways.
 </div>
 
-<div class="row three">
-  <img src="./../images/grid-study/051.jpg" />
-  <img src="./../images/grid-study/054.jpg" />
-  <img src="./../images/grid-study/050.jpg" />
-</div>
+![Grid Study](./../images/grid-study/lines0.png)
 
 <div class="row two">
   <img src="./../images/grid-study/053.jpg" />
   <img src="./../images/grid-study/064.png" />
-</div>
-
-<div class="row three">
-  <img src="./../images/grid-study/060.png" />
-  <img src="./../images/grid-study/061.png" />
-  <img src="./../images/grid-study/062.png" />
 </div>
 
 ![Grid Study](./../images/grid-study/200.png)
@@ -37,16 +27,15 @@ With the initial drawing device setup, I started exploring compositions, densiti
 ![Grid Study](./../images/grid-study/110.jpg)
 
 <div class="text">
-After the more complex grid exploration, I was drawn to the individual fluid shape created with smaller grid. They feel like different characters each has its own gesture and disposition. Below are 3 collection of shapes made with different circle sizes.
+After the more complex grid exploration, I was drawn to the individual fluid shape created with smaller grid. They feel like different characters each has its own gesture and disposition. Below are collections of shapes made with different circle sizes.
 </div>
 
-<div class="row three">
+<div class="row two">
   <img src="./../images/grid-study/100.jpg" />
-  <img src="./../images/grid-study/101.jpg" />
   <img src="./../images/grid-study/102.jpg" />
 </div>
 
-![Grid Study](./../images/grid-study/sketches.png)
+![Grid Study](./../images/grid-study/cover.png)
 
 <!-- <div class="row three">
   <img src="./../images/grid-study/020.jpg" />

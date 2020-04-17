@@ -2,7 +2,7 @@
 title: "The Search Operators"
 description: "The sloppy twin of Google search"
 date: "2012-07-01"
-cover: "./../images/the-search-operators/1.png"
+cover: "./../images/the-search-operators/1.jpg"
 ---
 <div class="text">How would an interface with its own consciousness, senses, and gestures reverse the passive role of user in Interaction Design? The Search Operators is the sloppy twin of Google search. By reversing the passive roles of UI elements, I want to expand the traditional notion of user interfaces. </div>
 

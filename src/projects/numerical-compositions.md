@@ -2,8 +2,10 @@
 title: "Numerical Compositions"
 description: "Abstract plotter drawings created with a single stroke typeface"
 date: "2019-09-03"
-cover: "./../images/numerical-compositions/L1010226-3.jpg"
+cover: "./../images/numerical-compositions/L1000702-3.jpg"
 ---
+
+![zine](./../images/numerical-compositions/cover.jpg)
 
 <div class="text">This project experiments with type design, creative coding and drawing with machine. Aspired to create typographic drawings with my pen plotter, I designed a single stroke variable font for numerical featuring basic geometry of lines, circles and polygons. </div>
 
@@ -11,11 +13,9 @@ cover: "./../images/numerical-compositions/L1010226-3.jpg"
 
 <div class="video"><div style="padding:70.11% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/358239232?title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script></div>
 
-
-
 <div class="text">A demo video of the <a href="https://yuinchien.com/projects/variable-font/index.html" target="_blank">type generator</a> showing the different type variants.</div>
 
-<div class="video"><div style="padding:66.67% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/370559353?title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script></div>
+<!-- <div class="video"><div style="padding:66.67% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/370559353?title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script></div> -->
 
 <div class="text">A series of pen plotter drawings are created with the generative font to explore typographic compositions, abstract form, and color dynamics. Made with acrylic paint markers on black paper, the drawings are available in store at <a href="https://store.yuinchien.com/" target="_blank">store.yuinchien.com</a>.</div>
 

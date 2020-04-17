@@ -2,7 +2,7 @@
 title: "Google Fonts"
 description: "A complete redesign of Google Fonts"
 date: "2016-08-01"
-cover: "./../images/google-fonts/160719_staawards_submission-04.png"
+cover: "./../images/google-fonts/cover.png"
 ---
 <div class="text">
 First launched in 2010 as an engineering initiative to move the web forward, today Google fonts are viewed on the web over 15 billion times a day in over 135 languages worldwide. As the design lead, I worked on the 2016 Google Fonts redesign to best showcase typography and type designers while making fonts easy to explore and use.
