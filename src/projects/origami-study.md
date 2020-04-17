@@ -37,6 +37,8 @@ cover: "./../images/origami-study/origami.jpg"
   <img src="./../images/origami-study/Frame41.jpg" />
 </div>
 
+![Origami Study](./../images/origami-study/Frame110.png)
+
 <div class="row two">
   <img src="./../images/origami-study/Frame39.jpg" />
   <img src="./../images/origami-study/Frame42.jpg" />

@@ -8,10 +8,10 @@ cover: "./../images/text-experiment/cover.png"
 By encoding text of song lyrics into ASCII, I used the decimal number of the code to do texture experiment in Processing.
 </div>
 
-![Line Drawing](./../images/text-experiment/11.png)
+![Line Drawing](./../images/text-experiment/cover.png)
 
-![Line Drawing](./../images/text-experiment/22.png)
+![Line Drawing](./../images/text-experiment/export0.jpg)
 
-![Line Drawing](./../images/text-experiment/33.png)
+![Line Drawing](./../images/text-experiment/export1.jpg)
 
-![Line Drawing](./../images/text-experiment/44.png)
+![Line Drawing](./../images/text-experiment/export2.jpg)

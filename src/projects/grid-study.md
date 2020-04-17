@@ -2,7 +2,7 @@
 title: "Grid Study"
 description: "The design journey with a drawing device"
 date: "2020-02-01"
-cover: "./../images/grid-study/053.jpg"
+cover: "./../images/grid-study/cover.png"
 ---
 
 <div class="text">
