@@ -1,5 +1,4 @@
-// import React from "react"
-import React, { Component } from 'react'
+import React from "react"
 import { Link } from "gatsby"
 import { graphql } from 'gatsby'
 import Layout from "./../components/layout"
@@ -31,14 +30,14 @@ class Project extends React.Component  {
           <Link id="button-home" className="fab" to="/"></Link>
           {data.allMarkdownRemark.edges.map(({ node }) => (
             <div className={`project ${node.fields.slug===post.fields.slug ? "selected": ""}`} key={node.id}>
-              <Link to={node.fields.slug}><img src={node.frontmatter.cover.childImageSharp.fluid.src} /></Link>
+              <Link to={node.fields.slug}><img alt="hero" src={node.frontmatter.cover.childImageSharp.fluid.src} /></Link>
               <span>{node.frontmatter.title}</span>
               <span className="desc"> {node.frontmatter.description} </span>
             </div>
           ))}
         </div>
         <div id="project-wrapper" className={`animate-up ${menuActive}`}>
-          <div id="button-menu" className={`fab ${menuActive}`} onClick={this.handleModalOpen}></div>
+          <div role="button" tabIndex="0" id="button-menu" className={`fab ${menuActive}`} onClick={this.handleModalOpen} onKeyDown={this.handleModalOpen}></div>
           <div id="content">
             <h1 className="text">{post.frontmatter.title}</h1>
             <div dangerouslySetInnerHTML={{ __html: post.html }} />

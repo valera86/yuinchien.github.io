@@ -14,14 +14,14 @@ export default ({ data }) => {
           <div id="projects">
             {data.allMarkdownRemark.edges.map(({ node }) => (
               <div className="project" key={node.id}>
-                <Link to={node.fields.slug}><img src={node.frontmatter.cover.childImageSharp.fluid.src} /></Link>
+                <Link to={node.fields.slug}><img alt="hero" src={node.frontmatter.cover.childImageSharp.fluid.src} /></Link>
                 <span>{node.frontmatter.title}</span>
                 <span className="desc"> {node.frontmatter.description} </span>
               </div>
             ))}
           </div>
           <div id="personal-info" className="h1">
-            <div id="bio">Yuin Chien is a San Francisco based designer and programmer focusing on graphic design, creative coding, risograph and plotter drawings. Her work has been selected by MoMA Talk to Me exhibition, Communication Arts, STA 100 Awards, and The Verge. See <a href={resume} target="_blank">resume</a>.</div>
+            <div id="bio">Yuin Chien is a San Francisco based designer and programmer focusing on graphic design, creative coding, risograph and plotter drawings. Her work has been selected by MoMA Talk to Me exhibition, Communication Arts, STA 100 Awards, and The Verge. See <a href={resume} target="_blank" rel="noopener noreferrer">resume</a>.</div>
             <div className="bullet"><a rel="noopener noreferrer" href="https://store.yuinchien.com" target="_blank">store.yuinchien.com</a></div>
             <div className="bullet"><a rel="noopener noreferrer" href="https://www.instagram.com/yuin.chien/" target="_blank">instagram.com/yuin.chien</a></div>
             <div className="bullet"><a rel="noopener noreferrer" href="https://twitter.com/yuinchien" target="_blank">twitter.com/yuinchien</a></div>
