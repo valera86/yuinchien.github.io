@@ -4,15 +4,10 @@
   --margin: 20px;
 
   --color-black: #444;
-
   --color-orange: #FF6F59;
-
-  --margin-footer: 40px 0 20px 0;
 
   --font-size: 24px;
   --line-height: 36px;
-
-  --font-size-project: 24px;
 
   --aniamte-up-distance: 20px;
   --max-width: 1160px;
@@ -103,7 +98,9 @@ h1 {
 #project-wrapper.open #content {
   pointer-events: none;
 }
-
+#personal-info {
+  margin-bottom: calc(var(--margin) * 2);
+}
 .animate-up {
   transform: translate3d(0,var(--aniamte-up-distance),0);
   opacity: 0;
@@ -153,10 +150,6 @@ h1 {
   }
 }
 
-.hide-for-now {
-  display: none !important;
-}
-
 #content {
   background: #fff;
   z-index: 100;
@@ -175,7 +168,6 @@ h1 {
 .bullet a:hover {
   color: var(--color-orange);
 }
-
 .bullet:before {
   width: 12px;
   height: 12px;
@@ -184,8 +176,6 @@ h1 {
   content: "";
   margin-right: 12px;
 }
-
-
 
 .row {
   column-gap: calc(2 * var(--margin));
@@ -205,16 +195,6 @@ h1 {
 .video {
   position: relative;
   outline: var(--border-style);
-}
-
-.video.fixed-size {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.video.small {
-  max-width: var(--size-small);
 }
 
 main {
@@ -256,27 +236,22 @@ input {
   text-decoration: underline;
 }
 
-#home-wrapper {
+#home-container {
   padding: calc(2 * var(--margin));
   margin: 0 auto;
   max-width: 1600px;
 }
-
-.line-thru {
-  text-decoration: line-through;
-}
-
-#home-wrapper .project {
+#home-container .project {
   color: #222;
   width: 50%;
   vertical-align: bottom;
   display: inline-block;
   margin-bottom: calc(var(--margin) * 4);
 }
-#home-wrapper .project:nth-child(2n+1) {
+#home-container .project:nth-child(2n+1) {
   padding-right: var(--margin);
 }
-#home-wrapper .project:nth-child(2n) {
+#home-container .project:nth-child(2n) {
   padding-left: var(--margin);
 }
 
@@ -311,7 +286,6 @@ input {
   transition: opacity 0.15s .5s;
   width: var(--drawer-width);
   padding: calc(var(--margin) * 1);
-  /* padding-right: calc(var(--margin) * 1); */
   padding-top: calc(2 * var(--margin) + 48px);
   overflow-y: scroll;
   top: 0;
@@ -372,21 +346,11 @@ h1.text {
 div:focus {outline:0;}
 
 @media only screen and (max-width: 1240px) {
-  :root {
-  }
-
   main .text,
   ul {
     max-width: auto;
     margin-left: calc(var(--margin) * 2);
     margin-right: calc(var(--margin) * 2);
-  }
-
-  #grid #col5,
-  #grid #col6,
-  #grid #col7,
-  #grid #col8 {
-    display: none;
   }
 }
 
@@ -409,7 +373,8 @@ div:focus {outline:0;}
   }
 
   .project .info {
-    height: 60px;
+    height: auto;
+    margin-bottom: calc(var(--margin) * 1);
   }
 
   .row.two {
@@ -420,11 +385,15 @@ div:focus {outline:0;}
     margin-bottom: calc(var(--margin) * 2);
   }
 
-  #home-wrapper .project {
+  #drawer .project {
+    margin-bottom: calc(3 * var(--margin));
+  }
+
+  #home-container .project {
     width: 100%;
   }
-  #home-wrapper .project:nth-child(2n+1),
-  #home-wrapper .project:nth-child(2n) {
+  #home-container .project:nth-child(2n+1),
+  #home-container .project:nth-child(2n) {
     padding-right: 0;
     padding-left: 0;
   }
@@ -436,14 +405,6 @@ div:focus {outline:0;}
 
   #grid .margin {
     width: calc(.5 * var(--margin));
-  }
-
-  .video.fixed-size {
-    height: calc(100vw - var(--margin)*4);
-  }
-
-  .video.square {
-    padding: 100% 0 0 0 !important;
   }
 
   .bullet:before {
