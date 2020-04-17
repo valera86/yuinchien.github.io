@@ -1,0 +1,18 @@
+---
+title: "2019"
+description: "New Year greeting for 2019"
+date: "2019-01-01"
+cover: "./../images/2019/cover.jpg"
+---
+
+<div class="text">
+A New Year greeting for 2019. An animation exploring the intersection between geometry & typography using P5.js. See P5.js <a href="https://editor.p5js.org/yuin/sketches/HyTwnS3WV" target="_blank">sketch</a>.
+</div>
+
+<div class="video"><div style="padding:62.5% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/309212051?autoplay=1&loop=1&title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script></div>
+
+
+
+![2019](./../images/2019/canvas(9).jpg)
+
+![2019](./../images/2019/canvas(11).jpg)

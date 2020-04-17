@@ -59,7 +59,7 @@ After the more complex grid exploration, I was drawn to the individual fluid sha
 </div>
 
 <div class="text">
-I developed a series of sketches by playing with colors and the 3x5 grid system. Naturally these are perfect for riso, I tried to explore texutres and gradients with these risograph prints in tabloid size.
+I developed a series of sketches by playing with colors and the 3x5 grid system. Printing them in Risograph seemed like a good idea, I tried to explore riso color, texture and gradient.
 </div>
 
 <div class="row two">
@@ -79,3 +79,5 @@ I developed a series of sketches by playing with colors and the 3x5 grid system.
   <img src="./../images/grid-study/001.jpg" />
   <img src="./../images/grid-study/004.jpg" />
 </div>
+
+<div class="text">The grid study also lead to the creation of  <a href="/max">MAX</a> – an experimental typeface.</div>

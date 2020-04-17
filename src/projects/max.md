@@ -1,8 +1,8 @@
 ---
-title: "Max"
+title: "MAX"
 description: "An experimental typeface that sharpens, tilts, hollows and distorts"
 date: "2020-03-20"
-cover: "./../images/max-intro/cover.png"
+cover: "./../images/max/cover.png"
 ---
 <div class="text">An experimental typeface that sharpens, tilts, hollows and distorts. With 4 axes of variation including width, weight, slant and curve, MAX affords complex visual expressions and qualities. Checkout the web type specimen: <a href="https://yuinchien.com/projects/max" target="_blank">yuinchien.com/projects/max</a>.</div>
 
@@ -16,18 +16,18 @@ cover: "./../images/max-intro/cover.png"
 
 <div class="text">Demo showing how the type is created. Link to demo: <a href="https://yuinchien.com/projects/max/demo" target="_blank">yuinchien.com/projects/max/demo</a>.</div>
 
-![Grid Study](./../images/max-intro/010.png)
+![Grid Study](./../images/max/010.png)
 
-![Grid Study](./../images/max-intro/011.png)
+![Grid Study](./../images/max/011.png)
 
-![Grid Study](./../images/max-intro/012.png)
+![Grid Study](./../images/max/012.png)
 
-![Grid Study](./../images/max-intro/013.png)
+![Grid Study](./../images/max/013.png)
 
-![Grid Study](./../images/max-intro/014.png)
+![Grid Study](./../images/max/014.png)
 
 <div class="text">
 Plotter drawings featuring MAX to showcase the variable fonts. Acrylic pens on black paper. Made with Axidraw.
 </div>
 
-![Grid Study](./../images/max-intro/401.jpg)
+![Grid Study](./../images/max/401.jpg)
