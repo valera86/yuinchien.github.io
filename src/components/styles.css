@@ -161,8 +161,7 @@ h1 {
   background: #fff;
   z-index: 100;
   position: relative;
-  padding: calc(var(--margin) * 2);
-  padding-bottom: calc(var(--margin) * 4);
+  padding: var(--margin) calc(var(--margin) * 2) calc(var(--margin) * 4) calc(var(--margin) * 2);
 }
 
 .bullet {
@@ -273,7 +272,7 @@ input {
 #home-wrapper .project {
   color: #222;
   width: 50%;
-  vertical-align: top;
+  vertical-align: bottom;
   display: inline-block;
   margin-bottom: calc(var(--margin) * 4);
 }
@@ -304,6 +303,8 @@ input {
   opacity: .4;
   -webkit-transition: .1s all;
   text-decoration: none !important;
+  height: 80px;
+  display: block;
 }
 
 #drawer {
@@ -403,6 +404,14 @@ div:focus {outline:0;}
   ul {
     margin-left: 0;
     margin-right: 0;
+  }
+
+  #content {
+    padding-bottom: calc(var(--margin) * 6);
+  }
+
+  .project .desc {
+    height: 60px;
   }
 
   #home-wrapper .project {

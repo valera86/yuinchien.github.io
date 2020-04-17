@@ -1,7 +1,7 @@
 ---
 title: "Dot Series"
 description: "Free form drawings with dots"
-date: "2019-06-31"
+date: "2019-08-31"
 cover: "./../images/dot-series/100.png"
 ---
 <div class="text">Inspired by Matisse cut out, I wanted to create the free forms made out of paper & scissor. I started using Paper.js to create a tree-like structure, and turned it into a drawing tool that can generate dynamic outlines for the skeleton. </div>

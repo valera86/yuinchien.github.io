@@ -1,8 +1,8 @@
 ---
 title: "Sun"
 description: "Generative drawings"
-date: "2019-05-01"
-cover: "./../images/sun/cover.png"
+date: "2019-06-23"
+cover: "./../images/sun/cover.jpg"
 ---
 <div class="text">
 Generative drawings using html canvas & JS to explore the dynamics of density and randomness.

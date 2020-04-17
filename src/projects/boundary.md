@@ -1,7 +1,7 @@
 ---
 title: "Boundary"
 description: "Drawings inspired by the boundaries of sports field"
-date: "2019-08-31"
+date: "2019-06-31"
 cover: "./../images/boundary/L1000043.jpg"
 ---
 <div class="text">
