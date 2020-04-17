@@ -62,7 +62,12 @@ After the more complex grid exploration, I was drawn to the individual fluid sha
 I developed a series of sketches by playing with colors and the 3x5 grid system. Naturally these are perfect for riso, I tried to explore texutres and gradients with these risograph prints in tabloid size.
 </div>
 
-<div class="video fixed-size"><iframe src="https://player.vimeo.com/video/406273059?title=0&byline=0&portrait=0" width="720" height="720" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div>
+<div class="row two">
+<div style="padding:125% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/408884474?autoplay=1&loop=1&title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+<div style="padding:125% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/408884448?autoplay=1&loop=1&title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+</div>
+
+<!-- <div class="video fixed-size"><iframe src="https://player.vimeo.com/video/406273059?title=0&byline=0&portrait=0" width="720" height="720" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div> -->
 
 <div class="row two">
   <img src="./../images/grid-study/IMG_1290.JPG" />
