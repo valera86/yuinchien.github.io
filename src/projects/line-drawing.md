@@ -9,8 +9,13 @@ This P5.js sketch explores the interplay of lines, dots and arcs. The program dy
 </div>
 
 ![Line Drawing](./../images/line-drawing/canvas.jpg)
+
 ![Line Drawing](./../images/line-drawing/canvas1.jpg)
+
 ![Line Drawing](./../images/line-drawing/canvas3.jpg)
+
 ![Line Drawing](./../images/line-drawing/canvas4.jpg)
+
 ![Line Drawing](./../images/line-drawing/canvas5.jpg)
+
 ![Line Drawing](./../images/line-drawing/canvas2.jpg)
