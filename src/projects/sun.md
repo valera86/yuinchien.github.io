@@ -17,10 +17,5 @@ Generative drawings using html canvas & JS to explore the dynamics of density an
   <img src="./../images/sun/01.png" />
   <img src="./../images/sun/02.png" />
 </div>
-<!-- 
-<div class="row two">
-  <img src="./../images/sun/04.png" />
-  <img src="./../images/sun/05.png" />
-</div> -->
 
 <div class="text">Checkout the drawings in store: <a href="http://store.yuinchien.com/store/circle-1" target="_blank">store.yuinchien.com/store/circle-1</a>.</div>
