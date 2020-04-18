@@ -15,6 +15,7 @@ cover: "./../images/origami-study/origami.jpg"
   <img src="./../images/origami-study/Frame44.png" />
   <img src="./../images/origami-study/Frame52.png" />
 </div>
+
 <div class="row two">
   <img src="./../images/origami-study/Frame55.png" />
   <img src="./../images/origami-study/Frame100.png" />

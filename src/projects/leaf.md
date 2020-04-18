@@ -45,7 +45,6 @@ A series of leaf drawings made with a vector drawing tool I created with Paper.j
   <img src="./../images/leaf/DO01000863.JPG" />
 </div>
 
-
 <div class="text">
 Some of the risograph prints on tabloid size.
 </div>

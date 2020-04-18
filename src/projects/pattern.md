@@ -15,10 +15,12 @@ Making patterns by exploring techniques of mirror symmetry, fluctuation and repe
   <img src="./../images/pattern/00.jpg" />
   <img src="./../images/pattern/01.jpg" />
 </div>
+
 <div class="row two">
   <img src="./../images/pattern/02.jpg" />
   <img src="./../images/pattern/03.jpg" />
 </div>
+
 <div class="row two">
   <img src="./../images/pattern/04.jpg" />
   <img src="./../images/pattern/05.jpg" />

@@ -19,7 +19,6 @@ The Search Operators opens up a narrative space inhabited by three sloppy Google
   <img src="./../images/the-search-operators/3.jpg" />
 </div>
 
-
 <div class="text">
 My remixing experiments introduce a playful aesthetic to familiar interfaces, which afford open reflections and interpretations. Remix Interactions are mash-ups of hacked web technology and humanistic expressions: a radical response to patterns of interface design which predicts human behavior. The work aims to provide room for people to speculate about human condition in the digital age.
 </div>

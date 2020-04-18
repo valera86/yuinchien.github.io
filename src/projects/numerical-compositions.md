@@ -24,12 +24,6 @@ cover: "./../images/numerical-compositions/L1000702-3.jpg"
   <img src="./../images/numerical-compositions/L1000870.jpg" />
 </div>
 
-<!-- <div class="row">
-  <img src="./../images/numerical-compositions/L1000552-2.jpg" />
-  <img src="./../images/numerical-compositions/L1000560-2.jpg" />
-  <img src="./../images/numerical-compositions/L1000555.jpg" />
-</div> -->
-
 <div class="row two">
   <img src="./../images/numerical-compositions/L1000863.jpg" />
   <img src="./../images/numerical-compositions/L1000876.jpg" />
@@ -52,21 +46,10 @@ cover: "./../images/numerical-compositions/L1000702-3.jpg"
   <img src="./../images/numerical-compositions/L1000897.jpg" />
 </div>
 
-<!-- <div class="row two">
-  <img src="./../images/numerical-compositions/L1000657-5.jpg" />
-  <img src="./../images/numerical-compositions/L1000784-2.jpg" />
-</div> -->
-
 <div class="text">I also created a risograph zine for the project. Risograph mist on tabloid size paper in forest green. </div>
 
 <div class="video"><div style="padding:75% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/373693341?autoplay=1&loop=1&title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script></div>
 
 ![zine](./../images/numerical-compositions/L1010282-5.jpg)
-
-<!-- ![zine](./../images/numerical-compositions/L1010251-7.jpg) -->
-
-<!-- ![zine](./../images/numerical-compositions/L1010252-2.jpg) -->
-
-<!-- ![zine](./../images/numerical-compositions/L1010226-3.jpg) -->
 
 ![zine](./../images/numerical-compositions/L1010263-5.jpg)

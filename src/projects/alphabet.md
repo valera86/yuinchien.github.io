@@ -6,16 +6,17 @@ cover: "./../images/alphabet/cover.png"
 ---
 
 <div class="video"><div style="padding:62.5% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/408488652?autoplay=1&loop=1&title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script></div>
+
 <div class="text">Type design and motion study in CSS. I was interested in creating a typeface that is fluid and dynamic. Exploring beyond the individual static letterforms, by sharing the same basic construct, the characters have the ability to morph into one another. It is the in between state that makes the typeface interesting.  Checkout the website: <a href="https://yuinchien.com/projects/alphabet/" target="_blank">yuinchien.com/projects/alphabet</a>.</div>
 
-![Poster](./../images/alphabet/00.png)
+![Alphabet](./../images/alphabet/00.png)
 
-![Poster](./../images/alphabet/01.png)
+![Alphabet](./../images/alphabet/01.png)
 
-![Poster](./../images/alphabet/02.png)
+![Alphabet](./../images/alphabet/02.png)
 
-![Poster](./../images/alphabet/03.png)
+![Alphabet](./../images/alphabet/03.png)
 
-![Poster](./../images/alphabet/04.png)
+![Alphabet](./../images/alphabet/04.png)
 
-![Poster](./../images/alphabet/cover.png)
+![Alphabet](./../images/alphabet/cover.png)

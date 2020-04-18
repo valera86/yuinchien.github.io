@@ -10,7 +10,6 @@ First launched in 2010 as an engineering initiative to move the web forward, tod
 
 ![Google Fonts Redesign](./../images/google-fonts/160719_staawards_submission-07.png)
 
-
 <div class="text">
 The redesign has been selected by the <a href="https://100.sta-chicago.org/winners/2016/google-fonts" target="_blank">2016 STA 100 Awards</a>, the <a href="http://www.commarts.com/gallery/Interactive/all/all/2017" target="_blank">2017 Communication Arts Interactive Annual Awards</a> and the <a href="http://www.commarts.com/gallery/typography/miscellaneous/all/2017" target="_blank">2017 Communication Arts Typography Annual Awards</a>. To learn more about the redesign, please checkout the article – <a href="https://design.google/library/reimagining-google-fonts/" target="_blank">Reimagining Google Fonts</a> on Google Design and visit <a href="https://fonts.google.com/" target="_blank">fonts.google.com</a>. Selected press:
 </div>
