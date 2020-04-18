@@ -35,7 +35,7 @@ After the more complex grid exploration, I was drawn to the individual fluid sha
   <img src="./../images/grid-study/102.jpg" />
 </div>
 
-![Grid Study](./../images/grid-study/cover.png)
+![Grid Study](./../images/grid-study/sketches.png)
 
 <div class="text">
 I developed a series of sketches by playing with colors and the 3x5 grid system. Printing them in Risograph seemed like a good idea, I tried to explore riso color, texture and gradient.
