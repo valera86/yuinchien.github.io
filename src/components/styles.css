@@ -264,16 +264,9 @@ input {
 }
 #home-container .project {
   color: #222;
-  width: 50%;
   vertical-align: bottom;
   display: inline-block;
   margin-bottom: calc(var(--margin) * 4);
-}
-#home-container .project:nth-child(2n+1) {
-  padding-right: var(--margin);
-}
-#home-container .project:nth-child(2n) {
-  padding-left: var(--margin);
 }
 
 #content img,
@@ -289,17 +282,14 @@ input {
 .project:hover a {
   color: var(--color-orange);
 }
-.project:hover .desc {
-  opacity: .7;
-}
 .project .desc {
   opacity: .4;
-  -webkit-transition: .1s all;
-  text-decoration: none !important;
 }
 .project .info {
   padding-top: 4px;
   height: 80px;
+  padding-right: var(--margin);
+  line-height: calc(var(--line-height) - 2px);
 }
 
 #drawer {
@@ -362,12 +352,38 @@ h1.text {
 
 div:focus {outline:0;}
 
+@media only screen and (min-width: 1241px) {
+  #home-container .project {
+    width: 33.33%;
+  }
+  #home-container .project:nth-child(3n+1) {
+    padding-right: var(--margin);
+  }
+  #home-container .project:nth-child(3n+2) {
+    padding-right: calc(var(--margin)/2);
+    padding-left: calc(var(--margin)/2);
+  }
+  #home-container .project:nth-child(3n) {
+    padding-left: var(--margin);
+  }
+}
+
 @media only screen and (max-width: 1240px) {
   main .text,
   ul {
     max-width: auto;
     margin-left: calc(var(--margin) * 2);
     margin-right: calc(var(--margin) * 2);
+  }
+
+  #home-container .project {
+    width: 50%;
+  }
+  #home-container .project:nth-child(2n+1) {
+    padding-right: var(--margin);
+  }
+  #home-container .project:nth-child(2n) {
+    padding-left: var(--margin);
   }
 }
 
