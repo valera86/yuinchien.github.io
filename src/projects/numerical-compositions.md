@@ -1,7 +1,7 @@
 ---
 title: "Numerical Compositions"
 description: "Abstract plotter drawings created with a single stroke typeface"
-date: "2019-09-03"
+date: "2020-01-15"
 cover: "./../images/numerical-compositions/L1000702-3.jpg"
 ---
 

@@ -2,22 +2,15 @@
 title: "Line Drawing"
 description: "Sketches of lines & arcs"
 date: "2019-03-01"
-cover: "./../images/line-drawing/cover.jpg"
+cover: "./../images/line-drawing/canvas3.jpg"
 ---
 <div class="text">
-This P5.js sketch explores drawing of straight lines & arcs. The program dynamically creates grid size & stroke weight from the beginning and produces drawing of diverse densities & motion. See P5.js <a href="https://editor.p5js.org/yuin/sketches/SyLCrVJbN" target="_blank">sketch</a>.
+This P5.js sketch explores the interplay of lines, dots and arcs. The program dynamically generates grid size, stroke weight, velocity and color theme from the beginning and creates live drawing. See P5.js <a href="https://editor.p5js.org/yuin/sketches/SyLCrVJbN" target="_blank">sketch</a>.
 </div>
 
-![Line Drawing](./../images/line-drawing/canvas(13).jpg)
-
-<div class="row two">
-  <img src="./../images/line-drawing/canvas(12).jpg" />
-  <img src="./../images/line-drawing/canvas(8).jpg" />
-</div>
-
-![Line Drawing](./../images/line-drawing/canvas(6).jpg)
-
-<div class="row two">
-  <img src="./../images/line-drawing/canvas(25).jpg" />
-  <img src="./../images/line-drawing/canvas(23).jpg" />
-</div>
+![Line Drawing](./../images/line-drawing/canvas.jpg)
+![Line Drawing](./../images/line-drawing/canvas1.jpg)
+![Line Drawing](./../images/line-drawing/canvas3.jpg)
+![Line Drawing](./../images/line-drawing/canvas4.jpg)
+![Line Drawing](./../images/line-drawing/canvas5.jpg)
+![Line Drawing](./../images/line-drawing/canvas2.jpg)
