@@ -22,10 +22,7 @@ With the initial drawing device setup, I started exploring compositions, densiti
 
 ![Grid Study](./../images/grid-study/lines.png)
 
-<div class="row two">
-  <img src="./../images/grid-study/056.png" />
-  <img src="./../images/grid-study/055.png" />
-</div>
+![Grid Study](./../images/grid-study/lines2.png)
 
 ![Grid Study](./../images/grid-study/200.png)
 
