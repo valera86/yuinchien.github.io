@@ -15,11 +15,16 @@ Inspired by the research in Armin Hofmann's <a target="_blank" href="https://www
 With the initial drawing device setup, I started exploring compositions, densities, shades and dimension by layering the paths in interesting ways.
 </div>
 
-![Grid Study](./../images/grid-study/lines0.png)
-
 <div class="row two">
   <img src="./../images/grid-study/053.jpg" />
   <img src="./../images/grid-study/064.png" />
+</div>
+
+![Grid Study](./../images/grid-study/lines.png)
+
+<div class="row two">
+  <img src="./../images/grid-study/056.png" />
+  <img src="./../images/grid-study/055.png" />
 </div>
 
 ![Grid Study](./../images/grid-study/200.png)
