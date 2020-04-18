@@ -13,6 +13,10 @@ cover: "./../images/dot-series/cover.png"
 
 <div class="text">The left video demonstrates how the tool works with the most basic structure – 3 nodes. Later on I expaned the tool to create animation like the video at the right, by interpolating still frames that I composed. Below are the drawings created with the drawing tool. </div>
 
+![Dot Series](./../images/dot-series/100.png)
+
+![Dot Series](./../images/dot-series/101.png)
+
 ![Dot Series](./../images/dot-series/02.jpg)
 
 <div class="row two">
