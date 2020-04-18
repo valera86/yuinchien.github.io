@@ -3,6 +3,7 @@ import { Link } from "gatsby"
 import { graphql } from 'gatsby'
 import Layout from "./../components/layout"
 import SEO from "../components/seo"
+import Div100vh from 'react-div-100vh'
 
 class Project extends React.Component  {
 
@@ -35,13 +36,13 @@ class Project extends React.Component  {
             </div>
           ))}
         </div>
-        <div id="project-wrapper" className={`animate-up ${menuActive}`}>
+        <Div100vh id="project-wrapper" className={`animate-up ${menuActive}`}>
           <div role="button" tabIndex="0" id="button-menu" className={`fab ${menuActive}`} onClick={this.handleModalOpen} onKeyDown={this.handleModalOpen}></div>
           <div id="content">
             <h1 className="text">{post.frontmatter.title}</h1>
             <div dangerouslySetInnerHTML={{ __html: post.html }} />
           </div>
-        </div>
+        </Div100vh>
       </Layout>
     )
   }
