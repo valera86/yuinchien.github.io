@@ -61,6 +61,20 @@ a:hover {
   color: var(--color-orange);
 }
 
+#nav {
+  margin-bottom: calc(var(--margin) * 4);
+}
+#nav a {
+  text-decoration: none;
+  margin-right: calc(var(--margin) * 2);
+  color: var(--color-black);
+  opacity: .6;
+}
+#nav a.selected {
+  text-decoration: underline;
+  opacity: 1;
+}
+
 .h1,
 h1 {
   margin: 0;
@@ -232,12 +246,19 @@ input {
 #personal-info a {
   text-decoration: none;
 }
+#bio {
+  font-size: 1.65em;
+  line-height: 1.35em;
+  letter-spacing: -0.8px;
+  margin-bottom: calc(var(--margin) * 2);
+  max-width: var(--max-width);
+}
 #bio a {
   text-decoration: underline;
 }
 
 #home-container {
-  padding: calc(2 * var(--margin));
+  padding: calc(1.5 * var(--margin)) calc(2 * var(--margin)) calc(2 * var(--margin)) calc(2 * var(--margin));
   margin: 0 auto;
   max-width: 1600px;
 }
@@ -277,6 +298,7 @@ input {
   text-decoration: none !important;
 }
 .project .info {
+  padding-top: 4px;
   height: 80px;
 }
 
@@ -332,11 +354,6 @@ input {
   background-color: #fff;
   margin: calc(var(--margin) / 2);
   background-image: var(--url-menu);
-}
-#bio {
-  text-indent: calc(var(--margin) * 2);
-  margin-bottom: calc(var(--margin) * 2);
-  max-width: var(--max-width);
 }
 
 h1.text {
@@ -398,6 +415,7 @@ div:focus {outline:0;}
     padding-left: 0;
   }
 
+  #bio,
   .h1 {
     font-size: 1.25em;
     line-height: 1.56em;
