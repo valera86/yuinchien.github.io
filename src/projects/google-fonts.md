@@ -8,6 +8,8 @@ cover: "./../images/google-fonts/cover.png"
 First launched in 2010 as an engineering initiative to move the web forward, today Google fonts are viewed on the web over 15 billion times a day in over 135 languages worldwide. As the design lead, I worked on the 2016 Google Fonts redesign to best showcase typography and type designers while making fonts easy to explore and use.
 </div>
 
+![Google Fonts Redesign](./../images/google-fonts/160719_staawards_submission-04.png)
+
 ![Google Fonts Redesign](./../images/google-fonts/160719_staawards_submission-07.png)
 
 <div class="text">
@@ -18,10 +20,14 @@ The redesign has been selected by the <a href="https://100.sta-chicago.org/winne
 * [The new Google Fonts is a win for designers](https://99designs.com/blog/trends/new-google-fonts/) – 99designs
 * [Google Fonts website gets a major redesign](http://www.creativebloq.com/fonts/google-fonts-website-gets-redesign-61620894) – Creative Bloq
 
-
 ![Google Fonts Redesign](./../images/google-fonts/reimagining_google_fonts_inline_0002.png)
-
 
 ![Google Fonts Redesign](./../images/google-fonts/160719_staawards_submission-05.png)
 
 ![Google Fonts Redesign](./../images/google-fonts/160719_staawards_submission-06.png)
+
+![Google Fonts Redesign](./../images/google-fonts/160608Article-02.png)
+
+![Google Fonts Redesign](./../images/google-fonts/160608Evolving-sketch-01.png)
+![Google Fonts Redesign](./../images/google-fonts/160608Evolving-sketch-02.png)
+![Google Fonts Redesign](./../images/google-fonts/160608Evolving-sketch-03.png)
