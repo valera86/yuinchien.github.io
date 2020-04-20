@@ -10,10 +10,6 @@ A series of leaf drawings made with a vector drawing tool I created with Paper.j
 
 ![Generative leaf drawing](./../images/leaf/cover-2.jpg)
 
-<!-- <div class="video">
-<div style="padding:177.78% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/409069451?autoplay=1&title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
-</div> -->
-
 <div class="row two">
   <img src="./../images/leaf/00.png" />
   <img src="./../images/leaf/01.png" />

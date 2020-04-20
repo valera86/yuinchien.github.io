@@ -9,10 +9,6 @@ cover: "./../images/max/cover2.png"
 
 <div class="video"><div style="padding:62.5% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/409900498?autoplay=1&title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script></div>
 
-<div class="video"><div style="padding:62.5% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/408217446?title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script></div>
-
-<div class="text">Demo showing how the type is created. Link to demo: <a href="https://yuinchien.com/projects/max/demo" target="_blank">yuinchien.com/projects/max/demo</a>.</div>
-
 ![MAX](./../images/max/010.png)
 
 ![MAX](./../images/max/011.png)
@@ -31,3 +27,7 @@ Plotter drawings featuring MAX to showcase the variable fonts. Acrylic pens on b
 </div>
 
 ![MAX](./../images/max/401.jpg)
+
+<div class="text">A demo video showing how MAX is animated and the variable axes behind the scene. Link to demo: <a href="https://yuinchien.com/projects/max/demo" target="_blank">yuinchien.com/projects/max/demo</a>.</div>
+
+<div class="video"><div style="padding:66.67% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/409880813?autoplay=1&loop=1&title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script></div>
