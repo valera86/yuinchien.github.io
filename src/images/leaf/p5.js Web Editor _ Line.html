@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<!-- saved from url=(0047)https://editor.p5js.org/yuin/sketches/SyLCrVJbN -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="keywords" content="p5.js, p5.js web editor, web editor, processing, code editor">
+      <meta name="description" content="A web editor for p5.js, a JavaScript library with the goal of making coding accessible to artists, designers, educators, and beginners.">
+      <title>p5.js Web Editor | Line</title>
+      <link rel="stylesheet" href="./p5.js Web Editor _ Line_files/app.35b155a21ed13df9ab7b.css">
+      <link href="./p5.js Web Editor _ Line_files/css" rel="stylesheet" type="text/css">
+      <link href="./p5.js Web Editor _ Line_files/css(1)" rel="stylesheet" type="text/css">
+      <link rel="shortcut icon" href="https://raw.githubusercontent.com/processing/p5.js-website-OLD/master/favicon.ico" type="image/x-icon">
+      <script async="" src="./p5.js Web Editor _ Line_files/analytics.js"></script><script>
+        if (!window.process) {
+          window.process = {};
+        }
+        if (!window.process.env) {
+          window.process.env = {};
+        }
+        window.process.env.API_URL = '/editor';
+        window.process.env.NODE_ENV = 'production';
+        window.process.env.S3_BUCKET = 'assets.editor.p5js.org';
+        window.process.env.S3_BUCKET_URL_BASE = 'https://assets.editor.p5js.org/';
+        window.process.env.AWS_REGION = 'us-west-2';
+        window.process.env.FORCE_TO_HTTPS = false;
+        window.process.env.CLIENT = true;
+        window.process.env.LOGIN_ENABLED = true;
+        window.process.env.EXAMPLES_ENABLED = true;
+        window.process.env.UI_ACCESS_TOKEN_ENABLED = false;
+        window.process.env.UI_COLLECTIONS_ENABLED = true;
+        window.process.env.UPLOAD_LIMIT = 250000000;
+      </script>
+    <style data-emotion=""></style></head>
+    <body class="light">
+      <div id="root" class="root-app"><div class="app"><div class="ide"><nav class="nav" title="main-navigation"><ul class="nav__items-left"><li class="nav__item-logo"><span class="isvg loaded svg__logo"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="56" height="42" viewBox="0 0 56 42">
+    <defs>
+        <path id="a___ojeoh3pV" d="M0 0h36v36H0z"></path>
+        <path id="b___ojeoh3pV" d="M0 0h36v36H0z"></path>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <path fill="#ED225D" d="M0 0h56v42H0z"></path>
+        <g transform="translate(10)">
+            <use fill="#FFF" xlink:href="#a___ojeoh3pV"></use>
+            <path stroke="#979797" d="M.5.5h35v35H.5z"></path>
+        </g>
+        <path fill="#ED225D" d="M21.025 20.617a2.826 2.826 0 0 0-.941-.795c-.38-.201-.824-.302-1.334-.302-.481 0-.912.104-1.29.314-.38.209-.704.478-.974.805-.27.329-.474.702-.612 1.12a3.85 3.85 0 0 0 0 2.496c.138.411.342.78.612 1.109.27.328.594.593.974.794.378.202.809.302 1.29.302.51 0 .955-.104 1.334-.313.38-.209.693-.477.94-.806.248-.328.434-.701.559-1.12a4.283 4.283 0 0 0 0-2.497c-.125-.409-.31-.778-.558-1.107"></path>
+        <g transform="translate(10)">
+            <mask id="c___ojeoh3pV" fill="#fff">
+                <use xlink:href="#b___ojeoh3pV"></use>
+            </mask>
+            <path fill="#ED225D" d="M32.75 16.44l-.989.717-1.026-1.361-1.001 1.326-.963-.734.975-1.337-1.582-.571.374-1.15 1.586.511v-1.644h1.273v1.647l1.574-.476.373 1.15-1.57.536.975 1.385zm-7.045 8.959a5.208 5.208 0 0 1-1.25 1.769c-.524.481-1.139.85-1.844 1.105a6.559 6.559 0 0 1-2.25.383c-1.334 0-2.46-.312-3.374-.936a5.238 5.238 0 0 1-1.533-1.614l1.953-1.835.03-.01a3.14 3.14 0 0 0 1.125 1.52c.525.384 1.147.576 1.867.576.405 0 .787-.068 1.147-.204.36-.134.675-.33.945-.585.27-.256.484-.575.641-.958.158-.383.237-.815.237-1.296 0-.616-.106-1.127-.315-1.533a2.775 2.775 0 0 0-.821-.98 3.075 3.075 0 0 0-1.136-.519 5.634 5.634 0 0 0-1.282-.146c-.3 0-.619.022-.957.067-.337.046-.667.11-.99.192-.322.083-.637.177-.944.281a6.717 6.717 0 0 0-.821.338l.27-8.722h9.065v2.434h-6.501l-.157 3.449c.254-.075.558-.128.91-.158.353-.03.672-.045.957-.045.78 0 1.503.112 2.17.338a5.15 5.15 0 0 1 1.744.98c.495.429.88.955 1.158 1.578.278.624.416 1.341.416 2.153 0 .887-.153 1.679-.46 2.378zm-11.601-.36a5.504 5.504 0 0 1-1.058 1.825 5.08 5.08 0 0 1-1.664 1.24c-.653.307-1.392.462-2.216.462a4.678 4.678 0 0 1-2.103-.474c-.638-.315-1.13-.743-1.474-1.285h-.045v6.853h-2.7V17.43h2.588v1.51h.067c.135-.21.311-.424.529-.642.217-.218.484-.413.799-.587a4.908 4.908 0 0 1 2.407-.597c.764 0 1.469.147 2.114.44.645.293 1.2.695 1.665 1.206a5.465 5.465 0 0 1 1.08 1.803c.254.691.382 1.435.382 2.231 0 .797-.124 1.544-.371 2.243zM0 36.07h36V0H0v36.071z" mask="url(#c___ojeoh3pV)"></path>
+        </g>
+    </g>
+</svg>
+</span></li><li class="nav__item"><button><span class="nav__item-header">File</span><span class="isvg loaded nav__item-header-triangle"><!--?xml version="1.0" encoding="UTF-8" standalone="no"?-->
+<svg width="9px" height="6px" viewBox="0 0 9 6" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>Triangle</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1___jffLCkEZ" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <polygon id="Triangle___jffLCkEZ" fill="#B5B5B5" transform="translate(4.500000, 3.000000) rotate(180.000000) translate(-4.500000, -3.000000) " points="4.5 0 9 6 0 6"></polygon>
+    </g>
+</svg></span></button><ul class="nav__dropdown"><li class="nav__dropdown-item"><button>New</button></li><li class="nav__dropdown-item"><button>Save<span class="nav__keyboard-shortcut">⌘+s</span></button></li><li class="nav__dropdown-item"><button>Duplicate</button></li><li class="nav__dropdown-item"><button>Share</button></li><li class="nav__dropdown-item"><button>Download</button></li><li class="nav__dropdown-item"><a href="https://editor.p5js.org/yuin/sketches">Open</a></li><li class="nav__dropdown-item"><a href="https://editor.p5js.org/yuin/sketches/SyLCrVJbN/add-to-collection">Add to Collection</a></li><li class="nav__dropdown-item"><a href="https://editor.p5js.org/p5/sketches">Examples</a></li></ul></li><li class="nav__item"><button><span class="nav__item-header">Edit</span><span class="isvg loaded nav__item-header-triangle"><!--?xml version="1.0" encoding="UTF-8" standalone="no"?-->
+<svg width="9px" height="6px" viewBox="0 0 9 6" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>Triangle</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1___p0EbNDPV" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <polygon id="Triangle___p0EbNDPV" fill="#B5B5B5" transform="translate(4.500000, 3.000000) rotate(180.000000) translate(-4.500000, -3.000000) " points="4.5 0 9 6 0 6"></polygon>
+    </g>
+</svg></span></button><ul class="nav__dropdown"><li class="nav__dropdown-item"><button>Tidy Code<span class="nav__keyboard-shortcut">⇧+Tab</span></button></li><li class="nav__dropdown-item"><button>Find<span class="nav__keyboard-shortcut">⌘+F</span></button></li><li class="nav__dropdown-item"><button>Find Next<span class="nav__keyboard-shortcut">⌘+G</span></button></li><li class="nav__dropdown-item"><button>Find Previous<span class="nav__keyboard-shortcut">⇧+⌘+G</span></button></li></ul></li><li class="nav__item"><button><span class="nav__item-header">Sketch</span><span class="isvg loaded nav__item-header-triangle"><!--?xml version="1.0" encoding="UTF-8" standalone="no"?-->
+<svg width="9px" height="6px" viewBox="0 0 9 6" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>Triangle</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1___rYXswCmR" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <polygon id="Triangle___rYXswCmR" fill="#B5B5B5" transform="translate(4.500000, 3.000000) rotate(180.000000) translate(-4.500000, -3.000000) " points="4.5 0 9 6 0 6"></polygon>
+    </g>
+</svg></span></button><ul class="nav__dropdown"><li class="nav__dropdown-item"><button>Add File</button></li><li class="nav__dropdown-item"><button>Add Folder</button></li><li class="nav__dropdown-item"><button>Run<span class="nav__keyboard-shortcut">⌘+Enter</span></button></li><li class="nav__dropdown-item"><button>Stop<span class="nav__keyboard-shortcut">⇧+⌘+Enter</span></button></li></ul></li><li class="nav__item"><button><span class="nav__item-header">Help</span><span class="isvg loaded nav__item-header-triangle"><!--?xml version="1.0" encoding="UTF-8" standalone="no"?-->
+<svg width="9px" height="6px" viewBox="0 0 9 6" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>Triangle</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1___V2xETF6Q" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <polygon id="Triangle___V2xETF6Q" fill="#B5B5B5" transform="translate(4.500000, 3.000000) rotate(180.000000) translate(-4.500000, -3.000000) " points="4.5 0 9 6 0 6"></polygon>
+    </g>
+</svg></span></button><ul class="nav__dropdown"><li class="nav__dropdown-item"><button>Keyboard Shortcuts</button></li><li class="nav__dropdown-item"><a href="https://p5js.org/reference/" target="_blank" rel="noopener noreferrer">Reference</a></li><li class="nav__dropdown-item"><a href="https://editor.p5js.org/about">About</a></li></ul></li></ul><ul class="nav__items-right" title="user-menu"><li class="nav__item"><span>Hello, yuin!</span></li><span class="nav__item-spacer">|</span><li class="nav__item"><button class="nav__item-header">My Account<span class="isvg loaded nav__item-header-triangle"><!--?xml version="1.0" encoding="UTF-8" standalone="no"?-->
+<svg width="9px" height="6px" viewBox="0 0 9 6" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>Triangle</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1___GcuLckMb" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <polygon id="Triangle___GcuLckMb" fill="#B5B5B5" transform="translate(4.500000, 3.000000) rotate(180.000000) translate(-4.500000, -3.000000) " points="4.5 0 9 6 0 6"></polygon>
+    </g>
+</svg></span></button><ul class="nav__dropdown"><li class="nav__dropdown-item"><a href="https://editor.p5js.org/yuin/sketches">My sketches</a></li><li class="nav__dropdown-item"><a href="https://editor.p5js.org/yuin/collections">My collections</a></li><li class="nav__dropdown-item"><a href="https://editor.p5js.org/yuin/assets">My assets</a></li><li class="nav__dropdown-item"><a href="https://editor.p5js.org/account">Settings</a></li><li class="nav__dropdown-item"><button>Log out</button></li></ul></li></ul></nav><div class="toolbar"><button class="toolbar__play-sketch-button" aria-label="play sketch"><span class="isvg loaded"><!--?xml version="1.0" encoding="UTF-8" standalone="no"?-->
+<svg width="16px" height="16px" viewBox="0 0 17 17" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.7.2 (28276) - http://www.bohemiancoding.com/sketch -->
+    <title>play</title>
+    <!-- <desc>Created with Sketch.</desc> -->
+    <defs></defs>
+    <g id="IDEs___uA0A9NHl" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-IDE-light___uA0A9NHl" transform="translate(-218.000000, -69.000000)" fill="#ED225D">
+            <g id="IDE-CORE-+-Web-dock-&amp;-identity-zone___uA0A9NHl">
+                <g id="IDE-CORE___uA0A9NHl" transform="translate(0.000000, 45.000000)">
+                    <g id="play-btns___uA0A9NHl" transform="translate(202.000000, 0.000000)">
+                        <g id="play-||-pause-+-play___uA0A9NHl" transform="translate(0.000000, 10.000000)">
+                            <polygon id="play___uA0A9NHl" transform="translate(24.500000, 22.500000) rotate(90.000000) translate(-24.500000, -22.500000) " points="24.5 14 33 31 16 31"></polygon>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg></span></button><button class="toolbar__play-button toolbar__play-button--selected" aria-label="play only visual sketch"><span class="isvg loaded"><!--?xml version="1.0" encoding="UTF-8" standalone="no"?-->
+<svg width="16px" height="16px" viewBox="0 0 17 17" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.7.2 (28276) - http://www.bohemiancoding.com/sketch -->
+    <title>play</title>
+    <!-- <desc>Created with Sketch.</desc> -->
+    <defs></defs>
+    <g id="IDEs___TIY9Nqsz" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-IDE-light___TIY9Nqsz" transform="translate(-218.000000, -69.000000)" fill="#ED225D">
+            <g id="IDE-CORE-+-Web-dock-&amp;-identity-zone___TIY9Nqsz">
+                <g id="IDE-CORE___TIY9Nqsz" transform="translate(0.000000, 45.000000)">
+                    <g id="play-btns___TIY9Nqsz" transform="translate(202.000000, 0.000000)">
+                        <g id="play-||-pause-+-play___TIY9Nqsz" transform="translate(0.000000, 10.000000)">
+                            <polygon id="play___TIY9Nqsz" transform="translate(24.500000, 22.500000) rotate(90.000000) translate(-24.500000, -22.500000) " points="24.5 14 33 31 16 31"></polygon>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg></span></button><button class="toolbar__stop-button" aria-label="stop sketch"><span class="isvg loaded"><!--?xml version="1.0" encoding="UTF-8" standalone="no"?-->
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.7.2 (28276) - http://www.bohemiancoding.com/sketch -->
+    <title>stop</title>
+    <!-- <desc>Created with Sketch.</desc> -->
+    <defs></defs>
+    <g id="IDEs___jU9ckqya" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-IDE-light___jU9ckqya" transform="translate(-280.000000, -69.000000)" fill="#ED225D">
+            <g id="IDE-CORE-+-Web-dock-&amp;-identity-zone___jU9ckqya">
+                <g id="IDE-CORE___jU9ckqya" transform="translate(0.000000, 45.000000)">
+                    <g id="play-btns___jU9ckqya" transform="translate(202.000000, 0.000000)">
+                        <g id="stop-+-stop___jU9ckqya" transform="translate(64.000000, 10.000000)">
+                            <rect id="stop___jU9ckqya" x="14" y="14" width="16" height="16"></rect>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg></span></button><div class="toolbar__autorefresh"><input id="autorefresh" type="checkbox"><label for="autorefresh" class="toolbar__autorefresh-label">Auto-refresh</label></div><div class="toolbar__project-name-container"><a class="toolbar__project-name" href="https://editor.p5js.org/yuin/sketches/SyLCrVJbN"><span>Line</span><span class="isvg loaded toolbar__edit-name-button"><!--?xml version="1.0" encoding="utf-8"?-->
+<!-- Generator: Adobe Illustrator 15.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+
+<svg version="1.0" id="Layer_1___aeiCgU0K" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="100px" height="100px" viewBox="0 0 100 100" enable-background="new 0 0 100 100" xml:space="preserve">
+<g>
+	<path d="M68.201,42.768c0.641,1.84,0.48,3.76-0.399,4.96L41.241,74.289l-15.76,4.32c-0.24,0.08-0.32,0-0.24-0.24l4.48-15.601
+		l26.561-26.561c1.2-0.96,3.12-1.04,4.96-0.32C32.121,65.009,32.041,65.089,32.041,65.089l-1.84,5.84c0,0,0.88,0.32,1.68,1.12
+		c0.8,0.801,1.04,1.76,1.04,1.76l6-1.84L68.201,42.768z M36.521,65.169l27.68-27.681c0.88,0.48,1.761,1.36,2.4,2.32
+		c-27.761,27.68-27.761,27.68-27.761,27.68l-2.24-0.08L36.521,65.169z M76.282,39.248l-5.12,5.2c0,0,2.479-3.84-2.721-8.88
+		c-4.56-4.56-8.88-2.56-8.88-2.56l5.2-5.2c3.2-3.28,8.4-3.68,11.76-0.4C79.962,30.848,79.481,36.128,76.282,39.248z"></path>
+</g>
+</svg>
+</span></a><input type="text" maxlength="128" class="toolbar__project-name-input" value="Line"><p class="toolbar__project-owner">by <a href="https://editor.p5js.org/yuin/sketches">yuin</a></p></div><button class="toolbar__preferences-button" aria-label="preferences"><span class="isvg loaded"><!--?xml version="1.0" encoding="UTF-8" standalone="no"?-->
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.8.3 (29802) - http://www.bohemiancoding.com/sketch -->
+    <title>preferences</title>
+    <!-- <desc>Created with Sketch.</desc> -->
+    <defs>
+        <path d="M14.6822397,16.2117311 L15.1198278,19.0213068 C14.3844186,19.4395702 13.5928664,19.770504 12.7592794,20 L11.0818617,17.703677 C10.7282919,17.7528772 10.367116,17.7783101 10,17.7783101 C9.63288395,17.7783101 9.2717081,17.7528772 8.91813825,17.703677 L7.24072063,20 C6.40713364,19.770504 5.6155814,19.4395702 4.88017224,19.0213068 L5.31776031,16.2117311 C4.73977887,15.7753775 4.22462249,15.2602211 3.78826886,14.6822397 L0.978693166,15.1198278 C0.560429839,14.3844186 0.22949601,13.5928664 -2.84217094e-14,12.7592794 L2.29632299,11.0818617 C2.24712285,10.7282919 2.22168987,10.367116 2.22168987,10 C2.22168987,9.63288395 2.24712285,9.2717081 2.29632299,8.91813825 L-8.12791077e-15,7.24072063 C0.22949601,6.40713364 0.560429839,5.6155814 0.978693166,4.88017224 L3.78826886,5.31776031 C4.22462249,4.73977887 4.73977887,4.22462249 5.31776031,3.78826886 L4.88017224,0.978693166 C5.6155814,0.560429839 6.40713364,0.22949601 7.24072063,0 L8.91813825,2.29632299 C9.2717081,2.24712285 9.63288395,2.22168987 10,2.22168987 C10.367116,2.22168987 10.7282919,2.24712285 11.0818617,2.29632299 L12.7592794,1.98620157e-14 C13.5928664,0.22949601 14.3844186,0.560429839 15.1198278,0.978693166 L14.6822397,3.78826886 C15.2602211,4.22462249 15.7753775,4.73977887 16.2117311,5.31776031 L19.0213068,4.88017224 C19.4395702,5.6155814 19.770504,6.40713364 20,7.24072063 L17.703677,8.91813825 C17.7528772,9.2717081 17.7783101,9.63288395 17.7783101,10 C17.7783101,10.367116 17.7528772,10.7282919 17.703677,11.0818617 L20,12.7592794 C19.770504,13.5928664 19.4395702,14.3844186 19.0213068,15.1198278 L16.2117311,14.6822397 C15.7753775,15.2602211 15.2602211,15.7753775 14.6822397,16.2117311 L14.6822397,16.2117311 Z M10,13.8891551 C12.147921,13.8891551 13.8891551,12.147921 13.8891551,10 C13.8891551,7.85207897 12.147921,6.11084493 10,6.11084493 C7.85207897,6.11084493 6.11084493,7.85207897 6.11084493,10 C6.11084493,12.147921 7.85207897,13.8891551 10,13.8891551 Z" id="path-1___9zCGYemI"></path>
+    </defs>
+    <g id="IDEs___9zCGYemI" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-IDE-light___9zCGYemI" fill="#ED225D">
+            <g id="preferences___9zCGYemI">
+                <mask id="mask-2___9zCGYemI" fill="white">
+                    <use xlink:href="#path-1___9zCGYemI"></use>
+                </mask>
+                <use id="Combined-Shape___9zCGYemI" fill="#white" xlink:href="#path-1___9zCGYemI"></use>
+            </g>
+        </g>
+    </g>
+</svg>
+</span></button></div><div class="editor-preview-container"><div class="SplitPane  vertical " style="display: flex; flex: 1 1 0%; height: 100%; position: absolute; outline: none; overflow: hidden; user-select: text; flex-direction: row; left: 0px; right: 0px;"><div class="Pane vertical Pane1  " style="flex: 0 0 auto; position: relative; outline: none; width: 160px;"><nav class="sidebar" title="file-navigation"><div class="sidebar__header"><h3 class="sidebar__title"><span>Sketch Files</span></h3><div class="sidebar__icons"><button aria-label="add file or folder" class="sidebar__add" tabindex="0"><span class="isvg loaded"><!--?xml version="1.0" encoding="UTF-8" standalone="no"?-->
+<svg width="9px" height="6px" viewBox="0 0 9 6" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>Triangle</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1___xGxYUXDB" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <polygon id="Triangle___xGxYUXDB" fill="#B5B5B5" transform="translate(4.500000, 3.000000) rotate(180.000000) translate(-4.500000, -3.000000) " points="4.5 0 9 6 0 6"></polygon>
+    </g>
+</svg></span></button><ul class="sidebar__project-options"><li><button aria-label="add folder">Create folder</button></li><li><button aria-label="add file">Create file</button></li><li><button aria-label="upload file">Upload file</button></li></ul></div></div><div class="sidebar__root-item"><ul class="file-item__children"><li><div class="sidebar__file-item sidebar__file-item--selected"><div class="file-item__content"><span class="file-item__spacer"></span><span class="sidebar__file-item-icon"><span class="isvg loaded"><!--?xml version="1.0" encoding="UTF-8" standalone="no"?-->
+<svg width="11px" height="12px" viewBox="0 0 7 8" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 39.1 (31720) - http://www.bohemiancoding.com/sketch -->
+    <title>"K" file icon Copy</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols___7KwrSzHS" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="environment___7KwrSzHS" transform="translate(-25.000000, -103.000000)" fill="#B5B5B5">
+            <g id="&quot;K&quot;-file-icon-Copy-+-styles.css___7KwrSzHS" transform="translate(25.000000, 94.000000)">
+                <path d="M0.2,9.704 L0.2,17 L6.188,17 L6.188,11.72 L4.22,9.704 L0.2,9.704 Z M1.064,10.568 L3.104,10.568 C3.5,10.568 3.776,10.832 3.776,11.12 L3.776,12.008 L4.952,12.008 C5.192,12.008 5.324,12.044 5.324,12.332 L5.324,16.136 L1.064,16.136 L1.064,10.568 Z M1.892,13.316 L4.58,13.316 L4.58,12.992 L1.892,12.992 L1.892,13.316 Z M1.892,14.276 L4.58,14.276 L4.58,13.952 L1.892,13.952 L1.892,14.276 Z M1.892,15.236 L4.58,15.236 L4.58,14.912 L1.892,14.912 L1.892,15.236 Z" id="&quot;K&quot;-file-icon-Copy___7KwrSzHS"></path>
+            </g>
+        </g>
+    </g>
+</svg></span></span><button class="sidebar__file-item-name">sketch.js</button><input type="text" class="sidebar__file-item-input" maxlength="128" value="sketch.js"><button class="sidebar__file-item-show-options" aria-label="view file options" tabindex="0"><span class="isvg loaded"><!--?xml version="1.0" encoding="UTF-8" standalone="no"?-->
+<svg width="9px" height="6px" viewBox="0 0 9 6" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>Triangle</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1___9cJS7AbX" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <polygon id="Triangle___9cJS7AbX" fill="#B5B5B5" transform="translate(4.500000, 3.000000) rotate(180.000000) translate(-4.500000, -3.000000) " points="4.5 0 9 6 0 6"></polygon>
+    </g>
+</svg></span></button><div class="sidebar__file-item-options"><ul title="file options"><li><button class="sidebar__file-item-option">Rename</button></li><li><button class="sidebar__file-item-option">Delete</button></li></ul></div></div><ul class="file-item__children"></ul></div></li><li><div class="sidebar__file-item"><div class="file-item__content"><span class="file-item__spacer"></span><span class="sidebar__file-item-icon"><span class="isvg loaded"><!--?xml version="1.0" encoding="UTF-8" standalone="no"?-->
+<svg width="11px" height="12px" viewBox="0 0 7 8" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 39.1 (31720) - http://www.bohemiancoding.com/sketch -->
+    <title>"K" file icon Copy</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols___NHoKmVbv" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="environment___NHoKmVbv" transform="translate(-25.000000, -103.000000)" fill="#B5B5B5">
+            <g id="&quot;K&quot;-file-icon-Copy-+-styles.css___NHoKmVbv" transform="translate(25.000000, 94.000000)">
+                <path d="M0.2,9.704 L0.2,17 L6.188,17 L6.188,11.72 L4.22,9.704 L0.2,9.704 Z M1.064,10.568 L3.104,10.568 C3.5,10.568 3.776,10.832 3.776,11.12 L3.776,12.008 L4.952,12.008 C5.192,12.008 5.324,12.044 5.324,12.332 L5.324,16.136 L1.064,16.136 L1.064,10.568 Z M1.892,13.316 L4.58,13.316 L4.58,12.992 L1.892,12.992 L1.892,13.316 Z M1.892,14.276 L4.58,14.276 L4.58,13.952 L1.892,13.952 L1.892,14.276 Z M1.892,15.236 L4.58,15.236 L4.58,14.912 L1.892,14.912 L1.892,15.236 Z" id="&quot;K&quot;-file-icon-Copy___NHoKmVbv"></path>
+            </g>
+        </g>
+    </g>
+</svg></span></span><button class="sidebar__file-item-name">index.html</button><input type="text" class="sidebar__file-item-input" maxlength="128" value="index.html"><button class="sidebar__file-item-show-options" aria-label="view file options" tabindex="0"><span class="isvg loaded"><!--?xml version="1.0" encoding="UTF-8" standalone="no"?-->
+<svg width="9px" height="6px" viewBox="0 0 9 6" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>Triangle</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1___2BEk0jRR" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <polygon id="Triangle___2BEk0jRR" fill="#B5B5B5" transform="translate(4.500000, 3.000000) rotate(180.000000) translate(-4.500000, -3.000000) " points="4.5 0 9 6 0 6"></polygon>
+    </g>
+</svg></span></button><div class="sidebar__file-item-options"><ul title="file options"><li><button class="sidebar__file-item-option">Rename</button></li><li><button class="sidebar__file-item-option">Delete</button></li></ul></div></div><ul class="file-item__children"></ul></div></li><li><div class="sidebar__file-item"><div class="file-item__content"><span class="file-item__spacer"></span><span class="sidebar__file-item-icon"><span class="isvg loaded"><!--?xml version="1.0" encoding="UTF-8" standalone="no"?-->
+<svg width="11px" height="12px" viewBox="0 0 7 8" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 39.1 (31720) - http://www.bohemiancoding.com/sketch -->
+    <title>"K" file icon Copy</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols___LOcgDlQy" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="environment___LOcgDlQy" transform="translate(-25.000000, -103.000000)" fill="#B5B5B5">
+            <g id="&quot;K&quot;-file-icon-Copy-+-styles.css___LOcgDlQy" transform="translate(25.000000, 94.000000)">
+                <path d="M0.2,9.704 L0.2,17 L6.188,17 L6.188,11.72 L4.22,9.704 L0.2,9.704 Z M1.064,10.568 L3.104,10.568 C3.5,10.568 3.776,10.832 3.776,11.12 L3.776,12.008 L4.952,12.008 C5.192,12.008 5.324,12.044 5.324,12.332 L5.324,16.136 L1.064,16.136 L1.064,10.568 Z M1.892,13.316 L4.58,13.316 L4.58,12.992 L1.892,12.992 L1.892,13.316 Z M1.892,14.276 L4.58,14.276 L4.58,13.952 L1.892,13.952 L1.892,14.276 Z M1.892,15.236 L4.58,15.236 L4.58,14.912 L1.892,14.912 L1.892,15.236 Z" id="&quot;K&quot;-file-icon-Copy___LOcgDlQy"></path>
+            </g>
+        </g>
+    </g>
+</svg></span></span><button class="sidebar__file-item-name">style.css</button><input type="text" class="sidebar__file-item-input" maxlength="128" value="style.css"><button class="sidebar__file-item-show-options" aria-label="view file options" tabindex="0"><span class="isvg loaded"><!--?xml version="1.0" encoding="UTF-8" standalone="no"?-->
+<svg width="9px" height="6px" viewBox="0 0 9 6" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>Triangle</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1___w7w80PV0" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <polygon id="Triangle___w7w80PV0" fill="#B5B5B5" transform="translate(4.500000, 3.000000) rotate(180.000000) translate(-4.500000, -3.000000) " points="4.5 0 9 6 0 6"></polygon>
+    </g>
+</svg></span></button><div class="sidebar__file-item-options"><ul title="file options"><li><button class="sidebar__file-item-option">Rename</button></li><li><button class="sidebar__file-item-option">Delete</button></li></ul></div></div><ul class="file-item__children"></ul></div></li></ul></div></nav></div><span role="presentation" class="Resizer vertical "></span><div class="Pane vertical Pane2  " style="flex: 1 1 0%; position: relative; outline: none;"><div class="SplitPane  vertical " style="display: flex; flex: 1 1 0%; height: 100%; position: absolute; outline: none; overflow: hidden; user-select: text; flex-direction: row; left: 0px; right: 0px;"><div class="Pane vertical Pane1  " style="flex: 0 0 auto; position: relative; outline: none; width: 50%;"><div class="SplitPane editor-preview-subpanel horizontal " style="display: flex; flex: 1 1 0%; height: 100%; position: absolute; outline: none; overflow: hidden; user-select: text; bottom: 0px; flex-direction: column; min-height: 100%; top: 0px; width: 100%;"><div class="Pane horizontal Pane1  " style="flex: 1 1 0%; position: relative; outline: none;"><section role="main" class="editor"><header class="editor__header"><button aria-label="collapse file navigation" class="sidebar__contract"><span class="isvg loaded"><!--?xml version="1.0" encoding="UTF-8" standalone="no"?-->
+<svg width="10px" height="15px" viewBox="0 0 10 15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.8.3 (29802) - http://www.bohemiancoding.com/sketch -->
+    <!-- <desc>Created with Sketch.</desc> -->
+    <defs></defs>
+    <g id="IDEs___Uaphjell" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.539999962">
+        <g id="p5js-IDE-styles-foundation-pt-2___Uaphjell" transform="translate(-529.000000, -1165.000000)" fill="#333333">
+            <polygon id="arrow-shape-copy___Uaphjell" transform="translate(534.000000, 1172.198314) rotate(-90.000000) translate(-534.000000, -1172.198314) " points="535.4 1169.39663 541 1174.99663 539.6 1176.39663 534 1170.79663 528.4 1176.39663 527 1174.99663 532.6 1169.39663 533.996628 1168"></polygon>
+        </g>
+    </g>
+</svg></span></button><button aria-label="expand file navigation" class="sidebar__expand"><span class="isvg loaded"><!--?xml version="1.0" encoding="UTF-8" standalone="no"?-->
+<svg width="10px" height="15px" viewBox="0 0 10 15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.8.3 (29802) - http://www.bohemiancoding.com/sketch -->
+    <!-- <desc>Created with Sketch.</desc> -->
+    <defs></defs>
+    <g id="IDEs___19IKZ7Pp" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.539999962">
+        <g id="p5js-IDE-styles-foundation-pt-2___19IKZ7Pp" transform="translate(-496.000000, -1165.000000)" fill="#333333">
+            <polygon id="arrow-shape-copy___19IKZ7Pp" transform="translate(501.000000, 1172.198314) rotate(90.000000) translate(-501.000000, -1172.198314) " points="502.4 1169.39663 508 1174.99663 506.6 1176.39663 501 1170.79663 495.4 1176.39663 494 1174.99663 499.6 1169.39663 500.996628 1168"></polygon>
+        </g>
+    </g>
+</svg></span></button><div class="editor__file-name"><span>sketch.js</span><span class="timer__saved-time">Saved: 35 seconds ago</span></div></header><div class="editor-holder"><div class="CodeMirror cm-s-p5-light CodeMirror-wrap dialog-opened CodeMirror-focused" style="font-size: 18px;"><div class="CodeMirror-vscrollbar" tabindex="-1" cm-not-content="true" style="width: 18px; pointer-events: none; bottom: 0px; display: block;"><div style="min-width: 1px; height: 3593px;"></div></div><div class="CodeMirror-hscrollbar" tabindex="-1" cm-not-content="true" style="height: 18px; pointer-events: none;"><div style="height: 100%; min-height: 1px; width: 0px;"></div></div><div class="CodeMirror-scrollbar-filler" cm-not-content="true"></div><div class="CodeMirror-gutter-filler" cm-not-content="true"></div><div class="CodeMirror-scroll" tabindex="-1" draggable="false"><div class="CodeMirror-sizer" style="margin-left: 49px; margin-bottom: 0px; border-right-width: 30px; min-height: 3593px; padding-right: 0px; padding-bottom: 0px;"><div style="position: relative; top: 2736px;"><div class="CodeMirror-lines" role="presentation"><div role="presentation" style="position: relative; outline: none;"><div class="CodeMirror-measure"><pre class="CodeMirror-line-like"><span>xxxxxxxxxx</span></pre></div><div class="CodeMirror-measure"></div><div style="position: relative; z-index: 1;"></div><div class="CodeMirror-cursors" style=""></div><div class="CodeMirror-code" role="presentation" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true" tabindex="0" style=""><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" contenteditable="false" style="left: -49px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 65px; width: 33px;">139</div><div class="CodeMirror-gutter-elt" style="left: 0px; width: 49px;"><div class="CodeMirror-foldgutter-open CodeMirror-guttermarker-subtle"></div></div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp;<span class="cm-keyword">for</span>(<span class="cm-keyword">var</span> <span class="cm-def">i</span><span class="cm-operator">=</span><span class="cm-number">0</span>; <span class="cm-variable-2">i</span><span class="cm-operator">&lt;</span><span class="cm-variable-2">totalX</span>; <span class="cm-variable-2">i</span><span class="cm-operator">++</span>) {</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" contenteditable="false" style="left: -49px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 65px; width: 33px;">140</div><div class="CodeMirror-gutter-elt" style="left: 0px; width: 49px;"><div class="CodeMirror-foldgutter-open CodeMirror-guttermarker-subtle"></div></div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp; &nbsp;<span class="cm-keyword">for</span>(<span class="cm-keyword">var</span> <span class="cm-def">j</span><span class="cm-operator">=</span><span class="cm-number">0</span>; <span class="cm-variable-2">j</span><span class="cm-operator">&lt;</span><span class="cm-variable-2">totalY</span>; <span class="cm-variable-2">j</span><span class="cm-operator">++</span>) {</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" contenteditable="false" style="left: -49px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 65px; width: 33px;">141</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp; &nbsp; &nbsp;<span class="cm-keyword">var</span> <span class="cm-def">m</span> <span class="cm-operator">=</span> <span class="cm-keyword">new</span> <span class="cm-variable">Module</span>(<span class="cm-variable-2">i</span>, <span class="cm-variable-2">j</span>);</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" contenteditable="false" style="left: -49px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 65px; width: 33px;">142</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp; &nbsp; &nbsp;<span class="cm-variable">modules</span>.<span class="cm-property">push</span>(<span class="cm-variable-2">m</span>);</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" contenteditable="false" style="left: -49px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 65px; width: 33px;">143</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp;  }</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" contenteditable="false" style="left: -49px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 65px; width: 33px;">144</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">  }</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" contenteditable="false" style="left: -49px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 65px; width: 33px;">145</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">}</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" contenteditable="false" style="left: -49px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 65px; width: 33px;">146</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span cm-text="">​</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" contenteditable="false" style="left: -49px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 65px; width: 33px;">147</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-comment">// function mousePressed() {</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" contenteditable="false" style="left: -49px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 65px; width: 33px;">148</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-comment">// &nbsp; if (mouseX &gt; 0 &amp;&amp; mouseX &lt; WIDTH &amp;&amp; mouseY &gt; 0 &amp;&amp; mouseY &lt; HEIGHT) {</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" contenteditable="false" style="left: -49px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 65px; width: 33px;">149</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-comment">// &nbsp; &nbsp; let fs = fullscreen();</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" contenteditable="false" style="left: -49px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 65px; width: 33px;">150</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-comment">// &nbsp; &nbsp; fullscreen(!fs);</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" contenteditable="false" style="left: -49px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 65px; width: 33px;">151</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-comment">// &nbsp; }</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" contenteditable="false" style="left: -49px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 65px; width: 33px;">152</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-comment">// }</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" contenteditable="false" style="left: -49px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 65px; width: 33px;">153</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span cm-text="">​</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" contenteditable="false" style="left: -49px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 65px; width: 33px;">154</div><div class="CodeMirror-gutter-elt" style="left: 0px; width: 49px;"><div class="CodeMirror-foldgutter-open CodeMirror-guttermarker-subtle"></div></div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-keyword">function</span> <span class="cm-def">windowResized</span>() {</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" contenteditable="false" style="left: -49px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 65px; width: 33px;">155</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp;<span class="cm-p5-function">resizeCanvas</span>(<span class="cm-p5-variable">windowWidth</span>, <span class="cm-p5-variable">windowHeight</span>);</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" contenteditable="false" style="left: -49px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 65px; width: 33px;">156</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp;<span class="cm-variable">init</span>();</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" contenteditable="false" style="left: -49px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 65px; width: 33px;">157</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">}</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" contenteditable="false" style="left: -49px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 65px; width: 33px;">158</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span cm-text="">​</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" contenteditable="false" style="left: -49px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 65px; width: 33px;">159</div><div class="CodeMirror-gutter-elt" style="left: 0px; width: 49px;"><div class="CodeMirror-foldgutter-open CodeMirror-guttermarker-subtle"></div></div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-keyword">function</span> <span class="cm-def">keyPressed</span>() <span class=" CodeMirror-matchingbracket">{</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" contenteditable="false" style="left: -49px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 65px; width: 33px;">160</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp;<span class="cm-keyword">var</span> <span class="cm-def">k</span> <span class="cm-operator">=</span> <span class="cm-p5-variable">key</span>.<span class="cm-property">toLowerCase</span>();</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" contenteditable="false" style="left: -49px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 65px; width: 33px;">161</div><div class="CodeMirror-gutter-elt" style="left: 0px; width: 49px;"><div class="CodeMirror-foldgutter-open CodeMirror-guttermarker-subtle"></div></div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp;<span class="cm-keyword">switch</span>(<span class="cm-variable-2">k</span>) {</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" contenteditable="false" style="left: -49px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 65px; width: 33px;">162</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp; &nbsp;<span class="cm-keyword">case</span> <span class="cm-string">'s'</span>:</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" contenteditable="false" style="left: -49px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 65px; width: 33px;">163</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp; &nbsp; &nbsp;<span class="cm-p5-function">saveCanvas</span>(<span class="cm-variable">canvas</span>, <span class="cm-string">'canvas.jpg'</span>);</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" contenteditable="false" style="left: -49px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 65px; width: 33px;">164</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp; &nbsp; &nbsp;<span class="cm-keyword">break</span>;</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" contenteditable="false" style="left: -49px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 65px; width: 33px;">165</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp; &nbsp;<span class="cm-keyword">case</span> <span class="cm-string">'r'</span>:</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" contenteditable="false" style="left: -49px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 65px; width: 33px;">166</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp; &nbsp; &nbsp;<span class="cm-variable">init</span>();</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" contenteditable="false" style="left: -49px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 65px; width: 33px;">167</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp; &nbsp; &nbsp;<span class="cm-keyword">break</span>;</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" contenteditable="false" style="left: -49px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 65px; width: 33px;">168</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">  }</span></pre></div><div class="CodeMirror-activeline" style="position: relative;"><div class="CodeMirror-activeline-background CodeMirror-linebackground" contenteditable="false"></div><div class="CodeMirror-gutter-background CodeMirror-activeline-gutter" contenteditable="false" style="left: -49px; width: 49px;"></div><div class="CodeMirror-gutter-wrapper CodeMirror-activeline-gutter" contenteditable="false" style="left: -49px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 65px; width: 33px;">169</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class=" CodeMirror-matchingbracket">}</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" contenteditable="false" style="left: -49px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 65px; width: 33px;">170</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span cm-text="">​</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" contenteditable="false" style="left: -49px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 65px; width: 33px;">171</div><div class="CodeMirror-gutter-elt" style="left: 0px; width: 49px;"><div class="CodeMirror-foldgutter-open CodeMirror-guttermarker-subtle"></div></div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-keyword">function</span> <span class="cm-def">draw</span>() {</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" contenteditable="false" style="left: -49px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 65px; width: 33px;">172</div><div class="CodeMirror-gutter-elt" style="left: 0px; width: 49px;"><div class="CodeMirror-foldgutter-open CodeMirror-guttermarker-subtle"></div></div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp;<span class="cm-keyword">if</span>(<span class="cm-variable">counter</span><span class="cm-operator">==</span><span class="cm-number">350</span>) {</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" contenteditable="false" style="left: -49px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 65px; width: 33px;">173</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp; &nbsp;<span class="cm-variable">init</span>();</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" contenteditable="false" style="left: -49px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 65px; width: 33px;">174</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp; &nbsp;<span class="cm-variable">counter</span> <span class="cm-operator">=</span> <span class="cm-number">0</span>;</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" contenteditable="false" style="left: -49px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 65px; width: 33px;">175</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">  }</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" contenteditable="false" style="left: -49px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 65px; width: 33px;">176</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp;<span class="cm-p5-function">background</span>(<span class="cm-variable">COLOR_BG</span>);</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" contenteditable="false" style="left: -49px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 65px; width: 33px;">177</div><div class="CodeMirror-gutter-elt" style="left: 0px; width: 49px;"><div class="CodeMirror-foldgutter-open CodeMirror-guttermarker-subtle"></div></div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp;<span class="cm-keyword">for</span>(<span class="cm-keyword">var</span> <span class="cm-def">i</span><span class="cm-operator">=</span><span class="cm-number">0</span>; <span class="cm-variable-2">i</span><span class="cm-operator">&lt;</span><span class="cm-variable">modules</span>.<span class="cm-property">length</span>; <span class="cm-variable-2">i</span><span class="cm-operator">++</span>) {</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" contenteditable="false" style="left: -49px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 65px; width: 33px;">178</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp; &nbsp;<span class="cm-keyword">var</span> <span class="cm-def">m</span> <span class="cm-operator">=</span> <span class="cm-variable">modules</span>[<span class="cm-variable-2">i</span>];</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" contenteditable="false" style="left: -49px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 65px; width: 33px;">179</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp; &nbsp;<span class="cm-variable-2">m</span>.<span class="cm-property">display</span>();</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" contenteditable="false" style="left: -49px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 65px; width: 33px;">180</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">  }</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" contenteditable="false" style="left: -49px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 65px; width: 33px;">181</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp;<span class="cm-variable">counter</span><span class="cm-operator">++</span>;</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" contenteditable="false" style="left: -49px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 65px; width: 33px;">182</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">}</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" contenteditable="false" style="left: -49px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 65px; width: 33px;">183</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span cm-text="">​</span></span></pre></div></div></div></div></div></div><div style="position: absolute; height: 30px; width: 1px; border-bottom: 0px solid transparent; top: 3593px;"></div><div class="CodeMirror-gutters" style="height: 3623px;"><div class="CodeMirror-gutter CodeMirror-foldgutter"></div><div class="CodeMirror-gutter CodeMirror-lint-markers"></div><div class="CodeMirror-gutter CodeMirror-linenumbers" style="width: 41px;"></div></div></div></div></div><div class="editor-accessibility"><ul class="editor-lintmessages" title="lint messages"><li>warning in line30 :A leading decimal point can be confused with a dot: '.5'.</li><li>warning in line91 :'moveX' is already defined.</li><li>warning in line92 :'moveY' is already defined.</li></ul><p> Current line<span class="editor-linenumber" aria-live="polite" aria-atomic="true" id="current-line">line 174</span></p></div></section></div><span role="presentation" class="Resizer horizontal "></span><div class="Pane horizontal Pane2  " style="flex: 0 0 auto; position: relative; outline: none; height: 150px; display: flex;"><div class="preview-console" role="main"><div class="preview-console__header"><h2 class="preview-console__header-title">Console</h2><div class="preview-console__header-buttons"><button class="preview-console__clear" aria-label="clear console">Clear</button><button class="preview-console__collapse" aria-label="collapse console"><span class="isvg loaded"><!--?xml version="1.0" encoding="UTF-8" standalone="no"?-->
+<svg width="14px" height="9px" viewBox="0 0 14 9" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 39 (31667) - http://www.bohemiancoding.com/sketch -->
+    <!-- <desc>Created with Sketch.</desc> -->
+    <defs></defs>
+    <g id="IDEs___ALyN5rjL" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.539999962">
+        <g id="p5js-IDE-styles-foundation-pt-2___ALyN5rjL" transform="translate(-425.000000, -1168.000000)" fill="#333333">
+            <g id="Icons___ALyN5rjL" transform="translate(16.000000, 1063.000000)">
+                <polygon id="arrow-shape-copy-2___ALyN5rjL" transform="translate(416.000000, 109.198314) rotate(-180.000000) translate(-416.000000, -109.198314) " points="417.4 106.396628 423 111.996628 421.6 113.396628 416 107.796628 410.4 113.396628 409 111.996628 414.6 106.396628 415.996628 105"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>
+</span></button><button class="preview-console__expand" aria-label="expand console"><span class="isvg loaded"><!--?xml version="1.0" encoding="UTF-8" standalone="no"?-->
+<svg width="14px" height="9px" viewBox="0 0 14 9" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 39 (31667) - http://www.bohemiancoding.com/sketch -->
+    <!-- <desc>Created with Sketch.</desc> -->
+    <defs></defs>
+    <g id="IDEs___CzHJ529G" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.539999962">
+        <g id="p5js-IDE-styles-foundation-pt-2___CzHJ529G" transform="translate(-394.000000, -1168.000000)" fill="#333333">
+            <g id="Icons___CzHJ529G" transform="translate(16.000000, 1063.000000)">
+                <polygon id="arrow-shape-copy___CzHJ529G" points="386.4 106.396628 392 111.996628 390.6 113.396628 385 107.796628 379.4 113.396628 378 111.996628 383.6 106.396628 384.996628 105"></polygon>
+            </g>
+        </g>
+    </g>
+</svg></span></button></div></div><div class="preview-console__messages"></div></div></div></div></div><span role="presentation" class="Resizer vertical " style="border-left-width: 2px; border-right-width: 2px; width: 2px; margin: 0px;"></span><div class="Pane vertical Pane2  " style="flex: 1 1 0%; position: relative; outline: none;"><div class="preview-frame-holder"><header class="preview-frame__header"><h2 class="preview-frame__title">Preview</h2></header><div class="preview-frame__content"><div class="preview-frame-overlay"></div><div></div><iframe id="canvas_frame" class="preview-frame" aria-label="sketch output" role="main" frameborder="0" title="sketch preview" sandbox="allow-scripts allow-pointer-lock allow-same-origin allow-popups allow-forms allow-modals" src="./p5.js Web Editor _ Line_files/saved_resource.html"></iframe></div></div></div></div></div></div></div></div></div></div>
+      <script src="./p5.js Web Editor _ Line_files/app.35b155a21ed13df9ab7b.js"></script>
+      <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-53383000-1', 'auto');
+        ga('send', 'pageview');
+
+      </script>
+    
+  
+  </body></html>
