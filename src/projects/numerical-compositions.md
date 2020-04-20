@@ -42,8 +42,8 @@ cover: "./../images/numerical-compositions/L1000702-3.jpg"
 </div>
 
 <div class="row two">
-  <img src="./../images/numerical-compositions/L1000688.jpg" />
-  <img src="./../images/numerical-compositions/L1000897.jpg" />
+  <img src="./../images/numerical-compositions/chien_yuin_01.jpg" />
+  <img src="./../images/numerical-compositions/L1000737-3.jpg" />
 </div>
 
 <div class="text">I also created a risograph zine for the project. Risograph mist on tabloid size paper in forest green. </div>
