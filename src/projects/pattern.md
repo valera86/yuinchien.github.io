@@ -6,7 +6,7 @@ cover: "./../images/pattern/cover.png"
 ---
 
 <div class="text">
-Making patterns using the technique of <a href="https://en.wikipedia.org/wiki/Truchet_tiles" target="_blank">Truchet tiles</a>. Plotter drawings made with ink pen.
+Pattern design exploring density, randomness and repetition using the technique of <a href="https://en.wikipedia.org/wiki/Truchet_tiles" target="_blank">Truchet tiles</a> . Plotter drawings made with ink pen.
 </div>
 
 ![Pattern](./../images/pattern/IMG_0532-2.jpg)
