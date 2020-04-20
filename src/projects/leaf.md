@@ -50,11 +50,11 @@ Some of the risograph prints on tabloid size.
 </div>
 
 <div class="row two">
-  <img src="./../images/leaf/L1010006.jpg" />
-  <img src="./../images/leaf/L1010002.jpg" />
+  <img src="./../images/leaf/L1010006-2.jpg" />
+  <img src="./../images/leaf/L1010002-2.jpg" />
 </div>
 
 <div class="row two">
-  <img src="./../images/leaf/L1000952.jpg" />
-  <img src="./../images/leaf/L1000941.jpg" />
+  <img src="./../images/leaf/L1000952-2.jpg" />
+  <img src="./../images/leaf/L1000941-2.jpg" />
 </div>
