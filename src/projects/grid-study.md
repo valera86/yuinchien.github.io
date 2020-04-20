@@ -6,7 +6,7 @@ cover: "./../images/grid-study/cover.png"
 ---
 
 <div class="text">
-Inspired by the research in Armin Hofmann's <a target="_blank" href="https://www.typogabor.com/armin-hofmann/pages/11-armin-hofmann.html">Graphic Design Manual</a>, I began my own grid study by mixing graphic design & code. The drawing device is made of a grid of circles and records the wandering paths inside the grid to create shapes. Each journey is a closed loop composed of tangents and arcs, and never visit a circle more than once. The demo below shows variants of circle size, stroke width and outline/filled mode.
+Inspired by the research in Armin Hofmann's <a target="_blank" href="https://www.typogabor.com/armin-hofmann/pages/11-armin-hofmann.html">Graphic Design Manual</a>, I began my own grid study of <a href="https://en.wikipedia.org/wiki/Dubins_path" target="_blank">Dubins path</a>. The drawing device is made of a grid of circles and records the wandering paths inside the grid to create shapes. Each journey is a closed loop composed of tangents and arcs, and never visit a circle more than once. The demo below shows variants of circle size, stroke width and outline/filled mode.
 </div>
 
 <div class="video"><div style="padding:69.74% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/406053326?title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script></div>

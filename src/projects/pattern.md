@@ -1,12 +1,12 @@
 ---
 title: "Pattern"
-description: "Exploring techniques of mirror symmetry, fluctuation and repetition"
+description: "Exploring pattern design with Truchet tiles"
 date: "2019-03-02"
 cover: "./../images/pattern/cover.png"
 ---
 
 <div class="text">
-Making patterns by exploring techniques of mirror symmetry, fluctuation and repetition. Plotter drawings made with ink pen.
+Making patterns using the technique of <a href="https://en.wikipedia.org/wiki/Truchet_tiles" target="_blank">Truchet tiles</a>. Plotter drawings made with ink pen.
 </div>
 
 ![Pattern](./../images/pattern/IMG_0532-2.jpg)

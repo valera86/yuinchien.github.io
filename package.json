@@ -6,8 +6,8 @@
   "author": "Yuin Chien <cloud@yuinchien.com>",
   "dependencies": {
     "core-js": "^3.6.5",
-    "gatsby": "^2.20.24",
-    "gatsby-cli": "^2.11.10",
+    "gatsby": "^2.20.25",
+    "gatsby-cli": "^2.11.11",
     "gatsby-image": "^2.3.4",
     "gatsby-plugin-google-analytics": "^2.2.4",
     "gatsby-plugin-manifest": "^2.3.5",
