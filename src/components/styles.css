@@ -287,7 +287,7 @@ input {
 }
 .project .info {
   padding-top: 4px;
-  height: 80px;
+  height: 120px;
   padding-right: var(--margin);
   line-height: calc(var(--line-height) - 2px);
 }
