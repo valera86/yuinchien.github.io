@@ -2,7 +2,7 @@
 title: "Leaf"
 description: "Generative drawings of leaf"
 date: "2019-09-01"
-cover: "./../images/leaf/DO01000853.jpg"
+cover: "./../images/leaf/DO01000853.jpeg"
 ---
 <div class="text">
 A series of leaf drawings made with a vector drawing tool I created with Paper.js. Posters are made with ink pens/acrylic markers by a plotter machine. Checkout the <a href="http://store.yuinchien.com" href="_blank">online store</a> for the plotter drawings.
