@@ -42,10 +42,14 @@ A series of leaf drawings made with a vector drawing tool I created with Paper.j
 </div>
 
 <div class="text">
-Some of the risograph prints on tabloid size.
+Some of the risograph prints in tabloid size.
 </div>
 
-<div class="row two">
+![Risograph prints](./../images/leaf/L1000063.jpg)
+
+![Risograph prints](./../images/leaf/L1000070.jpg)
+
+<!-- <div class="row two">
   <img src="./../images/leaf/L1010006-2.jpg" />
   <img src="./../images/leaf/L1010002-2.jpg" />
 </div>
@@ -53,4 +57,4 @@ Some of the risograph prints on tabloid size.
 <div class="row two">
   <img src="./../images/leaf/L1000952-2.jpg" />
   <img src="./../images/leaf/L1000941-2.jpg" />
-</div>
+</div> -->

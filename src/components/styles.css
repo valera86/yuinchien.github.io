@@ -246,15 +246,13 @@ input {
 #personal-info a {
   text-decoration: none;
 }
-#bio {
+#personal-info p {
   font-size: 1.65em;
   line-height: 1.35em;
   letter-spacing: -0.8px;
   margin-bottom: calc(var(--margin) * 2);
   max-width: var(--max-width);
-}
-#bio a {
-  text-decoration: underline;
+  text-indent: calc(var(--margin) * 2);
 }
 
 #home-container {
