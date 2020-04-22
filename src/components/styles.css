@@ -247,9 +247,6 @@ input {
   text-decoration: none;
 }
 #personal-info p {
-  font-size: 1.65em;
-  line-height: 1.35em;
-  letter-spacing: -0.8px;
   margin-bottom: calc(var(--margin) * 2);
   max-width: var(--max-width);
   text-indent: calc(var(--margin) * 2);
@@ -429,7 +426,6 @@ div:focus {outline:0;}
     padding-left: 0;
   }
 
-  #bio,
   .h1 {
     font-size: 1.25em;
     line-height: 1.56em;
