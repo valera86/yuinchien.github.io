@@ -12,6 +12,6 @@ cover: "./../images/travel-log/cover.png"
   <img src="./../images/travel-log/101.png" />
 </div>
 
-![Topeka](./../images/travel-log/11.png)
+![Travel Log](./../images/travel-log/102.png)
 
-![Topeka](./../images/travel-log/10.png)
+![Travel Log](./../images/travel-log/103.png)
