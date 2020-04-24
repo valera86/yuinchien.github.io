@@ -31,30 +31,17 @@ A series of leaf drawings made with a vector drawing tool I created with Paper.j
 
 <div class="row two">
   <img src="./../images/leaf/L1000307.jpg" />
-  <img src="./../images/leaf/DO01000925.jpeg" />
+  <img src="./../images/leaf/DO01000925-5.jpg" />
 </div>
 
-![Generative leaf drawing](./../images/leaf/DO01000853.jpg)
+![Generative leaf drawing](./../images/leaf/001-2.jpg)
 
-<div class="row two">
-  <img src="./../images/leaf/DO01000867.JPG" />
-  <img src="./../images/leaf/DO01000863.JPG" />
-</div>
+![Generative leaf drawing](./../images/leaf/002.JPG)
 
 <div class="text">
 Some of the risograph prints in tabloid size.
 </div>
 
-![Risograph prints](./../images/leaf/L1000063.jpg)
+![Risograph prints](./../images/leaf/L1000063-2.jpg)
 
-![Risograph prints](./../images/leaf/L1000070.jpg)
-
-<!-- <div class="row two">
-  <img src="./../images/leaf/L1010006-2.jpg" />
-  <img src="./../images/leaf/L1010002-2.jpg" />
-</div>
-
-<div class="row two">
-  <img src="./../images/leaf/L1000952-2.jpg" />
-  <img src="./../images/leaf/L1000941-2.jpg" />
-</div> -->
+![Risograph prints](./../images/leaf/L1000064-2.jpg)
