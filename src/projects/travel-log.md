@@ -12,10 +12,12 @@ cover: "./../images/travel-log/cover.png"
   <img src="./../images/travel-log/201.png" />
 </div>
 
-<div class="text">The color theme reflects local time of the viewer. </div>
+<div class="text">The color theme reflects local time of the viewer – day/night time. Information are listed chronologically and abstracted for mobile to optimize user experience.</div>
 
 ![Travel Log](./../images/travel-log/101.png)
 
 ![Travel Log](./../images/travel-log/100.png)
 
-<div class="text">Built with Google <a href="https://developers.google.com/sheets/api" target="_blank">Sheets API</a>.</div>
+<div class="text">I've been keeping travel records in a Google Spreadsheet for many years, and this project has evolved over time. The current design enables me to reflect on my personal history and the relationship with different places I've lived, visited and left. It was a lovely surprise to open source the project, I hope more people can enjoy it like I have.</div>
+
+<div class="text">Built with Google <a href="https://developers.google.com/sheets/api" target="_blank">Sheets API</a> and a habit of keeping records.</div>
