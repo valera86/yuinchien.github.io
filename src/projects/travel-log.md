@@ -12,7 +12,7 @@ cover: "./../images/travel-log/cover.png"
   <img src="./../images/travel-log/201.png" />
 </div>
 
-<div class="text">The color theme reflects local time of the viewer – day/night time. Information are listed chronologically and abstracted for mobile to optimize user experience.</div>
+<div class="text">The color theme reflects local day or night time of the viewer. Information are organized chronologically and abstracted for mobile screen to optimize user experience.</div>
 
 ![Travel Log](./../images/travel-log/101.png)
 
