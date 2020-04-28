@@ -1,7 +1,7 @@
 ---
 title: "Travel Log"
 description: "An open source sheet-to-site template for personal travel log"
-date: "2017-09-10"
+date: "2020-04-24"
 cover: "./../images/travel-log/cover.png"
 ---
 
