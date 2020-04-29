@@ -20,4 +20,4 @@ cover: "./../images/travel-log/cover.png"
 
 <div class="text">I've been keeping travel records in a Google Spreadsheet for many years, and this project has evolved over time. The current design enables me to reflect on my personal history and the relationship with different places I've lived, visited and left. </div>
 
-<div class="text">It was a lovely surprise to open source the project, I hope more people can enjoy it like I have. Create and access your personal Travel Log at <a href="/me">traces.report/me</a> by following the instructions on <a href="https://github.com/yuinchien/traces.report">Github</a>.</div>
+<div class="text">It was a lovely surprise to open source the project, I hope more people can enjoy it like I have. Create and access your personal Travel Log at <a href="https://traces.report/me" target="_blank">traces.report/me</a> by following the instructions on <a href="https://github.com/yuinchien/traces.report" target="_blank">Github</a>.</div>
