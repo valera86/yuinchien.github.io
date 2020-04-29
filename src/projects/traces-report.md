@@ -7,10 +7,12 @@ cover: "./../images/traces-report/cover.png"
 
 <div class="text">An open source sheet-to-site template for personal travel log. This project aims to surface travel patterns that might be hidden and shed new light on the relationship between people and places. The template is open sourced under MIT license on <a href="https://github.com/yuinchien/traces.report" target="_blank">Github</a>. Checkout the sample website generated from the spreadsheet: <a href="https://traces.report" target="_blank">https://traces.report</a>.</div>
 
-<div class="row two">
+![Travel Log](./../images/traces-report/mobile.png)
+
+<!-- <div class="row two">
   <img src="./../images/traces-report/300.png" />
   <img src="./../images/traces-report/201.png" />
-</div>
+</div> -->
 
 <div class="text">The color theme corresponds to the local day/night time of the viewer. Information are organized chronologically and abstracted for mobile screen to optimize user experience.</div>
 
