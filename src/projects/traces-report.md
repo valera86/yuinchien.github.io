@@ -16,9 +16,9 @@ cover: "./../images/traces-report/cover2.png"
 
 <div class="text">The color theme corresponds to the local day/night time of the viewer. Information are organized chronologically and abstracted for mobile screen to optimize user experience.</div>
 
-![Travel Log](./../images/traces-report/101.png)
+![Travel Log](./../images/traces-report/501.png)
 
-![Travel Log](./../images/traces-report/100.png)
+![Travel Log](./../images/traces-report/503.png)
 
 <div class="text">I've been keeping travel records in a Google Spreadsheet for many years, and this project has evolved over time. The current design enables me to reflect on my personal history and the relationship with different places I've lived, visited and left. </div>
 
