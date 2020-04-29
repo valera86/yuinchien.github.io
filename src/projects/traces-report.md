@@ -2,7 +2,7 @@
 title: "Traces Report"
 description: "An open source sheet-to-site template for personal travel log"
 date: "2020-04-24"
-cover: "./../images/traces-report/cover.png"
+cover: "./../images/traces-report/cover2.png"
 ---
 
 <div class="text">An open source sheet-to-site template for personal travel log. This project aims to surface travel patterns that might be hidden and shed new light on the relationship between people and places. The template is open sourced under MIT license on <a href="https://github.com/yuinchien/traces.report" target="_blank">Github</a>. Checkout the sample website generated from the spreadsheet: <a href="https://traces.report" target="_blank">https://traces.report</a>.</div>
