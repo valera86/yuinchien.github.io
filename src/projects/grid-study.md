@@ -45,7 +45,7 @@ I developed a series of sketches by playing with colors and the 3x5 grid system.
 
 <div class="row-video">
   <div style="padding:125% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/408884448?autoplay=1&loop=1&title=0&byline=0&portrait=0&muted=1" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
-  <div style="padding:125% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/408884474?title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+  <div style="padding:125% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/408884474?autoplay=1&title=0&byline=0&portrait=0&&muted=1" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
 </div>
 
 ![Grid Study](./../images/grid-study/cover2.JPG)
