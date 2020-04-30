@@ -9,7 +9,7 @@ cover: "./../images/traces-report/cover2.png"
 
 ![Travel Log](./../images/traces-report/mobile.png)
 
-<!-- <div class="row two">
+<!-- <div class="row">
   <img src="./../images/traces-report/300.png" />
   <img src="./../images/traces-report/201.png" />
 </div> -->

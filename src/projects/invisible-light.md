@@ -13,12 +13,12 @@ Human eyes can only perceive a small range of electromagnetic waves - the visibl
 
 ![Invisible Light](./../images/invisible-light/3.jpg)
 
-<div class="row two">
+<div class="row">
   <img src="./../images/invisible-light/emwave.jpeg" />
   <img src="./../images/invisible-light/sketch5.jpeg" />
 </div>
 
-<div class="row two">
+<div class="row">
   <img src="./../images/invisible-light/sketch6.jpeg" />
   <img src="./../images/invisible-light/sketch7.jpeg" />
 </div>

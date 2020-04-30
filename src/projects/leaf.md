@@ -10,26 +10,26 @@ A series of leaf drawings made with a vector drawing tool I created with Paper.j
 
 ![Generative leaf drawing](./../images/leaf/cover-2.jpg)
 
-<div class="row two">
+<div class="row">
   <img src="./../images/leaf/00.png" />
   <img src="./../images/leaf/01.png" />
 </div>
 
-<div class="row two">
+<div class="row">
   <img src="./../images/leaf/02.jpg" />
   <img src="./../images/leaf/03.jpg" />
 </div>
 
 ![Generative leaf drawing](./../images/leaf/L1000437.jpg)
 
-<!-- <div class="row two">
+<!-- <div class="row">
   <img src="./../images/leaf/L1000417-4.jpg" />
   <img src="./../images/leaf/MVIMG_20190824_095319.jpg" />
 </div> -->
 
 <div class="video"><div style="padding:74.9% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/390640751?title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script></div>
 
-<div class="row two">
+<div class="row">
   <img src="./../images/leaf/L1000307.jpg" />
   <img src="./../images/leaf/DO01000925-5.jpg" />
 </div>

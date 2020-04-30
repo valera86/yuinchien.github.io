@@ -194,12 +194,17 @@ h1 {
 .row {
   column-gap: calc(2 * var(--margin));
   margin: calc(2 * var(--margin)) auto;
-}
-.row.two {
   column-count: 2;
 }
 
+.row-video {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: calc(2 * var(--margin));
+}
+
 .row,
+.row-video,
 .video {
   max-width: var(--max-width);
   margin-left: auto;
@@ -211,8 +216,8 @@ h1 {
   outline: var(--border-style);
 }
 
-main {
-  /* overflow: hidden; */
+.row-video > * {
+  outline: var(--border-style);
 }
 
 main .video,
@@ -345,7 +350,7 @@ h1.text {
   margin-bottom: calc(var(--margin) * -0.5);
 }
 
-div:focus {outline:0;}
+div:focus { outline:0; }
 
 @media only screen and (min-width: 1241px) {
   #home-container .project {
@@ -405,11 +410,15 @@ div:focus {outline:0;}
     margin-bottom: calc(var(--margin) * 1);
   }
 
-  .row.two {
+  .row-video {
+    grid-template-columns: 1fr;
+  }
+
+  .row {
     column-count: 1;
   }
-  .row.two > div:first-child,
-  .row.two > span:first-child {
+  .row > div:first-child,
+  .row > span:first-child {
     margin-bottom: calc(var(--margin) * 2);
   }
 

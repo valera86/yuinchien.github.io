@@ -13,7 +13,7 @@ Inspired by the colorful lines marking the boundaries of sports field. I love th
 
 ![Boundary](./../images/boundary/L1000044.jpg)
 
-<div class="row two">
+<div class="row">
   <img src="./../images/boundary/MVIMG_20190818_144748.jpg" />
   <img src="./../images/boundary/L1000049.jpg" />
 </div>

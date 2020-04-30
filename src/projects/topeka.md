@@ -14,12 +14,12 @@ A quiz app to showcase <a href="https://www.polymer-project.org/" target="_blank
 
 ![Topeka](./../images/topeka/polymer-01.png)
 
-<div class="row two">
+<div class="row">
   <img src="./../images/topeka/00.png" />
   <img src="./../images/topeka/tablet-02.png" />
 </div>
 
-<div class="row two">
+<div class="row">
   <img src="./../images/topeka/tablet-46.png" />
   <img src="./../images/topeka/tablet-26.png" />
 </div>

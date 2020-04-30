@@ -11,17 +11,17 @@ Pattern design exploring density, randomness and repetition using the technique 
 
 ![Pattern](./../images/pattern/IMG_0532-2.jpg)
 
-<div class="row two">
+<div class="row">
   <img src="./../images/pattern/00.jpg" />
   <img src="./../images/pattern/01.jpg" />
 </div>
 
-<div class="row two">
+<div class="row">
   <img src="./../images/pattern/02.jpg" />
   <img src="./../images/pattern/03.jpg" />
 </div>
 
-<div class="row two">
+<div class="row">
   <img src="./../images/pattern/04.jpg" />
   <img src="./../images/pattern/05.jpg" />
 </div>

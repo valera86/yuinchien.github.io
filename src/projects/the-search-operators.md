@@ -13,7 +13,7 @@ cover: "./../images/the-search-operators/cover2.png"
 
 <div class="text">The Search Operators opens up a narrative space inhabited by three sloppy agents - Jarek, Remo, and the yawning Surina - which allows people to speculate upon an emotional reality within technology. It breaks the patterns of usability and pure functionalism, by creating narrative space within interactions.</div>
 
-<div class="row two">
+<div class="row">
   <img src="./../images/the-search-operators/yawn.jpg" />
   <img src="./../images/the-search-operators/3.jpg" />
 </div>

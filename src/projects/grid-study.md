@@ -15,9 +15,9 @@ Inspired by the research in Armin Hofmann's <a target="_blank" href="https://www
 With the initial drawing device setup, I started exploring compositions, densities, shades and dimension by layering the paths in interesting ways.
 </div>
 
-<div class="row two">
-  <img src="./../images/grid-study/053.jpg" />
-  <img src="./../images/grid-study/064.png" />
+<div class="row">
+  <img src="./../images/grid-study/001.jpg" />
+  <img src="./../images/grid-study/002.png" />
 </div>
 
 ![Grid Study](./../images/grid-study/lines.png)
@@ -32,7 +32,7 @@ With the initial drawing device setup, I started exploring compositions, densiti
 After the more complex grid exploration, I was drawn to the individual fluid shape created with smaller grid. They feel like different characters each has its own gesture and disposition. Below are collections of shapes made with different circle sizes.
 </div>
 
-<div class="row two">
+<div class="row">
   <img src="./../images/grid-study/100.jpg" />
   <img src="./../images/grid-study/102.jpg" />
 </div>
@@ -43,14 +43,14 @@ After the more complex grid exploration, I was drawn to the individual fluid sha
 I developed a series of sketches by playing with colors and the 3x5 grid system. Printing them in Risograph seemed like a good idea, I tried to explore riso color, texture and gradient.
 </div>
 
-<div class="row two">
+<div class="row-video">
   <div style="padding:125% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/408884448?autoplay=1&loop=1&title=0&byline=0&portrait=0&muted=1" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
   <div style="padding:125% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/408884474?title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
 </div>
 
 ![Grid Study](./../images/grid-study/cover2.JPG)
 
-<div class="row two">
+<div class="row">
   <img src="./../images/grid-study/IMG_1305.jpg" />
   <img src="./../images/grid-study/IMG_1303.JPG" />
 </div>

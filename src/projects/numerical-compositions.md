@@ -19,29 +19,29 @@ cover: "./../images/numerical-compositions/L1000702-3.jpg"
 
 <div class="text">A series of pen plotter drawings are created with the generative font to explore typographic compositions, abstract form, and color dynamics. Made with acrylic paint markers on black paper, the drawings are available in store at <a href="https://store.yuinchien.com/" target="_blank">store.yuinchien.com</a>.</div>
 
-<div class="row two">
+<div class="row">
   <img src="./../images/numerical-compositions/L1000860.jpg" />
   <img src="./../images/numerical-compositions/L1000870.jpg" />
 </div>
 
-<div class="row two">
+<div class="row">
   <img src="./../images/numerical-compositions/L1000863.jpg" />
   <img src="./../images/numerical-compositions/L1000876.jpg" />
 </div>
 
-<div class="row two">
+<div class="row">
   <img src="./../images/numerical-compositions/L1010031-2.jpg" />
   <img src="./../images/numerical-compositions/L1000878.jpg" />
 </div>
 
 <div class="video"><div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/367370119?autoplay=1&loop=1&title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script></div>
 
-<div class="row two">
+<div class="row">
   <img src="./../images/numerical-compositions/L1000702-3.jpg" />
   <img src="./../images/numerical-compositions/L1000893.jpg" />
 </div>
 
-<div class="row two">
+<div class="row">
   <img src="./../images/numerical-compositions/chien_yuin_01.jpg" />
   <img src="./../images/numerical-compositions/L1000737-3.jpg" />
 </div>
