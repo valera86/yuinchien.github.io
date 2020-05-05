@@ -9,27 +9,28 @@ cover: "./../images/origami-study/origami.jpg"
 
 <div class="video"><div style="padding:62.5% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/386428951?autoplay=1&loop=1&title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script></div>
 
-<div class="text">A series of visual study exploring origami compositions and colors, I hope to create imagery for personal memories and poetic imagination.</div>
+<div class="text">A series of visual study exploring origami compositions and colors. They are my ongoing pursuit of creating imagery for personal memories and poetic imagination.</div>
 
 <div class="row">
   <img src="./../images/origami-study/Frame44.png" />
-  <img src="./../images/origami-study/Frame52.png" />
+  <img src="./../images/origami-study/Frame22.png" />
+  <!-- <img src="./../images/origami-study/Frame52.png" /> -->
 </div>
 
 <div class="row">
-  <img src="./../images/origami-study/Frame103.png" />
-  <img src="./../images/origami-study/Frame100.png" />
+  <img src="./../images/origami-study/00.png" />
+  <img src="./../images/origami-study/02.png" />
 </div>
 
-<div class="row">
+<!-- <div class="row">
   <img src="./../images/origami-study/Frame6.png" />
   <img src="./../images/origami-study/Frame22.png" />
-</div>
+</div> -->
 
-<div class="row">
+<!-- <div class="row">
   <img src="./../images/origami-study/Frame25.png" />
   <img src="./../images/origami-study/Frame23.png" />
-</div>
+</div> -->
 
 <div class="video"><div style="padding:70.38% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/386384531?autoplay=1&loop=1&title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script></div>
 
