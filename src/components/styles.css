@@ -63,7 +63,20 @@ a:hover {
 
 #nav {
   margin-bottom: calc(var(--margin) * 4);
+  transition: transform 0.4s;
+  background: rgba(255,255,255,1);
+  z-index: 1000;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: calc(var(--margin)*.75) calc(var(--margin) * 2);
+  transform: none;
 }
+#nav.scroll-top {
+  transform: translate3d(0, -100%, 0);
+}
+
 #nav a {
   text-decoration: none;
   margin-right: calc(var(--margin) * 2);
@@ -71,8 +84,12 @@ a:hover {
   opacity: .6;
 }
 #nav a.selected {
-  text-decoration: underline;
+  /* text-decoration: underline; */
   opacity: 1;
+}
+
+#projects {
+  margin-top: calc(4* var(--margin));
 }
 
 .h1,
@@ -399,6 +416,10 @@ div:focus { outline:0; }
   ul {
     margin-left: 0;
     margin-right: 0;
+  }
+
+  #nav {
+    padding: calc(var(--margin)*1.25) calc(var(--margin) * 2);
   }
 
   #content {
