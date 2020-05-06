@@ -31,7 +31,7 @@ class Index extends React.Component  {
     }
     if (currentScroll < this.lastScroll && this.state.scrollUp) {
       this.setState({scrollUp: false});
-    } else if (currentScroll > this.lastScroll && !this.state.scrollUp) {
+    } else if (currentScroll > this.lastScroll && currentScroll>0 && !this.state.scrollUp) {
       this.setState({scrollUp: true});
     }
     this.lastScroll = currentScroll;
