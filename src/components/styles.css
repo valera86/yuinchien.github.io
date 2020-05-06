@@ -88,10 +88,6 @@ a:hover {
   opacity: 1;
 }
 
-#projects {
-  margin-top: calc(4* var(--margin));
-}
-
 .h1,
 h1 {
   margin: 0;
@@ -114,6 +110,14 @@ h1 {
   flex: 1;
 }
 
+#projects,
+#personal-info {
+  margin-top: calc(4* var(--margin));
+}
+#personal-info {
+  margin-bottom: calc(var(--margin) * 2);
+}
+
 #project-wrapper {
   position: relative;
   width: 100%;
@@ -129,10 +133,7 @@ h1 {
 #project-wrapper.open #content {
   pointer-events: none;
 }
-#personal-info {
-  margin-top: calc(4 * var(--margin));
-  margin-bottom: calc(var(--margin) * 2);
-}
+
 .animate-up {
   transform: translate3d(0,var(--aniamte-up-distance),0);
   opacity: 0;
@@ -446,6 +447,11 @@ div:focus { outline:0; }
 
   #drawer .project {
     margin-bottom: calc(3 * var(--margin));
+  }
+
+  #projects,
+  #personal-info {
+    margin-top: calc(6* var(--margin));
   }
 
   #home-container .project {
