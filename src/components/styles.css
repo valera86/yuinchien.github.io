@@ -61,6 +61,10 @@ a:hover {
   color: var(--color-orange);
 }
 
+iframe {
+  border: none;
+}
+
 #nav {
   margin-bottom: calc(var(--margin) * 4);
   transition: transform 0.4s;
