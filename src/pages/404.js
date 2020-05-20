@@ -18,7 +18,7 @@ class ComponentIframe extends React.Component  {
   }
 }
 
-const iframe = '<iframe src="https://yuinchien.com/projects/variable-font/404" width="100%" style="position:absolute;width:100%;top:0;z-index:-1;height: 100vh"></iframe>';
+const iframe = '<iframe src="https://yuinchien.com/projects/albers/404.html" width="100%" style="position:absolute;width:100%;top:0;z-index:-1;height: 100vh"></iframe>';
 
 class NotFoundPage extends React.Component  {
   render() {
