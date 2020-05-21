@@ -2,7 +2,7 @@
 title: "Alter"
 description: "A typeface made of characters with alternate selfs"
 date: "2020-05-15"
-cover: "./../images/alter/cover4.png"
+cover: "./../images/alter/cover2.png"
 ---
 <div class="text">A typeface made of characters with alternate selfs. Like human, we shift between different personalities, and sometimes they coincide. Checkout the type specimen: <a href="https://yuinchien.com/projects/alter/" target="_blank">yuinchien.com/projects/alter</a>.</div>
 
@@ -20,4 +20,4 @@ cover: "./../images/alter/cover4.png"
 
 ![Alter](./../images/alter/60.png)
 
-![Alter](./../images/alter/70.png)
+![Alter](./../images/alter/71.png)
