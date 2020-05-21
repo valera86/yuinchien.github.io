@@ -37,7 +37,7 @@ class Project extends React.Component  {
           ))}
         </div>
         <Div100vh id="project-wrapper" className={`animate-up ${menuActive}`}>
-          <div role="button" tabIndex="0" id="button-menu" className={`fab ${menuActive}`} onClick={this.handleModalOpen} onKeyDown={this.handleModalOpen}></div>
+          <div role="button" aria-label="button" tabIndex="0" id="button-menu" className={`fab ${menuActive}`} onClick={this.handleModalOpen} onKeyDown={this.handleModalOpen}></div>
           <div id="content">
             <h1 className="text">{post.frontmatter.title}</h1>
             <div dangerouslySetInnerHTML={{ __html: post.html }} />
