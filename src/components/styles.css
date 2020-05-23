@@ -15,6 +15,7 @@
   --url-store: url(../images/_icons/shopping_cart-24px.svg);
   --url-menu: url(../images/_icons/menu-24px.svg);
   --url-return: url(../images/_icons/arrow_back-white-24dp.svg);
+  --url-about: url(../images/about-text.svg);
 
   --drawer-width: 400px;
 }
@@ -88,8 +89,14 @@ iframe {
   opacity: .6;
 }
 #nav a.selected {
-  /* text-decoration: underline; */
   opacity: 1;
+}
+
+#svg-about {
+  background-image: var(--url-about);
+  background-size: cover;
+  width: 100%;
+  padding-bottom: 75.5%;
 }
 
 .h1,
@@ -416,6 +423,11 @@ div:focus { outline:0; }
     --line-height: 24px;
     --margin: 10px;
     --drawer-width: calc(100vw - 64px);
+    --url-about: url(../images/about-text-mobile.svg);
+  }
+
+  #svg-about {
+    padding-bottom: 303%;
   }
 
   main .text,
