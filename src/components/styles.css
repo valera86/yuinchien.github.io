@@ -69,7 +69,7 @@ iframe {
 #nav {
   margin-bottom: calc(var(--margin) * 4);
   transition: transform 0.4s;
-  background: rgba(255,255,255,1);
+  /* background: rgba(255,255,255,1); */
   z-index: 1000;
   position: fixed;
   top: 0;
@@ -84,12 +84,18 @@ iframe {
 
 #nav a {
   text-decoration: none;
-  margin-right: calc(var(--margin) * 2);
+  margin-right: calc(var(--margin) * 0.75);
   color: var(--color-black);
-  opacity: .6;
+  border: 1px solid rgba(0,0,0,.1);
+  background: rgba(255,255,255,0.9);
+  border-radius: 20px;
+  padding: 6px 16px 4px 16px;
+  font-size: .8em;
+  line-height: .5em;
 }
 #nav a.selected {
-  opacity: 1;
+  color: var(--color-orange);
+  border: 1px solid var(--color-orange);
 }
 
 #svg-about {
