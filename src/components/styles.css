@@ -69,13 +69,12 @@ iframe {
 #nav {
   margin-bottom: calc(var(--margin) * 4);
   transition: transform 0.4s;
-  /* background: rgba(255,255,255,1); */
   z-index: 1000;
   position: fixed;
   top: 0;
   left: 0;
   right: 0;
-  padding: calc(var(--margin)*.75) calc(var(--margin) * 2);
+  padding: var(--margin) calc(var(--margin) * 2);
   transform: none;
 }
 #nav.scroll-top {
@@ -90,7 +89,7 @@ iframe {
   background: rgba(255,255,255,0.9);
   border-radius: 20px;
   padding: 6px 16px 4px 16px;
-  font-size: .8em;
+  font-size: .75em;
   line-height: .5em;
 }
 #nav a.selected {
@@ -433,7 +432,7 @@ div:focus { outline:0; }
   }
 
   #svg-about {
-    padding-bottom: 164%;
+    padding-bottom: 158.5%;
   }
 
   main .text,
@@ -443,7 +442,11 @@ div:focus { outline:0; }
   }
 
   #nav {
-    padding: calc(var(--margin)*1.25) calc(var(--margin) * 2);
+    padding: calc(var(--margin) * 2);
+  }
+  #nav a {
+    padding: 5px 12px 4px 12px;
+    font-size: .9em;
   }
 
   #content {
