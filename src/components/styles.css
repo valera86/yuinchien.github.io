@@ -289,7 +289,7 @@ input {
 #personal-info p {
   margin-bottom: calc(var(--margin) * 2);
   max-width: var(--max-width);
-  text-indent: calc(var(--margin) * 2);
+  /* text-indent: calc(var(--margin) * 2); */
 }
 
 #home-container {
