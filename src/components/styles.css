@@ -289,7 +289,7 @@ input {
 #personal-info p {
   margin-bottom: calc(var(--margin) * 2);
   max-width: var(--max-width);
-  /* text-indent: calc(var(--margin) * 2); */
+  text-indent: calc(var(--margin) * 2);
 }
 
 #home-container {
@@ -448,7 +448,9 @@ div:focus { outline:0; }
     padding: 5px 12px 4px 12px;
     font-size: .9em;
   }
-
+  #personal-info p {
+    text-indent: 0;
+  }
   #content {
     padding-bottom: calc(var(--margin) * 6);
   }
