@@ -25,9 +25,7 @@ class Project extends React.Component  {
     const siteTitle = data.site.siteMetadata.title;
     const post = data.markdownRemark;
     const menuActive = this.state.showMenu ? 'open' : '';
-    // const image = post.frontmatter.cover
-    //   ? post.frontmatter.cover.childImageSharp.fluid
-    //   : null
+
     return (
       <Layout location={this.props.location} title={siteTitle}>
         <SEO
@@ -73,12 +71,13 @@ export const query = graphql`
       }
       frontmatter {
         title
+        description
         cover {
           childImageSharp {
             fluid(maxWidth: 1280) {
               ...GatsbyImageSharpFluid
             }
-            fixed(width: 800, height: 800) {
+            fixed(width: 120, height: 120) {
               ...GatsbyImageSharpFixed
             }
           }

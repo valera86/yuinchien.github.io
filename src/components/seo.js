@@ -33,11 +33,11 @@ function SEO({ description, lang, meta, image: metaImage, title, pathname }) {
   const image =
     metaImage && metaImage.src
       ? `${site.siteMetadata.url}${metaImage.src}`
-      : `${site.siteMetadata.url}/images/cover.png`;
+      : `${site.siteMetadata.url}/images/cover_120.jpg`;
   if(metaImage==null) {
     metaImage = {
-      width: 1800,
-      height: 1800
+      width: 120,
+      height: 120
     }
   }
   const canonical = pathname ? `${site.siteMetadata.url}${pathname}` : null
