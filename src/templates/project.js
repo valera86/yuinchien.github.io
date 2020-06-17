@@ -22,11 +22,20 @@ class Project extends React.Component  {
 
   render() {
     const { data } = this.props;
+    const siteTitle = data.site.siteMetadata.title;
     const post = data.markdownRemark;
     const menuActive = this.state.showMenu ? 'open' : '';
+    // const image = post.frontmatter.cover
+    //   ? post.frontmatter.cover.childImageSharp.fluid
+    //   : null
     return (
-      <Layout>
-        <SEO title={post.frontmatter.title} />
+      <Layout location={this.props.location} title={siteTitle}>
+        <SEO
+          title={post.frontmatter.title}
+          description={post.frontmatter.description}
+          image={post.frontmatter.cover.childImageSharp.fixed}
+          pathname={this.props.location.pathname}
+        />
         <div id="drawer" className={`${menuActive}`}>
           <Link id="button-home" className="fab" to="/"></Link>
           {data.allMarkdownRemark.edges.map(({ node }) => (
@@ -51,6 +60,12 @@ export default Project;
 
 export const query = graphql`
   query($slug: String!) {
+    site {
+      siteMetadata {
+        title
+        author
+      }
+    }
     markdownRemark(fields: { slug: { eq: $slug } }) {
       html
       fields {
@@ -62,6 +77,9 @@ export const query = graphql`
           childImageSharp {
             fluid(maxWidth: 1280) {
               ...GatsbyImageSharpFluid
+            }
+            fixed(width: 800, height: 800) {
+              ...GatsbyImageSharpFixed
             }
           }
         }

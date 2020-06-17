@@ -6,6 +6,7 @@ module.exports = {
     url: "https://yuinchien.com",
     image: `src/images/_icons/hi.png`,
     twitterUsername: `@yuinchien`,
+    keywords: ['Yuin Chien', 'Creative Coding', 'Graphic Design'],
   },
   plugins: [
     {

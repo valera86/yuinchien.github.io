@@ -31,7 +31,7 @@ const Layout = ({ children }) => (
           <meta charSet="utf-8" />
           <title>{data.site.siteMetadata.title}</title>
         </Helmet>
-        <SEO title="Yuin Chien" keywords={[`yuin chien`, `creative coding`, `generative`, `design`, `code`, `Yuin Chien LLC`, `Yuin`]} />
+        <SEO title="Yuin Chien" />
         <main>{children}</main>
       </>
     )}
