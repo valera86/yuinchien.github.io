@@ -81,7 +81,7 @@ console.log('metaImage', metaImage);
         },
         {
           name: `twitter:creator`,
-          content: site.siteMetadata.author,
+          content: `@yuinchien`,
         },
         {
           name: `twitter:title`,
@@ -96,7 +96,7 @@ console.log('metaImage', metaImage);
           image
             ? [
                 {
-                  property: "twitter:image",
+                  name: "twitter:image",
                   content: image,
                 },
                 {
