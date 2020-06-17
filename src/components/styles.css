@@ -101,7 +101,7 @@ iframe {
   background-image: var(--url-about);
   background-size: cover;
   width: 100%;
-  padding-bottom: 41.2%;
+  padding-bottom: 40.1%;
 }
 
 .h1,
@@ -432,7 +432,7 @@ div:focus { outline:0; }
   }
 
   #svg-about {
-    padding-bottom: 158.5%;
+    padding-bottom: 172.3%;
   }
 
   main .text,
