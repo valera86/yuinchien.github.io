@@ -36,6 +36,7 @@ function SEO({ description, lang, meta, image: metaImage, title, pathname }) {
       ? `${site.siteMetadata.url}${metaImage.src}`
       : `${site.siteMetadata.url}/images/cover.JPG`;
   const canonical = pathname ? `${site.siteMetadata.url}${pathname}` : null
+
   return (
     <Helmet
       htmlAttributes={{
@@ -129,8 +130,6 @@ SEO.propTypes = {
   title: PropTypes.string.isRequired,
   image: PropTypes.shape({
     src: PropTypes.string.isRequired,
-    // height: PropTypes.number.isRequired,
-    // width: PropTypes.number.isRequired,
   }),
   pathname: PropTypes.string,
 }
