@@ -25,13 +25,12 @@ class Project extends React.Component  {
     const siteTitle = data.site.siteMetadata.title;
     const post = data.markdownRemark;
     const menuActive = this.state.showMenu ? 'open' : '';
-
     return (
       <Layout location={this.props.location} title={siteTitle}>
         <SEO
           title={post.frontmatter.title}
           description={post.frontmatter.description}
-          image={post.frontmatter.cover.childImageSharp.fixed}
+          image={post.frontmatter.cover.childImageSharp.fluid}
           pathname={this.props.location.pathname}
         />
         <div id="drawer" className={`${menuActive}`}>
@@ -76,9 +75,6 @@ export const query = graphql`
           childImageSharp {
             fluid(maxWidth: 1280) {
               ...GatsbyImageSharpFluid
-            }
-            fixed(width: 120, height: 120) {
-              ...GatsbyImageSharpFixed
             }
           }
         }

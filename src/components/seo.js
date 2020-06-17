@@ -30,16 +30,12 @@ function SEO({ description, lang, meta, image: metaImage, title, pathname }) {
   )
 
   const metaDescription = description || site.siteMetadata.description
+console.log('metaImage', metaImage);
+
   const image =
     metaImage && metaImage.src
       ? `${site.siteMetadata.url}${metaImage.src}`
-      : `${site.siteMetadata.url}/images/cover_120.jpg`;
-  if(metaImage==null) {
-    metaImage = {
-      width: 120,
-      height: 120
-    }
-  }
+      : `${site.siteMetadata.url}/images/cover.JPG`;
   const canonical = pathname ? `${site.siteMetadata.url}${pathname}` : null
   return (
     <Helmet
@@ -80,6 +76,10 @@ function SEO({ description, lang, meta, image: metaImage, title, pathname }) {
           content: `website`,
         },
         {
+          property: `og:image`,
+          content: image,
+        },
+        {
           name: `twitter:creator`,
           content: site.siteMetadata.author,
         },
@@ -93,23 +93,15 @@ function SEO({ description, lang, meta, image: metaImage, title, pathname }) {
         },
       ]
         .concat(
-          metaImage
+          image
             ? [
                 {
-                  property: "og:image",
+                  property: "twitter:image",
                   content: image,
                 },
                 {
-                  property: "og:image:width",
-                  content: metaImage.width,
-                },
-                {
-                  property: "og:image:height",
-                  content: metaImage.height,
-                },
-                {
                   name: "twitter:card",
-                  content: "summary_large_image",
+                  content: "summary",
                 },
               ]
             : [
@@ -138,8 +130,8 @@ SEO.propTypes = {
   title: PropTypes.string.isRequired,
   image: PropTypes.shape({
     src: PropTypes.string.isRequired,
-    height: PropTypes.number.isRequired,
-    width: PropTypes.number.isRequired,
+    // height: PropTypes.number.isRequired,
+    // width: PropTypes.number.isRequired,
   }),
   pathname: PropTypes.string,
 }
