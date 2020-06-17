@@ -30,7 +30,6 @@ function SEO({ description, lang, meta, image: metaImage, title, pathname }) {
   )
 
   const metaDescription = description || site.siteMetadata.description
-console.log('metaImage', metaImage);
 
   const image =
     metaImage && metaImage.src
