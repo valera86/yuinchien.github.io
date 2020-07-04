@@ -6,7 +6,7 @@ cover: "./../images/superellipse/cover.png"
 ---
 
 <div class="text">
-A visual study of superellipse based on the <a href="https://en.wikipedia.org/wiki/Superformula" target="_blank">superfomula</a> proposed by Johan Gielis. I began by creating basic symbols, and moved onto to explore complex shapes and patterns featuring colors & motion. Explore the web animation: <a href="https://yuinchien.com/projects/superellipse/" target="_blank">yuinchien.com/projects/superellipse/</a>.
+A visual study of superellipse exploring shapes of nature, symbols, patterns and motion. Based on the <a href="https://en.wikipedia.org/wiki/Superformula" target="_blank">superfomula</a> proposed by Johan Gielis. Explore the web animation: <a href="https://yuinchien.com/projects/superellipse/" target="_blank">yuinchien.com/projects/superellipse/</a>.
 </div>
 
 ![symbols](./../images/superellipse/symbols.png)
