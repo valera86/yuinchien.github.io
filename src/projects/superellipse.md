@@ -60,6 +60,6 @@ A visual study of superellipse based on the <a href="https://en.wikipedia.org/wi
 </div>
 
 <div class="row">
-  <img src="./../images/superellipse/pattern21.png" />
-  <img src="./../images/superellipse/pattern20.png" />
+  <img src="./../images/superellipse/pattern23.png" />
+  <img src="./../images/superellipse/pattern25.png" />
 </div>
