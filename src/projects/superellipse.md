@@ -60,6 +60,16 @@ A visual study of superellipse exploring shapes of nature, symbols, patterns and
 </div>
 
 <div class="row">
+  <img src="./../images/superellipse/202.png" />
+  <img src="./../images/superellipse/201.png" />
+</div>
+
+<div class="row">
+  <img src="./../images/superellipse/302.png" />
+  <img src="./../images/superellipse/203.png" />
+</div>
+
+<div class="row">
   <img src="./../images/superellipse/pattern23.png" />
   <img src="./../images/superellipse/pattern28.png" />
 </div>
