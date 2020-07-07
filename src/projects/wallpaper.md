@@ -18,15 +18,10 @@ Pattern design featuring colors & motion. The symbols mutate, morph and multiply
   <img src="./../images/wallpaper/001.png" />
 </div>
 
-<div class="row">
+<!-- <div class="row">
   <img src="./../images/wallpaper/203.png" />
   <img src="./../images/wallpaper/206.png" />
-</div>
-
-<div class="row">
-  <img src="./../images/wallpaper/302.png" />
-  <img src="./../images/wallpaper/312.png" />
-</div>
+</div> -->
 
 <div class="row">
   <img src="./../images/wallpaper/309.png" />
@@ -34,8 +29,8 @@ Pattern design featuring colors & motion. The symbols mutate, morph and multiply
 </div>
 
 <div class="row">
-  <img src="./../images/wallpaper/000.png" />
-  <img src="./../images/wallpaper/001.png" />
+  <img src="./../images/wallpaper/302.png" />
+  <img src="./../images/wallpaper/312.png" />
 </div>
 
 <div class="row">
