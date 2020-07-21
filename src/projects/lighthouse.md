@@ -9,11 +9,9 @@ cover: "./../images/lighthouse/006.jpg"
 
 ![Lightouse](./../images/lighthouse/logo.png)
 
-![Lightouse](./../images/lighthouse/100.png)
-<!-- <div class="row">
-  <img src="./../images/lighthouse/212.png" />
-  <img src="./../images/lighthouse/213.png" />
-</div> -->
+![Lightouse](./../images/lighthouse/103.png)
+
+![Lightouse](./../images/lighthouse/101.png)
 
 ![Lightouse](./../images/lighthouse/210.png)
 
