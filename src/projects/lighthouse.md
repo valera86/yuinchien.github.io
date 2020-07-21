@@ -17,15 +17,36 @@ cover: "./../images/lighthouse/006.jpg"
 
 ![Lightouse](./../images/lighthouse/300.png)
 
-![Lightouse](./../images/lighthouse/303.png)
-
 ![Lightouse](./../images/lighthouse/400.png)
-
-<!-- ![Lightouse](./../images/lighthouse/401.png) -->
 
 ![Lightouse](./../images/lighthouse/402.png)
 
 ![Lightouse](./../images/lighthouse/403.png)
+
+
+<div class="text">I've also created motion graphics in html and css. The first one is an animated SVG for loading state, morphing between the shapes and colors associated with levels of performances: excellent(green/circle), good(orange/square) and poor(red/triangle). The other explores the dynamics of score change in Lighthouse CI.</div>
+
+<div class="video">
+<div class="glitch-embed-wrap" style="height: 420px; width: 100%;">
+  <iframe
+    src="https://glitch.com/embed/#!/embed/lh-loader?path=index.html&previewSize=100&attributionHidden=true&sidebarCollapsed=true"
+    title="lh-loader on Glitch"
+    allow="geolocation; microphone; camera; midi; vr; encrypted-media"
+    style="height: 100%; width: 100%; border: 0;">
+  </iframe>
+</div>
+</div>
+
+<div class="video">
+<div class="glitch-embed-wrap" style="height: 560px; width: 100%;">
+  <iframe
+    src="https://glitch.com/embed/#!/embed/ci-graph?path=style.css&previewSize=100&attributionHidden=true&sidebarCollapsed=true"
+    title="ci-graph on Glitch"
+    allow="geolocation; microphone; camera; midi; vr; encrypted-media"
+    style="height: 100%; width: 100%; border: 0;">
+  </iframe>
+</div>
+</div>
 
 <!-- <div class="row">
   <img src="./../images/lighthouse/007.jpg" />
