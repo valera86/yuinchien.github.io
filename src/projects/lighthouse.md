@@ -5,7 +5,7 @@ date: "2020-07-15"
 cover: "./../images/lighthouse/006.jpg"
 ---
 
-<div class="text">A center piece of Google Chrome's developer tools, <a href="https://developers.google.com/web/tools/lighthouse" target="_blank">Lighthouse</a> analyzes web apps and web pages, collecting modern performance metrics and insights on developer best practices. I lead the visual design refresh, and UX design for Lighthouse & Lighthouse CI in 2019.</div>
+<div class="text">I lead the visual design refresh, and product design for Google Chrome's core developer tools: Lighthouse & Lighthouse CI in 2019. <a href="https://developers.google.com/web/tools/lighthouse" target="_blank">Lighthouse</a> analyzes web apps and web pages, collecting modern performance metrics and insights on developer best practices. To improve performance overtime effectively, <a href="https://github.com/GoogleChrome/lighthouse-ci" target="_blank">Lighthouse CI</a> automates running Lighthouse for every commit, viewing the changes, and preventing regressions.</div>
 
 ![Lightouse](./../images/lighthouse/logo.png)
 
