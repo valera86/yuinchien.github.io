@@ -2,7 +2,7 @@
 title: "Wallpaper"
 description: "Pattern design featuring colors & motion"
 date: "2020-07-02"
-cover: "./../images/wallpaper/004.png"
+cover: "./../images/wallpaper/402.png"
 ---
 
 <div class="text">
@@ -11,17 +11,15 @@ Pattern design featuring colors & motion. The symbols mutate, morph and multiply
 
 ![symbols](./../images/wallpaper/pattern1.jpg)
 
-<!-- ![symbols](./../images/wallpaper/pattern2.jpg) -->
-
 <div class="row">
   <img src="./../images/wallpaper/004.png" />
   <img src="./../images/wallpaper/001.png" />
 </div>
 
-<!-- <div class="row">
-  <img src="./../images/wallpaper/308.png" />
-  <img src="./../images/wallpaper/311.png" />
-</div> -->
+<div class="row">
+  <img src="./../images/wallpaper/400.png" />
+  <img src="./../images/wallpaper/401.png" />
+</div>
 
 <div class="row">
   <img src="./../images/wallpaper/202.png" />
@@ -29,8 +27,13 @@ Pattern design featuring colors & motion. The symbols mutate, morph and multiply
 </div>
 
 <div class="row">
+  <img src="./../images/wallpaper/402.png" />
+  <img src="./../images/wallpaper/406.png" />
+</div>
+
+<div class="row">
   <img src="./../images/wallpaper/302.png" />
-  <img src="./../images/wallpaper/312.png" />
+  <img src="./../images/wallpaper/206.png" />
 </div>
 
 <div class="row">
