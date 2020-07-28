@@ -1,7 +1,7 @@
 ---
 title: "Lighthouse"
 description: "Visual refresh & product design for Google Chrome's developer tools"
-date: "2020-07-15"
+date: "2020-07-10"
 cover: "./../images/lighthouse/006.jpg"
 ---
 

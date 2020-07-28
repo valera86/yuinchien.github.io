@@ -1,7 +1,7 @@
 ---
 title: "Google Fonts"
 description: "A complete redesign of Google Fonts"
-date: "2020-07-10"
+date: "2020-07-15"
 cover: "./../images/google-fonts/cover-24.jpg"
 ---
 <div class="text">
