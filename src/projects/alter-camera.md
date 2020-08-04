@@ -2,7 +2,7 @@
 title: "Alter x Camera"
 description: "Object detection using TensorFlow.js"
 date: "2020-07-25"
-cover: "./../images/alter-camera/cover.png"
+cover: "./../images/alter-camera/cover2.png"
 ---
 
 <div class="text">This is an experiment of object detection using TensorFlow.js, and features my typeface <a href="/alter">Alter</a>. You can play with it on destkop: <a href="https://alter-camera.glitch.me/" target="_blank">alter-camera.glitch.me</a>. </div>
