@@ -13,13 +13,17 @@ cover: "./../images/bookmark/L1000166.jpg"
 
 ![Bookmark](./../images/bookmark/L1000152.jpg)
 
-![Bookmark](./../images/bookmark/L1000137.jpg)
-
-![Bookmark](./../images/bookmark/L1000199.jpg)
-
 ![Bookmark](./../images/bookmark/L1000211-2.jpg)
 
 ![Bookmark](./../images/bookmark/L1000208.jpg)
+
+![Bookmark](./../images/bookmark/L1000137.jpg)
+
+![Bookmark](./../images/bookmark/L1000127.jpg)
+
+![Bookmark](./../images/bookmark/L1000133-3.jpg)
+
+![Bookmark](./../images/bookmark/L1000135.jpg)
 
 <div class="text">They are packaged in an origami envelope made with stardust paper.</a>
 
