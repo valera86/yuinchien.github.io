@@ -2,12 +2,12 @@
 title: "Bookmark"
 description: "Letterpress bookmarks made with Mohawk color papers"
 date: "2020-07-02"
-cover: "./../images/bookmark/L1000166.jpg"
+cover: "./../images/bookmark/L1000166-2.jpg"
 ---
 
 <div class="text">Letterpress bookmarks made with Mohawk color papers by <a href="https://theaestheticunion.com/" target="_blank">The Aesthetic Union</a>. Available in 4 sets of colors: Lipstick & Atoll, Indian Yellow & Deep Black, Coral & Royal Blue, Chili Pepper & Holly. Checkout the product in <a href="http://store.yuinchien.com/store/ubl0sx9pgi50xrgsgww5mj7c8hdybh" target="_blank">store</a>.</a>
 
-![Bookmark](./../images/bookmark/L1000166.jpg)
+![Bookmark](./../images/bookmark/L1000166-2.jpg)
 
 ![Bookmark](./../images/bookmark/L1000158-2.jpg)
 
