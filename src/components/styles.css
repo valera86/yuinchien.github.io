@@ -15,7 +15,7 @@
   --url-store: url(../images/_icons/shopping_cart-24px.svg);
   --url-menu: url(../images/_icons/menu-24px.svg);
   --url-return: url(../images/_icons/arrow_back-white-24dp.svg);
-  --url-about: url(../images/about-text.svg);
+  --url-about: url(../images/about.svg);
 
   --drawer-width: 400px;
 }
@@ -109,7 +109,7 @@ iframe {
   background-image: var(--url-about);
   background-size: cover;
   width: 100%;
-  padding-bottom: 40.1%;
+  padding-bottom: 53.5%;
 }
 
 .h1,
@@ -141,7 +141,8 @@ h1 {
 }
 #personal-info {
   margin-bottom: calc(var(--margin) * 4);
-  padding-right: calc(var(--margin) * 4);
+  /* padding-right: calc(var(--margin) * 4); */
+  max-width: 1200px;
 }
 
 #project-wrapper {
@@ -439,11 +440,11 @@ div:focus { outline:0; }
     --line-height: 24px;
     --margin: 10px;
     --drawer-width: calc(100vw - 64px);
-    --url-about: url(../images/about-text-mobile.svg);
+    --url-about: url(../images/about-mobile.svg);
   }
 
   #svg-about {
-    padding-bottom: 172.3%;
+    padding-bottom: 162%;
   }
 
   main .text,
