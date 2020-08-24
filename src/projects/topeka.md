@@ -12,6 +12,12 @@ cover: "./../images/topeka/cover3.png"
 A quiz app to showcase <a href="https://www.polymer-project.org/" target="_blank">Polymer</a> web technology & <a href="https://material.io/" target="_blank">Material Design</a> @ Google IO 2014. In collaboration with <a href="https://twitter.com/zachgibson?lang=en" target="_blank">@zachgibson</a> & the Polymer engineering team, I worked on all aspects of design from project ideation, visual/interaction design to animation. Topeka is open sourced on <a href="https://github.com/googlearchive/topeka" target="_blank">github</a>. See project announcement on <a href="https://android-developers.googleblog.com/2015/06/more-material-design-with-topeka-for.html" target="_blank">Google Blog</a>.
 </div>
 
+![Topeka](./../images/topeka/tp_00.png)
+
+![Topeka](./../images/topeka/tp_01.png)
+
+![Topeka](./../images/topeka/tp_02.png)
+
 ![Topeka](./../images/topeka/polymer-01.png)
 
 <div class="row">
