@@ -316,6 +316,21 @@ input {
   margin-bottom: calc(var(--margin) * 4);
 }
 
+.no-outline {
+  outline: none !important;
+}
+
+.pp {
+  display: flex;
+  padding: 0 5%;
+}
+.pp.right {
+  justify-content: flex-end;
+}
+.pp.center {
+  justify-content: center;
+}
+
 #content img,
 .project img {
   outline: var(--border-style);

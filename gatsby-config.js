@@ -47,6 +47,7 @@ module.exports = {
       options: {
         path: `${__dirname}/src/images`,
         name: 'images',
+        ignore: [`^.*\.(gif|GIF)$`]
       },
     },
     `gatsby-transformer-remark`,
@@ -63,7 +64,7 @@ module.exports = {
               // the content container as this plugin uses this as the
               // base for generating different widths of each image.
               maxWidth: 1160,
-              quality: 100
+              quality: 100,
             },
           },
         ],
