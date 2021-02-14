@@ -324,6 +324,10 @@ input {
   display: flex;
   padding: 0 5%;
 }
+.pp img {
+  width: 100%;
+  max-width: 600px;
+}
 .pp.right {
   justify-content: flex-end;
 }
