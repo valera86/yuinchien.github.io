@@ -2,7 +2,7 @@
 title: "Chinese Typography"
 description: "Type explorations in Chinese"
 date: "2021-02-10"
-cover: "./../images/chinese-typography/cover.png"
+cover: "./../images/chinese-typography/future.png"
 ---
 
 <div class="text">I forgot how to write in Chinese because typing doesn't require memorizing the characters in detail. This is a series  of type design exercise in Chinese to reconnect with my native language. I want to explore typographic expressions with geometry and motion, and push the boundary of abstraction.</div>
