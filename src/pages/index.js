@@ -4,6 +4,7 @@ import { graphql } from 'gatsby'
 import Layout from "./../components/layout"
 import SEO from "../components/seo"
 import Header from "../components/header"
+import { GatsbyImage } from "gatsby-plugin-image"
 
 class Index extends React.Component  {
 
@@ -47,7 +48,9 @@ class Index extends React.Component  {
           <div id="projects" className="animate-up">
             {data.allMarkdownRemark.edges.map(({ node }) => (
               <div className="project" key={node.id}>
-                <Link to={node.fields.slug}><img alt="hero" src={node.frontmatter.cover.childImageSharp.fluid.src} /></Link>
+                <Link to={node.fields.slug}>
+                  <GatsbyImage image={node.frontmatter.cover.childImageSharp.gatsbyImageData} alt="cover"/>
+                </Link>
                 <div className="info">
                   <span>{node.frontmatter.title}</span>
                   <span className="desc"> {node.frontmatter.description} </span>
@@ -57,41 +60,38 @@ class Index extends React.Component  {
           </div>
         </div>
       </Layout>
-    )
+    );
   }
 }
 
 export default Index;
 
-export const query = graphql`
-  query {
-    site {
-      siteMetadata {
-        title
-      }
+export const query = graphql`{
+  site {
+    siteMetadata {
+      title
     }
-    allMarkdownRemark(sort: { order: DESC, fields: [frontmatter___date] }) {
-      totalCount
-      edges {
-        node {
-          id
-          frontmatter {
-            title
-            description
-            cover {
-              childImageSharp {
-                fluid(maxWidth: 1280) {
-                  ...GatsbyImageSharpFluid
-                }
-              }
+  }
+  allMarkdownRemark(sort: {order: DESC, fields: [frontmatter___date]}) {
+    totalCount
+    edges {
+      node {
+        id
+        frontmatter {
+          title
+          description
+          cover {
+            childImageSharp {
+              gatsbyImageData(layout: FULL_WIDTH)
             }
           }
-          excerpt
-          fields {
-            slug
-          }
+        }
+        excerpt
+        fields {
+          slug
         }
       }
     }
   }
+}
 `

@@ -52,7 +52,7 @@ I developed a series of sketches by playing with colors and the 3x5 grid system.
 
 <div class="row">
   <img src="./../images/grid-study/IMG_1305.jpg" />
-  <img src="./../images/grid-study/IMG_1303.JPG" />
+  <img src="./../images/grid-study/IMG_1304.jpg" />
 </div>
 
 <div class="text">The grid study also lead to the creation of  <a href="/max">MAX</a> – an experimental typeface.</div>
