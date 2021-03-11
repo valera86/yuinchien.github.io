@@ -32,12 +32,13 @@ With the initial drawing device setup, I started exploring compositions, densiti
 After the more complex grid exploration, I was drawn to the individual fluid shape created with smaller grid. They feel like different characters each has its own gesture and disposition. Below are collections of shapes made with different circle sizes.
 </div>
 
-<div class="row">
-  <img src="./../images/grid-study/100.jpg" />
-  <img src="./../images/grid-study/102.jpg" />
-</div>
-
 ![Grid Study](./../images/grid-study/sketches.png)
+
+
+<div class="row">
+  <img src="./../images/grid-study/102.jpg" alt="" />
+  <img src="./../images/grid-study/100.jpg" alt="" />
+</div>
 
 <div class="text">
 I developed a series of sketches by playing with colors and the 3x5 grid system. Printing them in Risograph seemed like a good idea, I tried to explore riso color, texture and gradient.

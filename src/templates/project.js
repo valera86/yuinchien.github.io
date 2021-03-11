@@ -3,7 +3,6 @@ import { Link } from "gatsby"
 import { graphql } from 'gatsby'
 import Layout from "./../components/layout"
 import SEO from "../components/seo"
-import Div100vh from 'react-div-100vh'
 import { GatsbyImage, getSrc, getImage } from "gatsby-plugin-image"
 
 class Project extends React.Component  {
