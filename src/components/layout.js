@@ -9,7 +9,7 @@ import React from "react"
 import PropTypes from "prop-types"
 import { StaticQuery, graphql } from "gatsby"
 
-import SEO from "../components/seo"
+import Seo from "../components/seo"
 import { Helmet } from "react-helmet"
 
 import "./styles.css"
@@ -31,7 +31,7 @@ const Layout = ({ children }) => (
           <meta charSet="utf-8" />
           <title>{data.site.siteMetadata.title}</title>
         </Helmet>
-        <SEO title="Yuin Chien" />
+        <Seo title="Yuin Chien" />
         <main>{children}</main>
       </>
     )}

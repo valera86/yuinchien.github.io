@@ -2,7 +2,7 @@ import React from "react"
 import { Link } from "gatsby"
 import { graphql } from 'gatsby'
 import Layout from "./../components/layout"
-import SEO from "../components/seo"
+import Seo from "../components/seo"
 import { GatsbyImage, getSrc, getImage } from "gatsby-plugin-image"
 
 class Project extends React.Component  {
@@ -29,7 +29,7 @@ class Project extends React.Component  {
 
     return (
       <Layout location={this.props.location} title={siteTitle}>
-        <SEO
+        <Seo
           imageSrc={imagePath}
           title={post.frontmatter.title}
           description={post.frontmatter.description}

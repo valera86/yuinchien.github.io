@@ -1,11 +1,11 @@
 import React from "react"
 import Layout from "../components/layout"
-import SEO from "../components/seo"
+import Seo from "../components/seo"
 import Header from "../components/header"
 
 const About = () => (
   <Layout>
-    <SEO title="About" />
+    <Seo title="About" />
     <div id="home-container">
       <Header selected="about" />
       <div id="personal-info" className="animate-up">

@@ -2,7 +2,7 @@ import React from "react"
 import { Link } from "gatsby"
 import { graphql } from 'gatsby'
 import Layout from "./../components/layout"
-import SEO from "../components/seo"
+import Seo from "../components/seo"
 import Header from "../components/header"
 import { GatsbyImage } from "gatsby-plugin-image"
 
@@ -42,7 +42,7 @@ class Index extends React.Component  {
     const { data } = this.props;
     return (
       <Layout>
-        <SEO title="Projects" />
+        <Seo title="Projects" />
         <div id="home-container">
           <Header selected="projects" />
           <div id="projects" className="animate-up">
